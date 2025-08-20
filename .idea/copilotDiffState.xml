@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/app/robots.js">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/app/robots.js" />
+              <option name="originalContent" value="export const dynamic = 'force-static';&#10;&#10;export default function robots() {&#10;  return {&#10;    rules: [&#10;      {&#10;        userAgent: '*',&#10;        allow: '/',&#10;        disallow: ['/api/*'],&#10;      },&#10;    ],&#10;    sitemap: 'https://devfest2025.wtmmontreal.com/sitemap.xml',&#10;    host: 'https://devfest2025.wtmmontreal.com',&#10;  };&#10;}&#10;" />
+              <option name="updatedContent" value="export const dynamic = 'force-static';&#10;&#10;export default function robots() {&#10;  return {&#10;    rules: [&#10;      {&#10;        userAgent: '*',&#10;        allow: '/',&#10;        disallow: ['/api/*'],&#10;      },&#10;    ],&#10;    sitemap: 'https://devfest2025.wtmmontreal.com/sitemap.xml',&#10;    host: 'https://devfest2025.wtmmontreal.com',&#10;  };&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

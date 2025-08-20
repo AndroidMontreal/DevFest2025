@@ -1,0 +1,30 @@
+{
+  "header": {
+    "buttonText": "Call for Speakers",
+    "buttonLink": "https://www.papercall.io/df-mtl-2025",
+    "headerNavigation": [
+    ]
+  },
+  "footer": {
+    "description": "DevFest Montreal is a local tech conference by Google Developer Group Montreal for developers, featuring hands-on learning, technical talks in local languages, and networking focused on Google’s developer tools.",
+    "copyrightTitle": "DevFest Montreal. All rights reserved.",
+    "quickLinks": {
+      "title": "Quick Links",
+      "links": [
+        {
+          "href": "https://www.papercall.io/df-mtl-2025",
+          "label": "Call for Speakers",
+          "newWindow": true
+        },
+        {
+          "href": "/code-of-conduct",
+          "label": "Code of Conduct"
+        }
+      ]
+    },
+    "joinus": {
+      "title": "Join us",
+      "description": "Join us for exciting events and stay updated on community happenings, connecting with others."
+    }
+  }
+}

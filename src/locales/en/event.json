@@ -1,0 +1,14 @@
+{
+  "title": "DevFest Montreal",
+  "subTitle": "By Google Developer Group Montreal",
+  "city": "Montreal",
+  "shortDescription": "**DevFests** are local tech conferences hosted by **Google Developer Groups (GDG)** around the world",
+  "longDescription": "Each DevFest event is crafted by its local organizers to fit the needs and interests of its local **developer community**. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on **Google’s developer tools.**",
+  "date": "November 1st, 2025",
+  "location": "TBD",
+  "locationLink": "",
+  "imageUrl": "/images/logo/hero.png",
+  "buttonText": "Call for Speakers",
+  "buttonLink": "https://www.papercall.io/df-mtl-2025"
+}
+
