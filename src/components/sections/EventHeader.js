@@ -2,11 +2,11 @@
 import Image from 'next/image';
 import { CalendarDaysIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import col1img1 from '@/public/images/eventHeader/woman_techmaker_202401.jpg';
-import col2img1 from '@/public/images/eventHeader/woman_techmaker_202402.jpg';
-import col2img2 from '@/public/images/eventHeader/woman_techmaker_202405.jpg';
-import col3img1 from '@/public/images/eventHeader/woman_techmaker_202406.jpg';
-import col3img2 from '@/public/images/eventHeader/woman_techmaker_202407.jpg';
+import col1img1 from '@/public/images/eventHeader/devfest_2025_01.jpg';
+import col2img1 from '@/public/images/eventHeader/devfest_2025_02.jpg';
+import col2img2 from '@/public/images/eventHeader/devfest_2025_03.jpg';
+import col3img1 from '@/public/images/eventHeader/devfest_2025_04.jpg';
+import col3img2 from '@/public/images/eventHeader/devfest_2025_05.jpg';
 import { useTranslations } from 'next-intl';
 import formatText from '@/lib/formatText';
 import PillButton from '@/components/elements/PillButton';
@@ -102,7 +102,7 @@ const EventHeader = () => {
               <div className="relative">
                 <Image
                   src={col1img1}
-                  alt="Women Techmakers Montreal 2024 discussion"
+                  alt="DevFest Montreal 2025 - Tech Talk Session"
                   width={300}
                   height={500}
                   placeholder="blur"
@@ -117,7 +117,7 @@ const EventHeader = () => {
               <div className="relative">
                 <Image
                   src={col2img1}
-                  alt="Women Techmakers Montreal 2024 panel"
+                  alt="DevFest Montreal 2025 - Workshop Session"
                   width={300}
                   height={500}
                   placeholder="blur"
@@ -128,7 +128,7 @@ const EventHeader = () => {
               <div className="relative">
                 <Image
                   src={col2img2}
-                  alt="Women Techmakers Montreal 2024 panel"
+                  alt="DevFest Montreal 2025 - Coding Workshop"
                   width={300}
                   height={500}
                   placeholder="blur"
@@ -143,7 +143,7 @@ const EventHeader = () => {
               <div className="relative">
                 <Image
                   src={col3img1}
-                  alt="Women Techmakers Montreal 2024 celebration"
+                  alt="DevFest Montreal 2025 - Developer Conference"
                   width={400}
                   height={500}
                   placeholder="blur"
@@ -154,7 +154,7 @@ const EventHeader = () => {
               <div className="relative">
                 <Image
                   src={col3img2}
-                  alt="Women Techmakers Montreal 2024 celebration"
+                  alt="DevFest Montreal 2025 - Tech Community"
                   width={300}
                   height={500}
                   placeholder="blur"
