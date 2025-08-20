@@ -39,14 +39,22 @@ export default getRequestConfig(async ({ requestLocale }) => {
   if (!locales.includes(locale)) {
     locale = defaultLocale; // Fallback to 'en' if invalid
   }
-  const messages = await loadTranslations(locale, namespaces);
+  try {
+    const messages = await loadTranslations(locale, namespaces);
 
-  return {
-    locale,
-    messages,
-    timeZone: 'UTC',
-    now: new Date(),
-    defaultLocale,
-    locales,
-  };
+    return {
+      locale,
+      messages,
+      timeZone: 'UTC',
+      now: new Date(),
+      defaultLocale,
+      locales,
+    };
+  } catch (error) {
+    // This catches any error (string, object, etc.) and re-throws it
+    // as a proper Error instance, which fixes the build.
+    throw new Error(
+      `Failed to load translations for locale "${locale}": ${error.message || String(error)}`
+    );
+  }
 });
