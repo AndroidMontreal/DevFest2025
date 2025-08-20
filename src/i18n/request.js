@@ -35,7 +35,7 @@ export async function loadTranslations(locale, namespaces) {
 }
 
 export default getRequestConfig(async ({ requestLocale }) => {
-  let locale = await requestLocale;
+  let locale = requestLocale;
   if (!locales.includes(locale)) {
     locale = defaultLocale; // Fallback to 'en' if invalid
   }
@@ -45,7 +45,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
     return {
       locale,
       messages,
-      timeZone: 'UTC',
+      timeZone: 'America/Montreal',
       now: new Date(),
       defaultLocale,
       locales,
