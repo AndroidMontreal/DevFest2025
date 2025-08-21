@@ -6,6 +6,8 @@ services:
     ports:
       - '3000:3000'
     container_name: devfest-app
+    environment:
+      - "NEXT_WEBPACK_USEPOLLING=1"
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules

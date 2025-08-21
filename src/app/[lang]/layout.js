@@ -36,24 +36,21 @@ export default async function RootLayout({ children, params }) {
   }
 
   return (
-    <html lang={lang} className={openSans.className}>
-      <body className="flex flex-col min-h-screen">
-        <NextIntlClientProvider
-          locale={lang}
-          timeZone="UTC"
-          now={new Date()}
-          messages={messages}
-        >
-          <Header />
-          <main className="container flex mx-auto px-5 flex-col flex-grow">
-            {/* Allow main content to expand */}
-            {children}
-          </main>
-          <Footer />
-          <GoogleAnalytics />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider
+      locale={lang}
+      timeZone="America/Montreal"
+      defaultLocale="fr"
+      now={new Date()}
+      messages={messages}
+    >
+      <Header />
+      <main className="container flex mx-auto px-5 flex-col flex-grow">
+        {/* Allow main content to expand */}
+        {children}
+      </main>
+      <Footer />
+      <GoogleAnalytics />
+    </NextIntlClientProvider>
   );
 }
 
