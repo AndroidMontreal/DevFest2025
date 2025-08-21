@@ -1,6 +1,6 @@
 {
   "header": {
-    "buttonText": "Devenez conférencière !",
+    "buttonText": "Devenez conférencier·ière !",
     "buttonLink": "https://www.papercall.io/df-mtl-2025",
     "headerNavigation": []
   },
@@ -12,7 +12,7 @@
       "links": [
         {
           "href": "https://www.papercall.io/df-mtl-2025",
-          "label": "Devenez conférencière !",
+          "label": "Devenez conférencier·ière !",
           "newWindow": true
         },
         {

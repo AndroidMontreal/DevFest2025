@@ -1,12 +1,12 @@
 {
   "site": {
     "title": "DevFest Montréal 2025 | Google Developers Group Montreal | GDG Cloud Montreal | WTM Montreal | Flutter Montreal | GDSC Concordia | GDSC McGill",
-    "description": "Les DevFests sont des conférences technologiques locales organisées par les Google Developer Groups (GDG) à travers le monde. Chaque événement DevFest est conçu par ses organisateurs locaux pour répondre aux besoins et aux intérêts de sa communauté de développeurs locale. Que ce soit à travers des expériences d'apprentissage pratiques, des conférences techniques données par des experts dans les langues locales, ou simplement en rencontrant d'autres développeurs de la région, les participants au DevFest apprennent à construire ensemble et à innover avec les outils de développement de Google.",
+    "description": "Les DevFests sont des conférences technologiques locales organisées par les Google Developer Groups (GDG) à travers le monde. Chaque événement DevFest est conçu par ses organisateurs locaux pour répondre aux besoins et aux intérêts de sa communauté de développeur·euse·s locale. Que ce soit à travers des expériences d'apprentissage pratiques, des conférences techniques données par des experts dans les langues locales, ou simplement en rencontrant d'autres développeurs de la région, les participants au DevFest apprennent à construire ensemble et à innover avec les outils de développement de Google.",
     "og_image": "/images/logo/eventHeader.gif"
   },
   "home": {
     "title": "DevFest Montréal 2025 | Google Developers Group Montreal | GDG Cloud Montreal | WTM Montreal | Flutter Montreal | GDSC Concordia | GDSC McGill",
-    "description": "Les DevFests sont des conférences technologiques locales organisées par les Google Developer Groups (GDG) à travers le monde. Chaque événement DevFest est conçu par ses organisateurs locaux pour répondre aux besoins et aux intérêts de sa communauté de développeurs locale. Que ce soit à travers des expériences d'apprentissage pratiques, des conférences techniques données par des experts dans les langues locales, ou simplement en rencontrant d'autres développeurs de la région, les participants au DevFest apprennent à construire ensemble et à innover avec les outils de développement de Google.",
+    "description": "Les DevFests sont des conférences technologiques locales organisées par les Google Developer Groups (GDG) à travers le monde. Chaque événement DevFest est conçu par ses organisateurs locaux pour répondre aux besoins et aux intérêts de sa communauté de développeur·euse·s locale. Que ce soit à travers des expériences d'apprentissage pratiques, des conférences techniques données par des experts dans les langues locales, ou simplement en rencontrant d'autres développeurs de la région, les participants au DevFest apprennent à construire ensemble et à innover avec les outils de développement de Google.",
     "og_image": "/images/logo/eventHeader.gif"
   },
   "team": {
