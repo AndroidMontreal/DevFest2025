@@ -24,8 +24,8 @@ const MobileDrawer = ({ isOpen, onClose }) => {
       <div className="mb-4 pl-4 pt-3">
         {' '}
         {/* Add margin-bottom for spacing */}
-        <h2 className="text-md">Women Techmakers</h2>
-        <p className="text-gray-500 text-sm">Montréal</p>
+        <h2 className="text-md">DevFest 2025</h2>
+        <p className="text-gray-500 text-sm">GDG Montréal</p>
       </div>
 
       <Navbar isMobile={true} />

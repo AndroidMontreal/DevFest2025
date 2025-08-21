@@ -24,11 +24,9 @@ export async function loadTranslations(locale, namespaces) {
       const data = (await import(`@/locales/${locale}/${ns}.json`)).default;
       messages[ns] = data;
     } catch (error) {
-      console.error(
-        `Error loading translations for ${locale}/${ns}.json:`,
-        error
+      throw new Error(
+        `Failed to load translations for locale "${locale}": ${error.message || String(error)}`
       );
-      throw error;
     }
   }
   return messages;

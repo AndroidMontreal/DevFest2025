@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="" />
+    <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/copilotDiffState.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/MobileDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/MobileDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n/request.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +34,12 @@
     &quot;assignee&quot;: &quot;Solankimimoh&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:AndroidMontreal/wtmmontreal.git&quot;,
-    &quot;accountId&quot;: &quot;e6ea50a2-429e-4942-9a15-a5d2c0ca483c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:AndroidMontreal/DevFest2025.git",
+    "accountId": "e6ea50a2-429e-4942-9a15-a5d2c0ca483c"
   }
-}</component>
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "new-volunteer-data",
+    "git-widget-placeholder": "main",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
     "last_opened_file_path": "C:/Users/solan/Desktop/DevFest2025/web",
@@ -167,7 +172,8 @@
       <workItem from="1741112158209" duration="6790000" />
       <workItem from="1755651143952" duration="341000" />
       <workItem from="1755651679095" duration="276000" />
-      <workItem from="1755651981465" duration="17315000" />
+      <workItem from="1755651981465" duration="18419000" />
+      <workItem from="1755742378369" duration="955000" />
     </task>
     <servers />
   </component>
