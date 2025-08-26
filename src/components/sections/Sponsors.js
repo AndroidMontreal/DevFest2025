@@ -47,12 +47,20 @@ const Sponsors = ({ sponsorsData }) => {
   );
 };
 
-const SponsorLevel = ({ title, level, sponsors }) => (
-  <>
-    <SponsorLevelTitle title={title} level={level} titleClassName="max-w-4xl" />
-    <SponsorCard sponsors={sponsors.filter(checkSponsorshipLevel(level))} />
-  </>
-);
+const SponsorLevel = ({ title, level, sponsors }) => {
+  const levelSponsors = sponsors.filter(checkSponsorshipLevel(level));
+  
+  if (levelSponsors.length === 0) {
+    return null;
+  }
+  
+  return (
+    <>
+      <SponsorLevelTitle title={title} level={level} titleClassName="max-w-4xl" />
+      <SponsorCard sponsors={levelSponsors} />
+    </>
+  );
+};
 
 function checkSponsorshipLevel(level) {
   return function (partner) {

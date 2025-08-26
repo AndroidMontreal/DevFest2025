@@ -15,7 +15,7 @@ export default function Home() {
         <EventPhotos />
       </section>
       <section id="sponsors" className="scroll-mt-20">
-        {/*<Sponsors />*/}
+        <Sponsors />
       </section>
       <section id="communities" className="scroll-mt-20">
         {/*<Partners />*/}
