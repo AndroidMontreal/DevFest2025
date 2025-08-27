@@ -25,7 +25,7 @@ const Button = ({
       className={clsx(
         'px-6 py-2.5 text-base font-medium shadow-md w-fit rounded-full',
         action === 'primary' &&
-          'bg-[#4286f4] text-white hover:bg-[#2970e3] focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#2970e3]',
+          'bg-[#000000] text-white hover:bg-[#1b1e1b] focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#1b1e1b]',
         action === 'secondary' &&
           'bg-gray-100 text-gray-900 hover:bg-gray-200 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-gray-200 border border-gray-200',
         action === 'tertiary' &&
