@@ -21,7 +21,7 @@ export default function Home() {
         {/*<Partners />*/}
       </section>
       <section id="venue" className="scroll-mt-20">
-        {/*<Venue />*/}
+        <Venue />
       </section>
     </div>
   );
