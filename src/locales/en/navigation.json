@@ -3,6 +3,10 @@
     "buttonText": "Call for Speakers",
     "buttonLink": "https://www.papercall.io/df-mtl-2025",
     "headerNavigation": [
+      {
+       "href": "/team",
+       "label": "Team"
+     }
     ]
   },
   "footer": {

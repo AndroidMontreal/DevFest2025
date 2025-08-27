@@ -1,151 +1,93 @@
 {
   "title": "Team",
-  "description": "Women Techmakers Montreal team is all composed of volunteers who think that empowering, encouraging and inspiring women in tech is important.",
+  "description": "Meet the team behind DevFest Montreal! This passionate crew of tech enthusiasts brings the city’s biggest community-driven tech festival to life. From planning to design, they’re here to welcome you to a day filled with innovation, connection, and discovery.",
   "organizer": {
     "title": "Organizers",
     "organizers": [
       {
-        "name": "Stefania Pecòre",
-        "title": "Executive Director at Women Techmakers Montréal",
-        "image": "/images/team/stefania.jpg",
-        "link": "https://developers.google.com/profile/u/specore",
-        "year": "2023"
+        "name": "Ali Yazdi",
+        "title": "Senior Software Engineer at EXFO, GDG & Flutter Montreal Organizer",
+        "image": "/images/team/ali.jpg",
+        "link": "https://devfest2023.gdgmontreal.com/speaker/ali-yazdi/"
       },
       {
-        "name": "Carolina Torres Restrepo",
-        "title": "Configuration and Data Management Analyst at MDA Space | Google Women Techmakers Ambassador",
-        "image": "/images/team/carolina.png",
-        "link": "https://www.linkedin.com/in/carolinatorresrestrepo/",
-        "year": "2023-1"
+        "name": "Billy Taing",
+        "title": "Software Engineer @IAIAO",
+        "image": "/images/team/billy.jpg",
+        "link": "https://devfest2023.gdgmontreal.com/speaker/billy-taing/"
       },
       {
-        "name": "Brigitte Couture",
-        "title": "Mobile app development student, Non-profit organizations governance and management consultant",
-        "image": "/images/team/Brigitte.jpg",
-        "link": "https://www.linkedin.com/in/brigittecouture/",
-        "year": "2025"
+        "name": "Jhin Lee",
+        "title": "Full-Stack Developer @Unity | GDE Flutter | GDG & Flutter Montreal Organizer",
+        "image": "/images/team/jhin.jpg",
+        "link": "https://g.dev/leehack"
       },
       {
-        "name": "Camila Henrique",
-        "title": "Reporting Specialist at GameAddik. Women Techmakers Ambassador",
-        "image": "/images/team/Camila.jpeg",
-        "link": "https://www.linkedin.com/in/camila-henrique-santos/",
-        "year": "2024"
-      },
-      {
-        "name": "Denny Perez",
-        "title": "Software QA Analyst at Nventive Women Techmakers Ambassador",
-        "image": "/images/team/denny.png",
-        "link": "https://www.linkedin.com/in/dennyperez18/",
-        "year": "2025"
-      },
-      {
-        "name": "Jihoo Park",
-        "title": "Senior Data Analyst @ Warner Bros. Games Montreal | WTM Ambassador | Member of the Google BI Customer Council",
-        "image": "/images/team/Jihoo.jpeg",
-        "link": "https://developers.google.com/profile/u/109280340170455499902",
-        "year": "2024"
-      },
-      {
-        "name": "Leticia Pires",
-        "title": "Data Scientist, AI Student, Women Techmakers Ambassador, Alura Ambassador and Mentor of Mulheres em Dados",
-        "image": "/images/team/Leti.jpg",
-        "link": "https://www.linkedin.com/in/leticia-pires/",
-        "year": "2024"
-      },
-      {
-        "name": "Salee Yadav",
-        "title": "Data Analyst",
-        "image": "/images/team/Saleem.jpg",
-        "link": "https://www.linkedin.com/in/saleem-yadav-03271116b/",
-        "year": "2024"
-      },
-      {
-        "name": "Sofia Guerrero",
-        "title": "Jr. Knowledge Graph Architect | Google Women Techmakers Ambassador",
-        "image": "/images/team/Sofia.jpg",
-        "link": "https://www.linkedin.com/in/sofia-guerrero-b9613915b/Sofia%20Guerrero",
-        "year": "2024"
-      },
-      {
-        "name": "Michael Patane",
-        "title": "Director, production and warehouse at Groupe BBH",
-        "image": "/images/team/Mike.jpg",
-        "link": "https://www.linkedin.com/in/mpatane/",
-        "year": "2024"
+        "name": "Laurence de Villers",
+        "title": "Android Developer at Transit | GDG Organizer | Women Techmakers Ambassador",
+        "image": "/images/team/laurence.jpg",
+        "link": "https://www.linkedin.com/in/ldevillers/"
       },
       {
         "name": "Mimoh Solanki",
-        "title": "Full Stack Developer | GDG Montreal Organizer | WTM Montreal Organizer",
+        "title": "Full Stack Developer | GDG Organizer",
         "image": "/images/team/mimoh.jpg",
-        "link": "https://www.linkedin.com/in/mimohsolanki/",
-        "year": "2025"
+        "link": "https://www.linkedin.com/in/mimohsolanki/"
+      },
+      {
+        "name": "Stacy Véronneau",
+        "title": "Senior Customer Engineer at Badal (By Telus Business) | GDG Cloud Montreal Organizer",
+        "image": "/images/team/stacy.veronneau.png",
+        "link": "https://g.dev/sveronneau"
+      },
+      {
+        "name": "Hanine Tydrini",
+        "title": "Software Engineering Student",
+        "image": "/images/team/hanine.jpg",
+        "link": "https://www.linkedin.com/in/hanine-tydrini-154b1b24b/"
+      },
+      {
+        "name": "Jihoo Park",
+        "title": "Senior Data Analyst @ Warner Bros. Games Montreal | WTM ambassador | Google BI customer Council Member",
+        "image": "/images/team/jihoo.jpeg",
+        "link": "https://developers.google.com/profile/u/109280340170455499902"
+      },
+      {
+        "name": "Lenz Paul",
+        "title": "Software Engineer at CMiC | GDG & Flutter Montreal",
+        "image": "/images/team/lenz.jpg",
+        "link": "https://devfest2023.gdgmontreal.com/speaker/lenz-paul/"
+      },
+      {
+        "name": "Nav Singh",
+        "title": "Sr. Android Engineer | GDE Android",
+        "image": "/images/team/nav.png",
+        "link": "https://www.linkedin.com/in/navczydev/"
+      },
+      {
+        "name": "Florian Ley",
+        "title": "Application manager at Davidson Canada | GDG Cloud Montreal Organizer",
+        "image": "/images/team/florian.png",
+        "link": "https://www.linkedin.com/in/florian-ley/"
+      },
+      {
+        "name": "Stefania Pecore",
+        "title": "Director of AI development at Sardo, WomenTechmakers Montréal lead and ambassador",
+        "image": "/images/team/stefania.jpg",
+        "link": "https://developers.google.com/profile/u/specore"
+      },
+      {
+        "name": "Samuel Dionne",
+        "title": "Android Developer at Transit | GDG Organizer",
+        "image": "/images/team/sam.jpg",
+        "link": "https://www.linkedin.com/in/samueldionne"
       }
     ]
   },
   "volunteer": {
     "title": "Volunteers",
     "volunteers": [
-      {
-        "name": "Cecilia",
-        "title": "Batch Manager at Le Wagon Latam | Women Techmakers Ambassador",
-        "image": "/images/team/volunteers/Cecilia.jpg",
-        "link": "https://www.linkedin.com/in/cecilia-ramallo/"
-      },
-      {
-        "name": "Sahil Patel",
-        "title": "Full Stack Software Developer - Cold Chain Science Enterprises",
-        "image": "/images/team/volunteers/Sahil.jpg",
-        "link": "https://www.linkedin.com/in/smppatel99999/"
-      },
-      {
-        "name": "Eduardo Tokarski",
-        "title": "Computer Science Student | BTG Intelligence Intern",
-        "image": "/images/team/volunteers/eduardo.png",
-        "link": "https://www.linkedin.com/in/eduardo-tokarski-a2862b293/"
-      },
-      {
-        "name": "Kodeeshwari Solanki",
-        "title": "Mobile Developer | Safety Administrator at Wesbell Logistics",
-        "image": "/images/team/volunteers/kodeeshwari.jpg",
-        "link": "https://www.linkedin.com/in/KODEESHWARI/"
-      },
-      {
-        "name": "Fang Yan (Lily) Chen",
-        "title": "Volunteer at WTM Montreal 2025",
-        "image": "/images/team/volunteers/fang_yan.jpg",
-        "link": "http://wtmmontreal.com/"
-      },
-      {
-        "name": "Ghada Tlili",
-        "title": "Volunteer at WTM Montreal 2025",
-        "image": "/images/team/volunteers/ghada_tlili.jpg",
-        "link": "http://wtmmontreal.com/"
-      },
-      {
-        "name": "Angel Pineda Perez",
-        "title": "Volunteer at WTM Montreal 2025",
-        "image": "/images/team/volunteers/angel_pineda_perez.jpg",
-        "link": "http://wtmmontreal.com/"
-      },
-      {
-        "name": "Imen hammami",
-        "title": "Volunteer at WTM Montreal 2025",
-        "image": "/images/team/volunteers/imen_hammami.jpg",
-        "link": "http://wtmmontreal.com/"
-      },
-      {
-        "name": "Rachel Beyerlein",
-        "title": "Volunteer at WTM Montreal 2025",
-        "image": "/images/team/volunteers/rachel_beyerlein.jpg",
-        "link": "http://wtmmontreal.com/"
-      },
-      {
-        "name": "Yelena",
-        "title": "Volunteer at WTM Montreal 2025",
-        "image": "/images/team/volunteers/yelena.jpg",
-        "link": "http://wtmmontreal.com/"
-      }
+
     ]
   }
 }

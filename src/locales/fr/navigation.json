@@ -2,7 +2,12 @@
   "header": {
     "buttonText": "Devenez conférencier·ière !",
     "buttonLink": "https://www.papercall.io/df-mtl-2025",
-    "headerNavigation": []
+    "headerNavigation": [
+      {
+       "href": "/team",
+       "label": "Équipe"
+     }
+    ]
   },
   "footer": {
     "description": "Le DevFest Montréal est une conférence technologique locale organisée par le Google Developer Group de Montréal pour les développeurs, proposant des apprentissages pratiques, des conférences techniques dans les langues locales et du réseautage axés sur les outils de développement de Google.",
