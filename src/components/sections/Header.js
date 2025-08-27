@@ -57,7 +57,8 @@ const Header = () => {
         {/*App Drawer overlay background*/}
         {isMenuOpen && (
           <div
-            className="md:hidden fixed inset-0 bg-black bg-opacity-40"
+            className="md:hidden fixed inset-0"
+            style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}
             onClick={() => setIsMenuOpen(false)}
           ></div>
         )}
