@@ -15,6 +15,7 @@ export const namespaces = [
   'speaker',
   'session',
   'schedule',
+  'communities',
 ];
 
 export async function loadTranslations(locale, namespaces) {

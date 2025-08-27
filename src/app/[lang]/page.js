@@ -4,6 +4,7 @@ import Sponsors from '@/components/sections/Sponsors';
 import EventPhotos from '@/components/sections/EventPhotos';
 import Venue from '@/components/sections/Venue';
 import EventAbout from '@/components/sections/EventAbout';
+import Communities from '@/components/sections/Communities';
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         <Sponsors />
       </section>
       <section id="communities" className="scroll-mt-20">
-        {/*<Partners />*/}
+        <Communities />
       </section>
       <section id="venue" className="scroll-mt-20">
         <Venue />

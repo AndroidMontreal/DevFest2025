@@ -1,0 +1,26 @@
+{
+  "title": "Communautés",
+  "description": "Un effort conjoint avec les principales communautés technologiques de Montréal",
+  "communities": [
+    {
+      "logo": "/images/communities/gdg_montreal.svg",
+      "company": "GDG Montréal",
+      "website": "https://gdgmontreal.com/"
+    },
+    {
+      "logo": "/images/communities/gdg_cloud.svg",
+      "company": "GDG Cloud Montréal",
+      "website": "https://gdg.community.dev/gdg-cloud-montreal/"
+    },
+    {
+      "logo": "/images/communities/fluttermtl.svg",
+      "company": "Flutter Montréal",
+      "website": "https://fluttermtl.dev/"
+    },
+    {
+      "logo": "/images/communities/wtm_mtl.svg",
+      "company": "WTM Montréal",
+      "website": "https://wtmmontreal.com/"
+    }
+  ]
+}
