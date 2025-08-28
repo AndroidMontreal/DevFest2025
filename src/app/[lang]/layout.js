@@ -3,6 +3,7 @@ import '@/styles/globals.css';
 import { Open_Sans } from 'next/font/google';
 import Header from '@/components/sections/Header';
 import Footer from '@/components/sections/Footer';
+import HalloweenMonsters from '@/components/elements/HalloweenMonsters';
 import { NextIntlClientProvider } from 'next-intl';
 import { locales } from '@/i18n';
 import { loadTranslations, namespaces } from '@/i18n/request';
@@ -43,6 +44,7 @@ export default async function RootLayout({ children, params }) {
       now={new Date()}
       messages={messages}
     >
+      <HalloweenMonsters />
       <Header />
       <main className="container flex mx-auto px-5 flex-col flex-grow">
         {/* Allow main content to expand */}
