@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { CalendarDaysIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import col1img1 from '@/public/images/eventHeader/devfest_2025_01.jpg';
+import themeImg from '@/public/images/eventHeader/halloween_theme.png';
 import col2img1 from '@/public/images/eventHeader/devfest_2025_02.jpg';
 import col2img2 from '@/public/images/eventHeader/devfest_2025_03.jpg';
 import col3img1 from '@/public/images/eventHeader/devfest_2025_04.jpg';
@@ -64,7 +64,6 @@ const EventHeader = () => {
             <p className="mt-1 md:mt-3 md:text-2xl text-xl leading-8 tracking-normal text-transparent bg-clip-text bg-gradient-to-b from-black to-gray-700 font-semibold">
               {t('subTitle')}
             </p>
-
             <p className="mt-7 md:text-lg leading-7 md:leading-8  text-gray-600">
               {formatText(t('shortDescription'))}
             </p>
@@ -93,6 +92,7 @@ const EventHeader = () => {
               href={t('buttonLink')}
               label={t('buttonText')}
             />
+
           </div>
 
           {/* Right Image Grid Section */}
@@ -101,7 +101,7 @@ const EventHeader = () => {
             <div className=" md:flex  ml-auto w-48  space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
               <div className="relative">
                 <Image
-                  src={col1img1}
+                  src={themeImg}
                   alt="DevFest Montreal 2025 - Tech Talk Session"
                   width={300}
                   height={500}
