@@ -27,6 +27,12 @@
       "logo": "/images/partners/google_developers.svg",
       "company": "Google Developers",
       "website": "https://developers.google.com/?hl=fr"
+    },
+    {
+      "level": "bronze",
+      "logo": "/images/partners/badal_fr.svg",
+      "company": "Badal par Telus Affaires",
+      "website": "https://badal.io/"
     }
   ]
 }
