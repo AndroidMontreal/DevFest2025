@@ -93,6 +93,12 @@ const EventHeader = () => {
               label={t('buttonText')}
             />
 
+            <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+              <p className="text-blue-800 font-medium">
+                {t('ticketAnnouncement')}
+              </p>
+            </div>
+
           </div>
 
           {/* Right Image Grid Section */}
