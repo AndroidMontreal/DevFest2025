@@ -13,7 +13,12 @@ const formatText = (text) => {
     // You could add italic with _text_ for example
     {
       regex: /(_.*?_)/g,
-      transform: (match) => <em>{match.slice(1, -1)}</em>,
+      transform: (match) => <em key={uuidv4()}>{match.slice(1, -1)}</em>,
+    },
+    // Line breaks with <br/> or <br>
+    {
+      regex: /(<br\s*\/?>)/gi,
+      transform: () => <br key={uuidv4()} />,
     },
   ];
 
