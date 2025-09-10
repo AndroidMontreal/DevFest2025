@@ -29,6 +29,12 @@
       "website": "https://developers.google.com/"
     },
     {
+      "level": "silver",
+      "logo": "/images/partners/servicenow.svg",
+      "company": "ServiceNow",
+      "website": "https://www.servicenow.com/"
+    },
+    {
       "level": "bronze",
       "logo": "/images/partners/badal_en.svg",
       "company": "Badal by Telus Business",

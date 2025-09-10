@@ -29,6 +29,12 @@
       "website": "https://developers.google.com/?hl=fr"
     },
     {
+      "level": "silver",
+      "logo": "/images/partners/servicenow.svg",
+      "company": "servicenow",
+      "website": "https://www.servicenow.com/fr-ca/?state=seamless"
+    },
+    {
       "level": "bronze",
       "logo": "/images/partners/badal_fr.svg",
       "company": "Badal par Telus Affaires",
