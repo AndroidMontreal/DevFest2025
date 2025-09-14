@@ -39,6 +39,12 @@
       "logo": "/images/partners/badal_en.svg",
       "company": "Badal by Telus Business",
       "website": "https://badal.io/"
+    },
+    {
+      "level": "bronze",
+      "logo": "/images/partners/mathieu_chevalier.svg",
+      "company": "Mathieu Chevalier, Capteur de ton essence",
+      "website": "https://www.mathieuchevalier.com/"
     }
   ]
 }
