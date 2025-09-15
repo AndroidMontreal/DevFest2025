@@ -35,6 +35,12 @@
       "website": "https://www.servicenow.com/fr-ca/?state=seamless"
     },
     {
+      "level": "silver",
+      "logo": "/images/partners/transit.svg",
+      "company": "transit",
+      "website": "https://transitapp.com/fr/"
+    },
+    {
       "level": "bronze",
       "logo": "/images/partners/badal_fr.svg",
       "company": "Badal par Telus Affaires",

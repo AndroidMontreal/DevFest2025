@@ -35,6 +35,12 @@
       "website": "https://www.servicenow.com/"
     },
     {
+      "level": "silver",
+      "logo": "/images/partners/transit.svg",
+      "company": "transit",
+      "website": "https://transitapp.com/"
+    },
+    {
       "level": "bronze",
       "logo": "/images/partners/badal_en.svg",
       "company": "Badal by Telus Business",
