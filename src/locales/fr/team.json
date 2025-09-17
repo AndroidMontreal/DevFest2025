@@ -53,12 +53,6 @@
         "link": "https://developers.google.com/profile/u/109280340170455499902"
       },
       {
-        "name": "Lenz Paul",
-        "title": "Ingénieur logiciel chez CMiC | GDG & Flutter Montréal",
-        "image": "/images/team/lenz.jpg",
-        "link": "https://devfest2023.gdgmontreal.com/speaker/lenz-paul/"
-      },
-      {
         "name": "Nav Singh",
         "title": "Ingénieur Android senior | GDE Android",
         "image": "/images/team/nav.png",
@@ -87,7 +81,6 @@
   "volunteer": {
     "title": "Bénévoles",
     "volunteers": [
-
     ]
   }
 }

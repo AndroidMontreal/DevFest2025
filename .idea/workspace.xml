@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/nextjs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nextjs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/team/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/team/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/team.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/team.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/team.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/team.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
       </set>
     </attachedChunks>
   </component>
@@ -189,7 +191,9 @@
       <workItem from="1755651679095" duration="276000" />
       <workItem from="1755651981465" duration="18419000" />
       <workItem from="1755742378369" duration="16235000" />
-      <workItem from="1756434106951" duration="2916000" />
+      <workItem from="1756434106951" duration="4003000" />
+      <workItem from="1758125470115" duration="1273000" />
+      <workItem from="1758127330475" duration="699000" />
     </task>
     <servers />
   </component>
