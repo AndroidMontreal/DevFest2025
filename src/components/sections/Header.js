@@ -41,6 +41,11 @@ const Header = () => {
               href={t('buttonLink')}
               label={t('buttonText')}
             />
+            <PillButton
+              className="ml-3 hidden lg:flex"
+              href={t('ticketButtonLink')}
+              label={t('ticketButtonText')}
+            />
           </div>
           {/* Hamburger Menu (Mobile) */}
           <button

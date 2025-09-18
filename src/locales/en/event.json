@@ -8,7 +8,6 @@
   "location": "Ax.c Hub, 800 Square-Victoria in Montréal",
   "locationLink": "https://espaceaxc.com/en/",
   "imageUrl": "/images/logo/hero.png",
-  "buttonText": "Tickets",
-  "buttonLink": "https://devfestmontreal2025.eventbrite.ca/ ",
-  "ticketAnnouncement": "Tickets will be on sale starting September 16th "
+  "buttonText": "Get Tickets",
+  "buttonLink": "https://devfestmontreal2025.eventbrite.ca/ "
 }

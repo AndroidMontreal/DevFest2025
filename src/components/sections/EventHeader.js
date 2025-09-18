@@ -67,11 +67,9 @@ const EventHeader = () => {
             <p className="mt-7 md:text-lg leading-7 md:leading-8  text-gray-600">
               {formatText(t('shortDescription'))}
             </p>
-
             <p className="mt-6  md:text-lg leading-7 md:leading-8 text-gray-600">
               {formatText(t('longDescription'))}
             </p>
-
             {/* event actions {Date, Location} */}
             <div className="flex flex-col xl:flex-row text-black font-medium my-7 gap-3">
               <div className="flex">
@@ -86,19 +84,11 @@ const EventHeader = () => {
                 </p>
               </div>
             </div>
-
             <PillButton
               className="my-6 flex"
               href={t('buttonLink')}
               label={t('buttonText')}
             />
-
-            <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg">
-              <p className="text-blue-800 font-medium">
-                {t('ticketAnnouncement')}
-              </p>
-            </div>
-
           </div>
 
           {/* Right Image Grid Section */}

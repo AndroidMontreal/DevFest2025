@@ -2,11 +2,13 @@
   "header": {
     "buttonText": "Call for Speakers",
     "buttonLink": "https://www.papercall.io/df-mtl-2025",
+    "ticketButtonText": "Get Tickets",
+    "ticketButtonLink": "https://devfestmontreal2025.eventbrite.ca/",
     "headerNavigation": [
       {
-       "href": "/team",
-       "label": "Team"
-     }
+        "href": "/team",
+        "label": "Team"
+      }
     ]
   },
   "footer": {
