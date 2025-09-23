@@ -29,6 +29,12 @@
       "website": "https://developers.google.com/?hl=fr"
     },
     {
+      "level": "platinum",
+      "logo": "/images/partners/strata_prime.svg",
+      "company": "Strata Prime",
+      "website": "https://strataprime.com/"
+    },
+    {
       "level": "silver",
       "logo": "/images/partners/servicenow.svg",
       "company": "servicenow",
