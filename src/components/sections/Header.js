@@ -36,11 +36,7 @@ const Header = () => {
             {/* Navigation (Desktop) on the right */}
             <Navbar isMobile={false} />
             <LanguageSwitcher />
-            <PillButton
-              className="ml-3 hidden lg:flex"
-              href={t('buttonLink')}
-              label={t('buttonText')}
-            />
+
             <PillButton
               className="ml-3 hidden lg:flex"
               href={t('ticketButtonLink')}
