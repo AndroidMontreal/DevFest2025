@@ -1,16 +1,17 @@
-import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import SpeakerInfo from '@/components/elements/SpeakerInfo';
 import { notFound } from 'next/navigation';
+import { locales } from '@/i18n';
 
 export default async function SpeakerPage({ params }) {
-  const { lang } = params;
+  const { lang, slug } = await params;
   // Fetch translations and data
   const t = await getTranslations({ locale: lang, namespace: 'speaker' });
   const s = await getTranslations({ locale: lang, namespace: 'session' });
 
   // Get speakers data from translations
   const speakers = Array.isArray(t.raw('speakers')) ? t.raw('speakers') : [];
-  const speaker = speakers.find((s) => s.slug === params.slug);
+  const speaker = speakers.find((s) => s.slug === slug);
 
   // Get sessions data from translations
   const sessions = Array.isArray(s.raw('sessions')) ? s.raw('sessions') : [];
@@ -31,7 +32,9 @@ export default async function SpeakerPage({ params }) {
   );
 }
 
-export async function generateStaticParams({ params: { lang } }) {
+export async function generateStaticParams({ params }) {
+  const { lang } = await params;
+
   const t = await getTranslations({ locale: lang, namespace: 'speaker' });
   const speakers = Array.isArray(t.raw('speakers')) ? t.raw('speakers') : [];
   return speakers.map((speaker) => ({

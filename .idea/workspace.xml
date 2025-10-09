@@ -6,7 +6,50 @@
   <component name="ChangeListManager">
     <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en/sponsor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/sponsor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/Emily_Fetco.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/afaf_taik.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/andrea_dekovic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/anita_he.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/balkissa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/brittney_muto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/cecy_ramallo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/diana_soler.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/dina_kada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/eva_diaz.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/hana_schonegger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/hanna_abdel_hamid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/iris_cawley.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/iuliia_poliavkoa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/jihoo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/julie_watson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/khaoula_chehbouni.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/mariam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/marie_eve_bourassa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/speakers/placeholder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/rucha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/sophie_li.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/stephanie_akre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/stephanie_jecrois.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/temitope_bolaji_jegede.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/speakers/victoria_torp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/schedule/SessionElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/schedule/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/schedule/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/schedule/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/schedule/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/speakers/[slug]/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/speakers/[slug]/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/speakers/[slug]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/speakers/[slug]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/speakers/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/speakers/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/sitemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sitemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/SessionInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/SessionInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/SpeakerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/SpeakerInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/navigation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/schedule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/session.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/speaker.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/speaker.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/navigation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/schedule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/session.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/speaker.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/speaker.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,31 +92,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.localhost:3000.executor&quot;: &quot;Debug&quot;,
-    &quot;Makefile Target.run.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/solan/Desktop/DevFest2025/web&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\solan\\Desktop\\DevFest2025\\web\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.localhost:3000.executor": "Debug",
+    "Makefile Target.run.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/Users/solan/Desktop/DevFest2025/web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\solan\\Desktop\\DevFest2025\\web\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\solan\Desktop\WTM 2025\wtm-2025\src\locales\fr" />
@@ -195,7 +238,9 @@
       <workItem from="1758230075648" duration="1895000" />
       <workItem from="1758597215658" duration="2108000" />
       <workItem from="1759439677573" duration="1327000" />
-      <workItem from="1759850277722" duration="2324000" />
+      <workItem from="1759850277722" duration="3541000" />
+      <workItem from="1759979589583" duration="3009000" />
+      <workItem from="1759987191842" duration="22138000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,8 @@
 import { getPageMetadata } from '@/lib/metadata';
 
-export async function generateMetadata({ params: { lang } }) {
+export async function generateMetadata({ params }) {
+  const { lang } = await params;
+
   return getPageMetadata(lang, 'speaker');
 }
 

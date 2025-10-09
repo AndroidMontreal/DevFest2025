@@ -4,14 +4,247 @@
   "about": "About",
   "speakers": [
     {
-      "name": "Anita (YinTing) He",
+      "name": "Stacy Véronneau",
       "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-      "slug": "anita-he",
-      "title": "Unity",
-      "shortBio": "As a Lead Senior UX Designer at Unity Technologies, I’ve spent the past 4 years designing complex tools for game developers, tackling the challenge of balancing usability with power. This experience has given me deep insight into the challenges and opportunities that UX presents in creative tools.\n\nHaving benefited from mentorship and support programs, I’m passionate about helping underrepresented creators thrive in the tech and gaming industries. By rethinking UX in creative tools, we can build more inclusive environments where everyone has the opportunity to participate, experiment, and innovate - “redefining what’s possible” and making the impossible accessible and achievable.",
-      "image": "/images/speakers/anita_he.jpg",
+      "slug": "stacy-veronneau",
+      "title": "Director of Professional Services and Sales Engineering at SE Cloud Experts",
+      "shortBio": "I am a passionate Cloud Evangelist and Technical Lead. I blend my strong business acumen with a deep knowledge of cloud technologies. My journey in tech is fueled by a love for learning and sharing knowledge, especially in cloud integration, security, AI, and operations. Whether you're a cloud newbie or a seasoned professional, I'm here to engage in thoughtful discussions, collaborate on exciting projects, and share insights from my journey.",
+      "image": "/images/speakers/stacy_veronneau.png",
       "social": {
-        "email": "heeyinting@gmail.com"
+        "email": "stacy.veronneau@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/stacyveronneau/"
+      }
+    },
+    {
+      "name": "Kiruthika Subramani",
+      "uuid": "d111b534-6acd-4631-a6d6-f8aa190f4ff8",
+      "slug": "kiruthika-subramani",
+      "title": "Google Developer Expert in ML and IBM Champion for Data and AI",
+      "shortBio": "Kiruthika Subramani - Master's student at Mila, Quebec AI Institute. Google Cloud Champion Innovator, Women Techmakers Ambassador, spotlighted as IBM's Today's Architect. Author of two books and a prolific speaker with 205+ talks, I aim to advance AI responsibly while inspiring the tech community.",
+      "image": "/images/speakers/kiruthika-subramani.jpeg",
+      "social": {
+        "email": "kiruthikas2020ai@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/techwithkrithi/"
+      }
+    },
+    {
+      "name": "Kevin Blanco",
+      "uuid": "8a5c02f9-0df6-4f1f-8c00-8a4d1ec559f3",
+      "slug": "kevin-blanco",
+      "title": "Appsmith (GDE)",
+      "shortBio": "Kevin Blanco is a Senior Developer Relations Advocate, video producer, international keynote speaker, and growth strategist with 15+ years of tech leadership experience. He specializes in building developer programs and driving measurable user acquisition and product adoption, especially for developer tool companies.",
+      "image": "/images/speakers/kevin-blanco.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/kevinblanco/"
+      }
+    },
+    {
+      "name": "Jhin Lee",
+      "uuid": "a547eadd-620e-4dbb-b40c-88bfd3c52555",
+      "slug": "jhin-lee",
+      "title": "Google Developer Expert",
+      "shortBio": "Jhin Lee is a passionate Full Stack Developer and Google Developer Expert (GDE) for Flutter and Dart. He is also an organizer for GDG & Flutter Montreal and a Certified Scrum Master (PSM2). Jhin currently works as a Senior Software Developer at Unity in Montreal, leading the development of the Unity Login and Identity system and enhancing internal monitoring services. He has extensive experience as a tech lead and developer at ConsiderBeyond, Thales Digital Factory, ImmerVision, and KD Group, specializing in mobile apps, cloud MVPs, system integration, and Android development.",
+      "image": "/images/speakers/jhin-lee.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/leehack/"
+      }
+    },
+    {
+      "name": "Dr. Stefania Pecore",
+      "uuid": "85a9290e-5306-4887-9b7f-9234361f8b47",
+      "slug": "stefania-pecore",
+      "title": "Director of AI development at Sardo, WomenTechmakers Montréal lead and ambassador",
+      "shortBio": "Stefania embarked on her journey with a university degree in foreign languages, recognizing the need for inclusive communication when language barriers existed. As the first to introduce an AI subject to her university in Italy focused on AI and automatic translation, her path unfolded. Subsequently, she pursued higher education, obtaining a master's and Ph.D. in CS, programming, and NLP in France. \n\n With a passion for leveraging technology to enhance communication, she played a pivotal role in assisting numerous enterprises across diverse sectors—education, manufacturing, biotech, and even venturing into video games—by integrating NLP and AI solutions into their products. Eager to share her insights, she became a mentor for women, holding positions as a Google Women Techmaker, Women in AI, and Women in Games Ambassador. In 2024, she became the Executive Director of Women Techmakers Montréal a community-led initiative inspired by the Google Women Techmakers program. She was appointed as an AI Expert for UNESCO's Women4Ethical AI program allowing her to apply further her expertise in fostering responsible AI and supporting Ethical approaches in AI systems creation.\n\n",
+      "image": "/images/speakers/stefania-pecore.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/stefaniapecore/"
+      }
+    },
+    {
+      "name": "Jad El Houssami",
+      "uuid": "55bd36ad-233a-4742-bd6c-7677e986fb5c",
+      "slug": "jad-el-houssami",
+      "title": "StrataPrime",
+      "shortBio": "Jad El Houssami is a Google Cloud Solutions Architect at StrataPrime, based in Canada. He holds 9 Google Cloud and Chrome certifications, including Cloud Digital Leader and Generative AI Leader. Jad specializes in pre-sales technical consulting and cloud security (Cloud SecOps), with strong expertise in Google Cloud Platform (GCP), Google Workspace, Infrastructure as a Service (IaaS), CI/CD, and IT integration.\n\n",
+      "image": "/images/speakers/jad-el-houssami.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/jado06/"
+      }
+    },
+    {
+      "name": "Wael Eddy Daouk",
+      "uuid": "2a9739f3-e2ba-4c91-8dfc-ca7c1650d477",
+      "slug": "wael-eddy-daouk",
+      "title": "StrataPrime",
+      "shortBio": "Wael Eddy Daouk is a Google Cloud Solutions Engineer specializing in Generative AI at StrataPrime, based in Montreal. He holds multiple certifications, including Google Generative AI Leader and Professional Cloud Architect, alongside 6 AWS certifications. Wael helps organizations innovate and scale using Google Cloud’s GenAI tools, focusing on solution architecture, AI enablement, and cloud-based transformation.\n\n",
+      "image": "/images/speakers/wael-eddy-daouk.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/eddydk/"
+      }
+    },
+    {
+      "name": "Raphaëlle Giraud",
+      "uuid": "c434ed68-b98b-476c-9258-73f410797337",
+      "slug": "raphaelle-giraud",
+      "title": "Cirque du Soleil Entertainment Group",
+      "shortBio": "Raphaelle Giraud is the Team Lead, Data Developer at Cirque du Soleil Entertainment Group in Montreal, Quebec. She is a certified Google Professional Data Engineer and AWS Certified Cloud Practitioner, with expertise in Google Cloud Platform (GCP), data engineering, SQL, big data analytics, and machine learning. Raphaelle previously worked at National Bank of Canada, where she led projects in data engineering, business analysis, and digital performance measurement.\n\n",
+      "image": "/images/speakers/raphaelle-giraud.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/raphaelle-giraud/"
+      }
+    },
+    {
+      "name": "Alain Bouchard",
+      "uuid": "6e699ed5-2bca-431c-919d-b26c17d14f46",
+      "slug": "alain-bouchard",
+      "title": "Cirque du Soleil Entertainment Group",
+      "shortBio": "Alain Bouchard is an Information Technology professional with over 18 years of experience, including the last 15 years exclusively in Business Intelligence. He has held roles such as ETL Developer, Team Lead, Functional Analyst, Data Modeller, Data Architect, Instructor, and Solution Architect across sectors like insurance, telecommunications, and transport.",
+      "image": "/images/speakers/alain-bouchard.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/alain-bouchard-a332284/"
+      }
+    },
+    {
+      "name": "Moulay El Mehdi Ettouhami",
+      "uuid": "2ad81bc9-aceb-4ce2-b1c6-71a250bc6d36",
+      "slug": "moulay-el-mehdi-ettouhami",
+      "title": "Cirque du Soleil Entertainment Group",
+      "shortBio": "Moulay El Mehdi Ettouhami short bio will update soon.",
+      "image": "/images/speakers/placeholder.png",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/"
+      }
+    },
+    {
+      "name": "Romain Chezeaud",
+      "uuid": "7a98ac81-6b7d-483a-aa57-5de5f8447c75",
+      "slug": "romain-chezeaud",
+      "title": "Cirque du Soleil Entertainment Group",
+      "shortBio": "Nineteen years of experience in the data management for many different industries. Data Governance believer, my vision for data analytics is based on a solid knowledge of data structure, data quality and data management.\n\nData needs to be enabled and serve the company: if understood properly, and used with the best communication, it becomes a powerful strength for decision making.",
+      "image": "/images/speakers/romain-chezeaud.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/romain-chezeaud-b0b0b63b/"
+      }
+    },
+    {
+      "name": "Yan Bellerose",
+      "uuid": "148610e9-05d7-4058-8dcf-691d753342c3",
+      "slug": "yan-bellerose",
+      "title": "Google",
+      "shortBio": "Yan Bellerose is a Cloud Customer Engineering Security & Compliance specialist at Google in Montreal, Quebec. With a strong background in cybersecurity, Yan brings a balanced approach combining technical expertise, business strategy, and innovation. He has contributed to the gaming and entertainment industries in Montreal, as well as working as a security freelancer before joining Google.\n",
+      "image": "/images/speakers/yan-bellerose.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/yanbellerose/"
+      }
+    },
+    {
+      "name": "Boris-Wilfried Nyasse",
+      "uuid": "b177a43f-039a-4a41-a285-e3fa82bb0d71",
+      "slug": "boris-wilfried-nyasse",
+      "title": "Google Developer Expert",
+      "shortBio": "Boris-Wilfried Nyasse is a senior technology leader and Google Developer Expert (GDE) based in Montreal, recognized for building and scaling high-performance engineering teams and driving cloud, AI, and platform innovation. With over 10 years’ experience, he has held leadership roles such as Senior Director of Software Development at Datavalet Technologies and VP of Engineering at Stack Labs Canada. Boris excels in cloud-native architecture (Google Cloud Platform), AI-driven engineering, and software development, and is known for founding and scaling startups, notably in EdTech.\n",
+      "image": "/images/speakers/boris-wilfried-nyasse.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/bwnyasse/"
+      }
+    },
+    {
+      "name": "JL Maréchaud",
+      "uuid": "11bc74f2-75c1-4d59-a347-16ced19db81f",
+      "slug": "jl-marechaux",
+      "title": "ServiceNow",
+      "shortBio": "JL Maréchaud is a Principal AI Consultant at ServiceNow, with over 25 years of experience in artificial intelligence, cloud technologies, and technical leadership. Based in Montreal, JL has held diverse roles including data science lead, cloud technical advisor, enterprise architect, and head of technology at companies like ServiceNow, Google, IBM, Blue Yonder, and Ivado Labs.\n\n",
+      "image": "/images/speakers/jl-marechaux.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/jlmarechaux/"
+      }
+    },
+    {
+      "name": "Batool Alkaddah",
+      "uuid": "6679e097-7eaf-443c-bc37-5348284dc517",
+      "slug": "batool-alkaddah",
+      "title": "Bell",
+      "shortBio": "Batool Alkaddah is a Machine Learning Engineer and Data Scientist at Bell in Montreal, Quebec. She has experience building predictive models and solving complex problems using Python, SQL, AI/ML, forecasting models, Java, JavaScript, and Excel. Batool is passionate about leveraging data for impactful decision-making, with expertise in MLOps, generative AI, context engineering, and API development.",
+      "image": "/images/speakers/batool-alkaddah.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/batool-alkaddah/"
+      }
+    },
+    {
+      "name": "Francois Legare",
+      "uuid": "09770b99-ff7e-430f-9d26-bb752753613e",
+      "slug": "francois-legare",
+      "title": "Bell",
+      "shortBio": "Francois Legare is Senior Manager, Data Science at Bell in Montreal, with an MBA from Université Paris Dauphine and an engineering background in information technology and computer science. Since 1998, Francois has worked as a programmer analyst, system architect, team lead, trainer, and solutions engineer, specializing in AI, AR/VR, cloud, and IoT technologies for enterprise clients.\n\n",
+      "image": "/images/speakers/francois-legare.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/flegare/"
+      }
+    },
+    {
+      "name": "Mathieu Fillion",
+      "uuid": "1331b973-4f30-4f21-9942-072146e1713a",
+      "slug": "mathieu-fillion",
+      "title": "Saguaro",
+      "shortBio": "Mathieu Fillion is the Development Teams Manager at Wepoint in Montreal, Quebec, Canada. He has over a decade of experience leading software development teams, notably at nventive prior to joining Wepoint. Mathieu specializes in software development for mobile and web platforms, with strong expertise in iOS, Android, Uno Platform, Xamarin, C#, .Net, and WPF.",
+      "image": "/images/speakers/mathieu-fillion.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/matfillion/"
+      }
+    },
+    {
+      "name": "Eric Ampire",
+      "uuid": "3130c533-0ac5-432d-b30c-922afa98ba64",
+      "slug": "eric-ampire",
+      "title": "BRP (GDE)",
+      "shortBio": "Eric Ampire is a Google Developer Expert for Android and a Mobile Engineer at Bombardier Recreational Products (BRP) in Montreal. With a focus on mobile applications, automotive and embedded systems development since 2016, Eric has experience in software architecture, UI/UX design, and system programming. He has contributed to open-source as an Android SDK Developer for DHIS2 and previously worked at LottieFiles. Eric holds a computer science degree and is currently pursuing his master’s at Polytechnique Montréal.",
+      "image": "/images/speakers/eric-ampire.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/eric-ampire/"
+      }
+    },
+    {
+      "name": "Angie Vianey Ariza Pardo",
+      "uuid": "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4",
+      "slug": "angie-vianey-ariza-pardo",
+      "title": "Plus Company",
+      "shortBio": "Angie Ariza is an accomplished AI Tech Lead and Data Scientist, currently serving as Lead Artificial Intelligence Developer at Plus Company in Montreal. She specializes in architecting and implementing end-to-end machine learning solutions and distributed AI systems at enterprise scale, with expertise in modern Python, scalable API frameworks, MLOps, and generative AI models. Angie leads collaborative AI projects, optimizes high-performance pipelines, and has hands-on experience in Retrieval-Augmented Generation (RAG), Google Gemini, BigQuery, MongoDB, and Docker-based deployments.",
+      "image": "/images/speakers/angie-vianey-ariza-pardo.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/angie-ariza/"
+      }
+    },
+    {
+      "name": "Thomas Chong",
+      "uuid": "d86fde6f-7994-4fe5-821b-9e8b622f90c8",
+      "slug": "thomas-chong",
+      "title": "Beever AI (GDE)",
+      "shortBio": "Thomas Chong is an AI Research Engineer at Beever AI, a new frontier AI research lab by Votee AI, based in Toronto, Canada. He is a Google Developer Expert in AI, specializing in generative AI, NLP, multimodal large language models, and data visualization. Thomas has contributed to ACL 2025 with research on agentic LLMs for video explanations and benchmarks for Cantonese language understanding in LLMs.",
+      "image": "/images/speakers/thomas-chong.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/chongcht/"
+      }
+    },
+    {
+      "name": "Ethiel ADIASSA",
+      "uuid": "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b",
+      "slug": "ethiel-adiassa",
+      "title": "AutoNation",
+      "shortBio": "Ethiel A. (Ethiel Adiassa) is a Senior Software Engineer at AutoNation, Google Developer Expert, and University Lecturer at Collège de Paris. He specializes in fintech, mobile app development, and clean coding practices, notably using Flutter and Dart. Ethiel builds digital banking solutions for African markets and empowers tech students with industry-relevant education.",
+      "image": "/images/speakers/ethiel-adiassa.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/ethiel-adiassa/"
+      }
+    },
+    {
+      "name": "Arunesh Choudhary",
+      "uuid": "bce0f861-ab51-4d08-8560-c1a942f11ced",
+      "slug": "arunesh-choudhary",
+      "title": "Google Developer Group Event Organizer | Research Assistant | NSERC USRA Recipient",
+      "shortBio": "Arunesh Choudhary is a driven Computer Science professional and emerging AI researcher based in Montreal, Quebec, Canada. He is an organizer for Google Developer Group (GDG) events, a Research Assistant, and a recipient of the NSERC USRA award. Arunesh is passionate about applying technical expertise and leadership to develop practical, innovative solutions in AI and cybersecurity. He bridges academic research with real-world applications, building community through Gen AI Engineering and OpenCyberSecYQG.",
+      "image": "/images/speakers/arunesh-choudhary.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/aruneshchoudhary/"
       }
     }
   ]

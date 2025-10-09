@@ -1,46 +1,151 @@
 {
-  "date": "2025-04-05",
-  "title": "Sessions",
-  "description": "Sessions of WTM Montreal 2025",
-  "rooms": [
+  "date": "2025-11-01",
+  "title": "Schedule",
+  "description": "Discover the power of converging AI, mobile, and cloud technologies at DevFest Montreal on November 1st, 2025.",
+  "tracks": [
+    {
+      "uuid": "aad799f0-221a-48fe-93b7-06a3fb1166d4",
+      "name": "Main Schedule",
+      "sessions": [
+        {
+          "time": "8:30 AM",
+          "sessionUUID": "246a17da-adf9-4d8e-9c50-ef84bdf68c55"
+        },
+        {
+          "time": "9:30 AM - 10:00 AM",
+          "sessionUUID": "4d0cb762-4de4-43cf-b4ea-f02bcfa5b559"
+        },
+        {
+          "time": "10:00 AM - 11:45 AM",
+          "sessionUUID": "d0c327de-afcc-41a4-a161-a82d0387ec86"
+        },
+        {
+          "time": "11:00 AM - 4:30 PM",
+          "sessionUUID": "468a0ecd-2ad1-4b52-8778-a5c0392b7808"
+        },
+        {
+          "time": "11:00 AM - 4:00 PM",
+          "sessionUUID": "2ea23aa0-28a6-4401-844f-039b2d879df2"
+        },
+        {
+          "time": "11:45 AM - 1:00 PM",
+          "sessionUUID": "27ff7729-5792-4efd-a813-321fd6523e63"
+        },
+        {
+          "time": "1:00 PM - 4:45 PM",
+          "sessionUUID": "1d568a65-80e4-4531-a2f4-23ca2cb28986"
+        },
+        {
+          "time": "5:15 PM - 6:30 PM",
+          "sessionUUID": "949819b7-15db-40ce-9cb8-abbcf5d44d90"
+        }
+      ]
+    },
     {
       "uuid": "f9ed81db-f90a-42d4-b7e4-d554d8f338fd",
-      "name": "Soft skill (Main Stage)"
+      "name": "The Workshop Hub",
+      "sessions": [
+        {
+          "time": "10:00 AM - 12:00 PM",
+          "sessionUUID": "a1b2c3d4-e5f6-7890-1abc-2def3ghi4jkl"
+        },
+        {
+          "time": "1:15 PM - 2:45 PM",
+          "sessionUUID": "0eaf3eb4-4ee1-44fc-afb3-b3a5733a6db0"
+        },
+        {
+          "time": "3:00 PM - 4:00 PM",
+          "sessionUUID": "5118f1ca-242f-4a7b-b2d8-ec9aec84ea4f"
+        },
+        {
+          "time": "4:15 PM - 5:00 PM",
+          "sessionUUID": "9617acf7-cd07-4f55-9f9b-5cf2efaa2b14"
+        }
+      ]
     },
     {
       "uuid": "03daa4f4-7d63-42dd-b133-9194f298e194",
-      "name": "Technical skills"
+      "name": "The Tech Track",
+      "sessions": [
+        {
+          "time": "10:00 AM - 10:45 AM",
+          "sessionUUID": "14ce2d86-d3fc-472e-95dd-013609bea9e7"
+        },
+        {
+          "time": "11:00 AM - 11:45 AM",
+          "sessionUUID": "0e0843fa-103a-4f37-96eb-6c3a3251f57e"
+        },
+        {
+          "time": "1:15 PM - 2:00 PM",
+          "sessionUUID": "33a3d979-100f-4f55-b516-f402a836929d"
+        },
+        {
+          "time": "2:15 PM - 3:00 PM",
+          "sessionUUID": "f86aabac-12d6-4181-a54c-5dca0ee33430"
+        },
+        {
+          "time": "3:15 PM - 4:00 PM",
+          "sessionUUID": "c4c44c28-b703-4aae-b4c4-3f39efc6b210"
+        },
+        {
+          "time": "4:15 PM - 5:00 PM",
+          "sessionUUID": "1fa20cab-ba76-4112-9e2e-a0540d5f6c1e"
+        }
+      ]
     },
     {
       "uuid": "1b974777-55d4-4741-8fff-920d5a292385",
-      "name": "Workshop A"
+      "name": "The Atrium",
+      "sessions": [
+        {
+          "time": "10:00 AM - 10:45 AM",
+          "sessionUUID": "25547863-876f-4a20-9fb1-3df31b6be169"
+        },
+        {
+          "time": "11:00 AM - 11:45 AM",
+          "sessionUUID": "f4af3d18-5f08-44cf-b67e-4b688d7a28b8"
+        },
+        {
+          "time": "1:30 PM - 2:15 PM",
+          "sessionUUID": "b5c2421b-e7b4-48f7-b0b1-befaf20c7d44"
+        },
+        {
+          "time": "2:30 PM - 3:15 PM",
+          "sessionUUID": "183e7f47-5a72-4cc4-b90f-89c2bb779c94"
+        },
+        {
+          "time": "3:30 PM - 4:15 PM",
+          "sessionUUID": "750ffce5-5eac-4df8-96c5-6dfc850fb158"
+        }
+      ]
     },
     {
       "uuid": "cba79f3f-3e12-4f15-bb42-e17652efae58",
-      "name": "Workshop B"
+      "name": "Career Coaching 1:1",
+      "sessions": [
+        {
+          "time": "11:00 AM - 4:00 PM",
+          "sessionUUID": "ba42d1ef-7f39-4de7-aa7a-33ddc80c903d"
+        }
+      ]
     },
     {
       "uuid": "1e7e9782-03e7-41c8-8e39-7171b4ce87d5",
-      "name": "Jardin intérieur"
-    }
-  ],
-  "timeSlots": [
-    {
-      "startTime": "08:00",
-      "endTime": "09:00",
-      "tracks": [
+      "name": "VIP Demos",
+      "sessions": [
         {
-          "roomUUID": "",
-          "sessions": [
-            {
-              "sessionUUID": "246a17da-adf9-4d8e-9c50-ef84bdf68c55",
-              "duration": "60"
-            }
-          ]
+          "time": "11:00 AM - 12:00 PM",
+          "sessionUUID": "71f0abc9-de35-46dc-a93a-ca8420dd8213"
+        },
+        {
+          "time": "1:30 PM - 2:30 PM",
+          "sessionUUID": "82294d89-8826-45aa-a965-4eafc71c5ec7"
+        },
+        {
+          "time": "3:00 PM - 4:00 PM",
+          "sessionUUID": "0b5a7e21-636b-41b1-b7a5-56b12309f56a"
         }
-      ],
-      "commonAllRooms": true,
-      "icon": "FaRegIdBadge"
+      ]
     }
   ]
 }

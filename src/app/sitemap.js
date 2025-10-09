@@ -1,81 +1,89 @@
 // app/sitemap.js
+
+// Note: We no longer need 'fs' or 'path' with this new approach.
+
 export default async function sitemap() {
   const baseUrl = 'https://devfest.gdgmontreal.com'; // Use your actual domain
 
-  // Import speaker data from JSON files
-  // const enSpeakersData = require('@/locales/en/speaker.json'); // Adjust the path as needed
-  // const frSpeakersData = require('@/locales/fr/speaker.json'); // Adjust the path as needed
+  // --- Load data using dynamic imports ---
+  // This is the recommended Next.js way to handle JSON files in server-side code.
+  // Make sure your path alias '@' is configured to point to your project's root,
+  // or adjust the path accordingly (e.g., '../../locales/en/speaker.json').
+  const enSpeakersData = await import('@/locales/en/speaker.json');
+  const frSpeakersData = await import('@/locales/fr/speaker.json');
+  const enSessionsData = await import('@/locales/en/session.json');
+  const frSessionsData = await import('@/locales/fr/session.json');
 
-  // Access the speakers array
-  // const enSpeakers = enSpeakersData.speakers;
-  // const frSpeakers = frSpeakersData.speakers;
+  const enSpeakers = enSpeakersData.speakers;
+  const frSpeakers = frSpeakersData.speakers;
+  const enSessions = enSessionsData.sessions;
+  const frSessions = frSessionsData.sessions;
 
-  // Static routes
+  // --- Static routes ---
+  // These are the main pages of your site
   const staticRoutes = [
-    {
-      url: `${baseUrl}/en`,
-      lastModified: new Date(),
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/fr`,
-      lastModified: new Date(),
-      priority: 1.0,
-    },
+    { url: `${baseUrl}/en`, lastModified: new Date(), priority: 1.0 },
+    { url: `${baseUrl}/fr`, lastModified: new Date(), priority: 1.0 },
     {
       url: `${baseUrl}/en/code-of-conduct`,
       lastModified: new Date(),
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/fr/code-of-conduct`, // Fixed typo
+      url: `${baseUrl}/fr/code-of-conduct`,
       lastModified: new Date(),
       priority: 0.8,
     },
-    {
-      url: `${baseUrl}/en/team`,
-      lastModified: new Date(),
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/fr/team`,
-      lastModified: new Date(),
-      priority: 0.7,
-    },
-    // {
-    //   url: `${baseUrl}/en/speakers`,
-    //   lastModified: new Date(),
-    //   priority: 0.9,
-    // },
-    // {
-    //   url: `${baseUrl}/fr/speakers`,
-    //   lastModified: new Date(),
-    //   priority: 0.9,
-    // },
+    { url: `${baseUrl}/en/team`, lastModified: new Date(), priority: 0.7 },
+    { url: `${baseUrl}/fr/team`, lastModified: new Date(), priority: 0.7 },
+    { url: `${baseUrl}/en/speakers`, lastModified: new Date(), priority: 0.9 },
+    { url: `${baseUrl}/fr/speakers`, lastModified: new Date(), priority: 0.9 },
+    { url: `${baseUrl}/en/schedule`, lastModified: new Date(), priority: 0.9 },
+    { url: `${baseUrl}/fr/schedule`, lastModified: new Date(), priority: 0.9 },
   ];
 
-  // Generate dynamic routes for English speakers
-  // const enSpeakerRoutes = enSpeakers.map((speaker) => ({
-  //   url: `${baseUrl}/en/speakers/${speaker.slug}`, // Use the `slug` field
-  //   lastModified: new Date(),
-  //   changeFrequency: 'weekly',
-  //   priority: 0.9,
-  // }));
+  // --- Dynamic Speaker Routes ---
+  const enSpeakerRoutes = enSpeakers.map((speaker) => ({
+    url: `${baseUrl}/en/speakers/${speaker.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  }));
 
-  // Generate dynamic routes for French speakers
-  // const frSpeakerRoutes = frSpeakers.map((speaker) => ({
-  //   url: `${baseUrl}/fr/speakers/${speaker.slug}`, // Use the `slug` field
-  //   lastModified: new Date(),
-  //   changeFrequency: 'weekly',
-  //   priority: 0.9,
-  // }));
+  const frSpeakerRoutes = frSpeakers.map((speaker) => ({
+    url: `${baseUrl}/fr/speakers/${speaker.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.9,
+  }));
 
-  // Combine static and dynamic routes
-  // return [...staticRoutes, ...enSpeakerRoutes, ...frSpeakerRoutes];
-  return [...staticRoutes];
+  // --- Dynamic Session Routes ---
+  // It's a good practice to have individual pages for sessions as well
+  const enSessionRoutes = enSessions.map((session) => ({
+    url: `${baseUrl}/en/sessions/${session.uuid}`, // Using UUID for session pages
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
+  const frSessionRoutes = frSessions.map((session) => ({
+    url: `${baseUrl}/fr/sessions/${session.uuid}`, // Using UUID for session pages
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
+  // Combine all static and dynamic routes
+  return [
+    ...staticRoutes,
+    ...enSpeakerRoutes,
+    ...frSpeakerRoutes,
+    ...enSessionRoutes,
+    ...frSessionRoutes,
+  ];
 }
 
-// Required for `output: export`
+// Required for `output: 'export'`
 export function generateStaticParams() {
   return [{ __metadata_id__: ['sitemap.xml'] }];
 }

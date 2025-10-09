@@ -8,6 +8,14 @@
       {
         "href": "/team",
         "label": "Team"
+      },
+      {
+        "href": "/schedule",
+        "label": "Schedule"
+      },
+      {
+        "href": "/speakers",
+        "label": "Speakers"
       }
     ]
   },

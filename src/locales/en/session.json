@@ -1,28 +1,51 @@
 {
   "title": "Sessions",
-  "description": "Sessions of WTM Montreal 2025",
+  "description": "Sessions of DevFest Montreal 2025",
   "sessions": [
     {
       "title": "Doors open (please bring your ID) and Breakfast",
       "uuid": "246a17da-adf9-4d8e-9c50-ef84bdf68c55",
       "description": "Enjoy the breakfast and network with other attendees",
-      "speakerUUID": []
+      "speakerUUID": [],
+      "isSpecialEvent": true
     },
     {
-      "title": "10 years of Women Techmakers Montréal - what's next?",
+      "title": "Keynote",
       "uuid": "4d0cb762-4de4-43cf-b4ea-f02bcfa5b559",
-      "description": "",
-      "speakerUUID": []
+      "description": "Welcome message and introduction to the event",
+      "speakerUUID": [
+        "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+      ],
+      "isSpecialEvent": true
     },
     {
-      "title": "Everything's Happening Next Door!",
+      "title": "Talks, Workshops and Demos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "d0c327de-afcc-41a4-a161-a82d0387ec86",
       "description": "Join us in the other room for captivating talks and inspiring discussions!",
       "speakerUUID": []
     },
     {
+      "title": "VIP Demos (Limited seating)",
+      "uuid": "468a0ecd-2ad1-4b52-8778-a5c0392b7808",
+      "description": "See things in action in these limited (up to 10 people) demos in one of our breakout rooms",
+      "speakerUUID": []
+    },
+    {
+      "title": "Career Coaching 1:1",
+      "uuid": "2ea23aa0-28a6-4401-844f-039b2d879df2",
+      "description": "Get to chat for 15-20 mins with a seasoned professional and unlock your full potential!\n",
+      "speakerUUID": []
+    },
+    {
       "title": "Lunch",
       "uuid": "27ff7729-5792-4efd-a813-321fd6523e63",
+      "description": "Enjoy a delicious lunch and network with other attendees",
+      "speakerUUID": [],
+      "isSpecialEvent": true
+    },
+    {
+      "title": "Talks, Workshops and Demos (Cloud, IA, ML, Web, Android & Flutter...)",
+      "uuid": "1d568a65-80e4-4531-a2f4-23ca2cb28986",
       "description": "Enjoy a delicious lunch and network with other attendees",
       "speakerUUID": []
     },
@@ -30,289 +53,226 @@
       "title": "Closing Note",
       "uuid": "949819b7-15db-40ce-9cb8-abbcf5d44d90",
       "description": "Raffle prizes and closing remarks",
-      "speakerUUID": []
-    },
-    {
-      "title": "Go to Your Session",
-      "uuid": "6d6b3082-95a7-4c60-adf7-bb1939ca2acc",
-      "description": "",
-      "speakerUUID": []
-    },
-    {
-      "title": "Move to the main",
-      "uuid": "3c50c7e7-56af-4ab6-956d-9e506975ac36",
-      "description": "",
-      "speakerUUID": []
-    },
-    {
-      "title": "Networking",
-      "uuid": "9e045c45-2933-48cb-8e04-9032221c7723",
-      "description": "Connect, collaborate, and expand your network at our upcoming event! Meet speakers, exchange ideas, and explore new opportunities in a relaxed setting.",
-      "speakerUUID": []
-    },
-    {
-      "title": "Break",
-      "uuid": "99d7a8a1-f36e-491e-a9dc-08f7331c0f7d",
-      "description": "",
-      "speakerUUID": []
-    },
-    {
-      "title": "Designing for Creators: UX Strategies for Complex Softwares",
-      "uuid": "a1b2c3d4-e5f6-7890-1abc-2def3ghi4jkl",
-      "description": "Creative tools—like game engines and professional software—are often designed for power users who need flexibility and control. Too frequently, these tools assume that complexity must mean difficulty, with UX as an afterthought. This results in steep learning curves, overwhelming interfaces, and inefficient workflows.\n\nIn this talk, I will explore how UX strategies can redefine what’s possible in creative software by making complexity feel intuitive without sacrificing depth. We’ll cover key concepts like defining user profiles, prioritizing workflows, and introducing complexity only when necessary, enabling diverse creators of all technical skill levels to participate, experiment, and innovate.",
-      "shortDescription": "Creative tools—like game engines and professional software—are often designed for power users who need flexibility and control. Too frequently, these tools assume that complexity must mean difficulty, with UX as an afterthought. This results in steep learning curves, overwhelming interfaces, and inefficient workflows.",
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
-      "tags": [
-        "Conference in English",
-        "UX",
-        "Design",
-        "Software",
-        "Creativity"
-      ]
+      "isSpecialEvent": true
     },
     {
-      "title": "AI meets Web Development: Build your portfolio in 30min with Cursor",
-      "uuid": "b2c3d4e5-f6g7-8901-2bcd-3efg4hij5klm",
-      "description": "If you’ve used GitHub Copilot or ChatGPT to write code, you’re already familiar with the power of AI in coding. But Cursor takes it a step further, making it even easier to create anything you want—quickly and efficiently.\n\nIn this talk, I’ll show you what Cursor is and how simple it is to use it to write code and bring your ideas to life. Whether you’re looking to learn a new technology or create your portfolio, Cursor’s AI-powered code editor not only writes the code for you, but also explains it in real-time, making learning and creation smoother than ever. Join me as we build a portfolio together in just 30 minutes using Cursor, and discover how AI can help you unlock new possibilities in your development journey.",
-      "shortDescription": "If you’ve used GitHub Copilot or ChatGPT to write code, you’re already familiar with the power of AI in coding. But Cursor takes it a step further, making it even easier to create anything you want—quickly and efficiently.",
+      "title": "Build With AI - Build Your First AI Agent",
+      "uuid": "a1b2c3d4-e5f6-7890-1abc-2def3ghi4jkl",
+      "description": "Tired of AI agent theory? Ready to actually build something? In this interactive session, we'll forget the slides and jump straight into the code. This isn't a lecture. It's a launchpad. Let's build. RSVP @ https://forms.gle/7dshs6GFnMQikSej7",
+      "shortDescription": "A deep, guided session where Kiruthika leads participants in a hands-on lab to build a complete AI Agent solution from scratch using Google's ADK Toolkit.",
       "speakerUUID": [
-        "1a2b3c4d-5e6f-7890-abcd-ef1234567890"
+        "d111b534-6acd-4631-a6d6-f8aa190f4ff8"
       ],
       "tags": [
-        "Conference in English",
+        "AI Agents",
         "AI",
-        "Web Development",
-        "Coding",
-        "Portfolio"
+        "ADK Toolkit"
       ]
     },
     {
-      "title": "Humanizing AI: Empowering users through transparent design",
-      "uuid": "c3d4e5f6-g7h8-9012-3cde-4fgh5ijk6lmn",
-      "description": "Join me as I explore the five essential pillars of designing for AI—principles inspired by the nuanced challenges of healthcare product design. Together, we’ll unpack how to create personalized, accessible, and trustworthy user experiences that empower diverse audiences while fostering inclusivity and transparency. Whether you’re an experienced designer, collaborating with a design team or just starting out, this talk will equip you with actionable strategies to humanize AI and make a meaningful impact on the future of design.\n\nDesigned to be inspirational and actionable, this talk will cover: Parallels between designing for AI and designing for healthcare... Real-world examples, like integrating AI into a virtual fertility clinic application or designing a GenAI system to simplify international processes...",
-      "shortDescription": "Join me as I explore the five essential pillars of designing for AI—principles inspired by the nuanced challenges of healthcare product design. Together, we’ll unpack how to create personalized, accessible, and trustworthy user experiences that empower diverse audiences while fostering inclusivity and transparency.",
+      "title": "AI Filmmaking Workshop: Create Your First Movie with Gemini and Veo",
+      "uuid": "0eaf3eb4-4ee1-44fc-afb3-b3a5733a6db0",
+      "description": "Join Filmmaker and AI Google Developer Expert Kevin Blanco to create a complete short film using Google's AI tools. Learn professional storytelling techniques while building scenes with Gemini and Veo. RSVP @ https://forms.gle/62tF8rk5navH8JM5A",
+      "shortDescription": "Kevin Blanco will create a complete short film using Google's AI tools. Learn professional storytelling techniques while building scenes with Gemini and Veo.",
       "speakerUUID": [
-        "2e3f4g5h-6i7j-8k9l-mnop-qrstuvwxyz123"
+        "8a5c02f9-0df6-4f1f-8c00-8a4d1ec559f3"
       ],
       "tags": [
-        "Conference in English",
-        "AI",
-        "UX",
-        "Design",
-        "Transparency"
       ]
     },
     {
-      "title": "Learn the Letta Framework & Watch an AI Agent Built in Under 10 Minutes",
-      "uuid": "d4e5f6g7-h8i9-0jkl-mnop-qrstu1234567",
-      "description": "The Letta framework simplifies AI agent development with its memory-driven architecture and a visual development environment. In this talk, you’ll explore Letta’s core design principles and see its application in a live agent creation demo.",
-      "shortDescription": "The Letta framework simplifies AI agent development with its memory-driven architecture and a visual development environment.",
+      "title": "Gemini CLI Workshop with Firebase Studio",
+      "uuid": "5118f1ca-242f-4a7b-b2d8-ec9aec84ea4f",
+      "description": "Unleash AI in your workflow! In this hands-on workshop, you'll use the Gemini CLI within Firebase Studio to rapidly build an application, covering everything from generating boilerplate to deploying on Google Cloud. RSVP @ https://forms.gle/3d1ULFpsxUnzMf5s6",
+      "shortDescription": "You will use the Gemini within Firebase Studio to rapidly build an application.",
       "speakerUUID": [
-        "3h4i5j6k-7l8m-9n0o-pqrs-tuvwxyz123abc"
+        "a547eadd-620e-4dbb-b40c-88bfd3c52555"
       ],
       "tags": [
-        "Conference in English",
-        "AI",
-        "Machine Learning",
-        "Framework",
-        "Demo"
       ]
     },
     {
-      "title": "The UX-AI Evolution: Redefining Interaction & Design",
-      "uuid": "e5f6g7h8-i9j0-klmn-opqr-stuv1234wxyz",
-      "description": "AI is revolutionizing UX design, enabling experiences that are more personalized, predictive, and adaptive. But with great power comes responsibility—how do we ensure AI enhances human experiences without compromising ethics? This talk delves into key AI-driven UX trends, such as generative design, AI-powered UX research, automation in prototyping, and bias mitigation. We’ll explore how emerging AI tools are reshaping user interaction patterns, reimagining accessibility, and shifting the role of designers towards AI-human collaboration. Attendees will leave with a clearer vision of AI’s impact on UX, practical strategies for ethical AI integration, and insights into future-proofing UX careers in an AI-first world.",
-      "shortDescription": "AI is revolutionizing UX design, enabling experiences that are more personalized, predictive, and adaptive. But with great power comes responsibility—how do we ensure AI enhances human experiences without compromising ethics?",
+      "title": "The Digital Mirror: A Deep Dive into AI, Ethics, and Creative Responsibility",
+      "uuid": "9617acf7-cd07-4f55-9f9b-5cf2efaa2b14",
+      "description": "In an age of powerful generative AI, what does it mean to be a creator? This workshop goes beyond the hype to explore the ethical implications of tools like Google's VEO, Imagen, and Gemini. You'll engage in a hands-on design challenge, using these platforms to prototype characters and environments rapidly—but the focus will be on critical reflection. We'll discuss responsible sourcing, copyright, bias in datasets, and the future of human creativity.",
+      "shortDescription": "A hands-on workshop on AI ethics using Google’s VEO, Imagen, and Gemini to design and reflect on creativity and responsibility.",
       "speakerUUID": [
-        "4k5l6m7n-8o9p-0qrs-tuvw-xyz123abc456"
+        "85a9290e-5306-4887-9b7f-9234361f8b47"
       ],
       "tags": [
-        "Conference in English",
-        "AI",
-        "UX",
-        "Design",
-        "Ethics"
       ]
     },
     {
-      "title": "Redefining Cinema: Bringing a Web3 Film Festival and AI Discussions to Montreal",
-      "uuid": "f6g7h8i9-j0k1-lmno-pqrs-tuvw1234xyz5",
-      "description": "The intersection of technology and cinema has unlocked revolutionary possibilities, from AI-driven storytelling to decentralized Web3 funding models. As the founder of Las Flores Web3 Film Festival, I navigated cultural, gender, and financial barriers to bring this groundbreaking festival to life in Montreal. My talk will delve into:\nOvercoming Adversity: My journey as a Mexican woman leading innovation in a male-dominated industry.\nRedefining Cinema: How Web3 and AI are transforming film creation, funding, and distribution.\nBuilding Value-Based Tech Initiatives: Insights from developing a program to fund Web3-AI film projects.\nEmpowering Women in Tech: Lessons on resilience, leadership, and creating impact in the tech and creative industries.\nBy redefining what’s possible, Las Flores has become a catalyst for collaboration, innovation, and diversity in the cinematic arts. Attendees will leave inspired to harness technology to break barriers, champion inclusivity, and shape the future of storytelling.",
-      "shortDescription": "The intersection of technology and cinema has unlocked revolutionary possibilities, from AI-driven storytelling to decentralized Web3 funding models. As the founder of Las Flores Web3 Film Festival, I navigated cultural, gender, and financial barriers to bring this groundbreaking festival to life in Montreal.",
+      "title": "From Code to Enterprise: An Introduction to Google Agentspace and ADK",
+      "uuid": "14ce2d86-d3fc-472e-95dd-013609bea9e7",
+      "description": "From code to enterprise: Build a simple AI agent live using the ADK and take full advantage of its capabilities in Google Agentspace. We’ll show you how to break down data silos, connect to various sources, and scale from a single agent to a full solution to unlock real, AI-powered productivity.",
+      "shortDescription": "Build a live AI agent with Google Agentspace and ADK, connecting data sources to boost enterprise productivity.",
       "speakerUUID": [
-        "5m6n7o8p-9q0r-stuv-wxyz-123abc456def"
+        "55bd36ad-233a-4742-bd6c-7677e986fb5c",
+        "2a9739f3-e2ba-4c91-8dfc-ca7c1650d477"
       ],
       "tags": [
-        "Conference in English",
-        "Web3",
-        "AI",
-        "Cinema",
-        "Diversity"
       ]
     },
     {
-      "title": "The Art of Juggling: a discussion on how to Navigate life's demands as women",
-      "uuid": "g7h8i9j0-k1l2-mnop-qrst-uvw123xyz456",
-      "description": "This panel discussion explores the multifaceted lives of women today, delving into the delicate balance between career, family, personal aspirations, and self-care. Join us as we explore the challenges and triumphs women face as they navigate the ever-evolving demands of modern life. Our panelists will share personal experiences, insights, and strategies for thriving in a world that often expects women to be everything to everyone. This is a conversation for women seeking inspiration, support, and practical advice on how to create a fulfilling and balanced life.",
-      "shortDescription": "This panel discussion explores the multifaceted lives of women today, delving into the delicate balance between career, family, personal aspirations, and self-care.",
+      "title": "Beyond the Spotlight: Building Data & Web Agents at Cirque du Soleil",
+      "uuid": "0e0843fa-103a-4f37-96eb-6c3a3251f57e",
+      "description": "Cirque du Soleil is known worldwide for its shows, but behind the scenes, we’re reinventing how teams and audiences interact with data. In this session, we’ll share how we built two production-ready agents, one for internal use, one for our website, using Google’s Agent Developer Kit and Agent Engine.",
+      "shortDescription": "Cirque du Soleil built two data agents—one for internal use, one for their website—using Google’s Agent Developer Kit and Agent Engine to improve team and audience data interaction.",
       "speakerUUID": [
-        "6n7o8p9q-0rst-uvw1-2xyz-3abc456def78",
-        "abec89d6-764e-4af5-9457-8d10bb68c79c",
-        "7b669b1f-5498-46ed-9e9f-ab4c71223227"
+        "c434ed68-b98b-476c-9258-73f410797337",
+        "6e699ed5-2bca-431c-919d-b26c17d14f46",
+        "2ad81bc9-aceb-4ce2-b1c6-71a250bc6d36",
+        "7a98ac81-6b7d-483a-aa57-5de5f8447c75"
       ],
       "tags": [
-        "Conference in English",
-        "Women",
-        "Leadership",
-        "Balance",
-        "Soft Skills"
       ]
     },
     {
-      "title": "Myths and Realities of Digital Nomadism: Beyond the Perfect Instagram Photos",
-      "uuid": "h8i9j0k1-l2m3-nopq-rstu-vwxyz1234567",
-      "description": "In this talk, I’ll reveal what it’s really like to be a digital nomad—beyond the dreamy Instagram shots working by a pool or on a tropical beach. Some say the hardest part is being away from loved ones or constantly adapting to new cultures, but in my experience, the real challenge is something much simpler: figuring out where to do the laundry with the few clothes we carry in our small luggage.\n\nI’ll share insights on safe travel destinations, what digital nomads actually pack, recommendations and tips if you work in the tech industry, and the true cost of living on the road. Spoiler: It’s not as expensive as you might think. Being a digital nomad isn’t for everyone, and it may not be forever, but it’s a unique lifestyle that lets you explore beautiful places, meet fascinating people, and—most importantly—discover yourself.",
-      "shortDescription": "In this talk, I’ll reveal what it’s really like to be a digital nomad—beyond the dreamy Instagram shots working by a pool or on a tropical beach. Some say the hardest part is being away from loved ones or constantly adapting to new cultures, but in my experience, the real challenge is something much simpler: figuring out where to do the laundry with the few clothes we carry in our small luggage.",
+      "title": "Can AI do reverse engineering ?",
+      "uuid": "33a3d979-100f-4f55-b516-f402a836929d",
+      "description": "This talk explores the challenging field of reverse engineering, the process of figuring out what uncommented, complex, mystery code does. Traditionally a difficult, human-intensive task, the talk questions the emerging promise of AI to automate and outperform human engineers in this domain.",
+      "shortDescription": "This talk questions if AI can automate reverse engineering of complex, uncommented code—a task that’s usually difficult and done by humans.",
       "speakerUUID": [
-        "7o8p9q0r-stuv-wxyz-1234-5abc6def7890"
+        "148610e9-05d7-4058-8dcf-691d753342c3"
       ],
       "tags": [
-        "Conference in English",
-        "Digital Nomad",
-        "Tech",
-        "Lifestyle",
-        "Travel"
       ]
     },
     {
-      "title": "Learning Through Experience",
-      "uuid": "i9j0k1l2-m3n4-opqr-stuv-wxyz12345678",
-      "description": "My hypothesis: You can start, even with 0% qualification and learn through experience: an encouragement to get started, regardless of your initial skill level. To undertake, to start a collective enterprise or an NPO, you have no choice but to have this character trait!\nHow to “survive” experiential learning? \n- Manage your stress (Stress factors) This method can generate more stress, but tools help to manage it \n- Manage each situation at once: Find help as soon as a blockage occurs \n- Abandon the cult of perfection: accept that “good enough” is enough and that each iteration improves results \n- Redefine perfection: create/invent a work environment aligned with your values and your well-being. \nConclusion: It’s your turn! \n- Call to action: “Start where you are, with what you have.”",
-      "shortDescription": "My hypothesis: You can start, even with 0% qualification and learn through experience: an encouragement to get started, regardless of your initial skill level. To undertake, to start a collective enterprise or an NPO, you have no choice but to have this character trait!",
+      "title": "Building the Chain of Trust: A Google ADK Blueprint for Grounded Legal AI Agen",
+      "uuid": "f86aabac-12d6-4181-a54c-5dca0ee33430",
+      "description": "Transform unreliable AI into trustworthy legal assistants. Learn to build a “Chain of Trust” using Google ADK + Vertex AI Search + Cloud Run + Flutter to eliminate hallucinations and prove every AI claim with verifiable sources.",
+      "shortDescription": "Make AI reliable for legal work: Use Google ADK, Vertex AI, Cloud Run, and Flutter to verify every claim with real sources and stop hallucinations.",
       "speakerUUID": [
-        "8p9q0rst-uvwx-yz12-3456-7abc8def9012"
+        "b177a43f-039a-4a41-a285-e3fa82bb0d71"
       ],
       "tags": [
-        "Conference in French",
-        "Learning",
-        "Experience",
-        "Entrepreneurship",
-        "Soft Skills"
       ]
     },
     {
-      "title": "Redefining Tech Through Womxn in Tech Communities",
-      "uuid": "j0k1l2m3-n4o5-pqrs-tuvw-xyz123456789a",
-      "description": "In the ever-evolving tech world, inclusivity and innovation go hand in hand. Take a deep dive into a deeply personal journey that started with first establishing a Women in Tech community – partly by accident – and has led to having a profound impact on individuals, teams, and the workplace culture at large. Through personal insights, practical steps, and lessons learned, you’ll discover how to create a workplace where women thrive, break barriers, and redefine what’s possible in the industry. Whether you’re an executive seeking to and in a position to enact change or just an ally who’s simply curious about how to empower teammates, this session will inspire you to take action and contribute to a future where everyone has a voice.",
-      "shortDescription": "In the ever-evolving tech world, inclusivity and innovation go hand in hand. Take a deep dive into a deeply personal journey that started with first establishing a Women in Tech community – partly by accident – and has led to having a profound impact on individuals, teams, and the workplace culture at large.",
+      "title": "Gemini with ServiceNow: An Example of LLM Usage in Enterprise Workflows",
+      "uuid": "c4c44c28-b703-4aae-b4c4-3f39efc6b210",
+      "description": "The conversation around AI and Large Language Models (LLMs) often centers on consumer applications, but their true power lies in transforming enterprise operations. In this session, we’ll move past the theory and dive into practical, real-world use cases for AI and LLMs within the ServiceNow platform.",
+      "shortDescription": "Discover how AI and LLMs transform enterprise operations, with hands-on ServiceNow platform use cases—not just consumer applications.",
       "speakerUUID": [
-        "9q0rstuv-wxyz-1234-5678-9abc0def1234"
+        "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
       "tags": [
-        "Conference in English",
-        "Women in Tech",
-        "Inclusivity",
-        "Community",
-        "Innovation"
       ]
     },
     {
-      "title": "Build Your First Mobile App Without Code: A Hands-On FlutterFlow Workshop",
-      "uuid": "4b587937-e8e4-48a7-8894-0e3b75887152",
-      "description": "This interactive workshop is perfect for beginners who want to build their first mobile app without writing a single line of code. In this session, we’ll use FlutterFlow, an intuitive no-code platform, to design and develop a simple app that organizes and displays data. You’ll follow along step-by-step, with visuals and hands-on guidance to ensure you’re building your own app by the end of the session. No previous coding experience is necessary—just bring your creativity! By the end of this workshop, you’ll not only have a working app but also the confidence to continue creating apps and expanding your ideas!",
-      "shortDescription": "This interactive workshop is perfect for beginners who want to build their first mobile app without writing a single line of code.",
+      "title": "Talk #6",
+      "uuid": "1fa20cab-ba76-4112-9e2e-a0540d5f6c1e",
+      "description": "Talk #6",
+      "shortDescription": "Talk #6",
       "speakerUUID": [
-        "9b8f90fb-eeba-44a6-bceb-158cb03db360"
       ],
       "tags": [
-        "Conference in English",
-        "Flutter",
-        "No Coding"
       ]
     },
     {
-      "title": "Play with Your Data in Your Daily Life: An Intro to Looker Studio",
-      "uuid": "3bbe77cc-c1db-4827-9391-ffddf8e61c56",
-      "description": "In this hands-on workshop, we’ll break down data visualization into something fun and approachable. You’ll learn how to use Looker Studio to create a simple, interactive tool using daily-life data. No coding required—just creativity! By the end, you’ll have a personalized, easy-to-understand data tool that shows you how to apply visualization techniques to your everyday life. Whether you’re tracking your habits, hobbies, or anything else, this session will help you see how simple it can be to bring data to life.",
-      "shortDescription": "In this hands-on workshop, we’ll break down data visualization into something fun and approachable. You’ll learn how to use Looker Studio to create a simple, interactive tool using daily-life data. No coding required—just creativity!",
+      "title": "Talk #1",
+      "uuid": "25547863-876f-4a20-9fb1-3df31b6be169",
+      "description": "Talk #1",
+      "shortDescription": "Talk #1",
       "speakerUUID": [
-        "9b8f90fb-eeba-44a6-bceb-158cb03db360"
       ],
       "tags": [
-        "Conference in English",
-        "Looker"
       ]
     },
     {
-      "title": "Technovation in real life: From First Lines of Code to Neural Networks - The Start of Something Bigger",
-      "uuid": "04c00baf-3ecc-4088-9ef6-6d5f2d37721b",
-      "description": "Technovation Montréal is a non-profit organization that aims to develop technology and entrepreneurship skills among girls aged 8 to 18.  Do you want to why their mission is so important? Join us to see how their initiatives are redefining what is possible and the future of technology with a practical demo",
-      "shortDescription": "Join us to see how their initiatives are redefining what is possible and the future of technology with a practical demo",
+      "title": "Agentic AI for Legacy Inventory Modernization: Building a Universal Data Schem",
+      "uuid": "f4af3d18-5f08-44cf-b67e-4b688d7a28b8",
+      "description": "Unlock seamless digital transformation with our universal data schema and AI-powered migration agent standardize and automate asset integration, delivering real-time analytics and rapid legacy decommissioning, future-proof your operations today!",
+      "shortDescription": "Universal data schema and AI agent automate asset integration and analytics for quick digital transformation.",
       "speakerUUID": [
-        "1c0913e2-9ba4-4f6c-a2f7-aee46a45fd3a",
-        "1ac67011-3367-40de-81bc-941f5d977a31"
+        "6679e097-7eaf-443c-bc37-5348284dc517",
+        "09770b99-ff7e-430f-9d26-bb752753613e"
       ],
       "tags": [
-        "Conference in English",
-        "Technovation",
-        "Redefining what is possible"
       ]
     },
     {
-      "title": "Organizations supporting women in Montréal: bridging gaps, breaking barriers together",
-      "uuid": "66704b84-8be8-434e-be68-ec0f809bd633",
-      "description": "This panel showcases the leading organizations dedicated to supporting women in Montréal's tech industry. We're united by a common goal: ensuring women have the knowledge and resources they need to thrive and shape their futures in tech, on par with their male counterparts.  Montréal boasts a vibrant ecosystem of organizations working towards this vision, and this panel celebrates that diversity. While each organization maintains its unique identity and approach, we recognize the power of collaboration. Together, we amplify our impact and send a clear message: we are committed to working together to welcome and empower more women and other minorities in the tech sector.",
-      "shortDescription": "This panel showcases the leading organizations dedicated to supporting women in Montréal's tech industry. We're united by a common goal: ensuring women have the knowledge and resources they need to thrive and shape their futures in tech, on par with their male counterparts.  Montréal boasts a vibrant ecosystem of organizations working towards this vision, and this panel celebrates that diversity. While each organization maintains its unique identity and approach, we recognize the power of collaboration.",
+      "title": "Inside Mobile Development Frameworks",
+      "uuid": "b5c2421b-e7b4-48f7-b0b1-befaf20c7d44",
+      "description": "React Native, Flutter, .NET—how do they work behind the scenes? Explore the fundamentals and architectures that enable these frameworks to transform multi-platform code into native iOS and Android apps. Discover the magic behind features like hot reload, code push and Gemini Nano.",
+      "shortDescription": "Learn how React Native, Flutter, and .NET turn one codebase into native apps, and how features like hot reload work.",
       "speakerUUID": [
-        "da5116af-0b5f-4de4-afcd-3f70fedfa829",
-        "afd2bfd5-b7bf-45b4-bf1d-6dc647c3950c",
-        "0679723c-eda7-41b1-b858-638285c6bf52",
-        "3f2218bf-e2d9-4058-a8f5-9dedb5ed7a40",
-        "8859f090-b7ea-442c-980d-e9873b27cad7",
-        "39ff19cf-09b8-40a3-888c-6db039b0ac29",
-        "9b3c02ca-6dfb-4a5f-92e1-26de7e865f79"
+        "1331b973-4f30-4f21-9942-072146e1713a"
       ],
       "tags": [
-        "Conference in English",
-        "Women in Tech"
       ]
     },
     {
-      "title": "Bias in the Machine: Can AI Ever Be Fair?",
-      "uuid": "9aef74ad-140d-46d7-afe8-0081c521b778",
-      "description": "As AI systems become increasingly embedded in critical decision-making processes, concerns about fairness and bias have taken center stage. This workshop explores how biases can emerge and propagate throughout the machine learning development lifecycle, from data collection to model deployment, leading to real-world harms. We will begin by unpacking different definitions of fairness, highlighting the complexities of translating social definitions into mathematical formulations. Through hands-on exercises inspired by real-world applications, participants will grapple with the challenges of defining fairness in binary decision-making scenarios. These exercises will illustrate the socio-technical nature of fairness, emphasizing that technical interventions alone cannot resolve systemic biases. Furthermore, we will examine how bias is embedded in the ML pipeline, affecting outcomes in subtle yet impactful ways. Expanding beyond traditional fairness metrics, we will also explore generative AI’s unique fairness challenges, from representation biases to content generation disparities. By the end of this workshop, participants will gain a deeper understanding of fairness as a multidimensional problem and leave with practical insights into developing more responsible AI systems.",
-      "shortDescription": "This workshop explores how biases can emerge and propagate throughout the machine learning development lifecycle, from data collection to model deployment, leading to real-world harms.",
+      "title": "Perfetto on a Budget: Optimizing Android Performance on Low-End Hardware",
+      "uuid": "183e7f47-5a72-4cc4-b90f-89c2bb779c94",
+      "description": "Low-end devices often present the toughest performance challenges, where every CPU cycle and megabyte of memory counts. When conventional profiling falls short, Perfetto offers deep system visibility required to diagnose complex bottlenecks, excessive memory pressure, or unexpected I/O contention",
+      "shortDescription": "Perfetto helps diagnose performance problems on low-end devices when normal profiling fails.",
       "speakerUUID": [
-        "4f0343aa-4129-48b9-bdec-42399d0cfb01",
-        "efb2a752-3172-4f30-a050-6cbe246ac8f8"
+        "3130c533-0ac5-432d-b30c-922afa98ba64"
       ],
       "tags": [
-        "Conference in English",
-        "IA",
-        "Biais"
       ]
     },
     {
-      "title": "Break",
-      "uuid": "27ff7729-5792-4efd-a813-321fd6523e63",
-      "description": "Enjoy a break and network with other attendees",
-      "shortDescription": "Enjoy a break and network with other attendees",
-      "speakerUUID": []
-    },
-    {
-      "title": "\"How Can I Break It?\" – A Workshop on Cybersecurity Defense",
-      "uuid": "51816b76-526d-4482-9779-552c5d5bb0db",
-      "description": "Sophisticated hackers are overrated—even you could break a web application. In this interactive workshop, we'll play devil's advocate and explore real-world cybersecurity scenarios where the attacker could be anyone: a criminal, an insider, or even an unintentional participant. Discover how proactivity plays a crucial role in maintaining strong cybersecurity defenses. Perfect for anyone wanting to understand the fundamentals of online security.",
-      "shortDescription": "Sophisticated hackers are overrated—even you could break a web application. In this interactive workshop, we'll play devil's advocate and explore real-world cybersecurity scenarios where the attacker could be anyone: a criminal, an insider, or even an unintentional participant.",
+      "title": "Smart Persona: Accelerating Consumer Insights with Synthetic Personas",
+      "uuid": "750ffce5-5eac-4df8-96c5-6dfc850fb158",
+      "description": "We aim to transform consumer research with AI-powered synthetic personas! Replace expensive research interviews with realistic digital consumers who provide instant, consistent insights 24/7. See how multi-node AI architecture achieves 90%+ accuracy in simulating real consumer behavior.",
+      "shortDescription": "AI-powered synthetic personas replace costly interviews by simulating real consumer insights with 90%+ accuracy.",
       "speakerUUID": [
-        "1e0f4d60-7214-4a1a-bd75-ed5c7abda233",
-        "f95f0ba1-12aa-4e58-a8c8-0a8d56951054"
+        "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
       ],
       "tags": [
-        "Conference in English",
-        "Cybersecurity"
+      ]
+    },
+    {
+      "title": "Career Coaching 1:1",
+      "uuid": "ba42d1ef-7f39-4de7-aa7a-33ddc80c903d",
+      "description": "Kickstart Your Tech Career: Get 1:1 mentorship from a seasoned pro. Whether you’re a student or an experienced developer, get personalized guidance in cloud, AI, data, security, and consulting to fast-track your professional journey. RSVP @ https://forms.gle/h1WUsausyuwRCT8r8",
+      "shortDescription": "Get 1:1 tech mentorship for fast-tracked career growth in cloud, AI, data, and security.",
+      "speakerUUID": [
+        "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "85a9290e-5306-4887-9b7f-9234361f8b47",
+        "11bc74f2-75c1-4d59-a347-16ced19db81f"
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "title": "Live Model Fine-Tuning: Customizing Gemma 3 270M in Under 40 Minutes",
+      "uuid": "71f0abc9-de35-46dc-a93a-ca8420dd8213",
+      "description": "Witness the power of accessible AI as we fine-tune Google's new Gemma 3 270M model live on stage in under 40 minutes. This demo focuses on post-training customization, showcasing how a powerful pre-trained model can be rapidly adapted for a specialized task. To achieve this within the time limit, we will leverage the Unsloth library's remarkable speed and efficiency for Parameter-Efficient Fine-Tuning (PEFT) with LoRA, all within a standard Google Colab environment. This is a practical, step-by-step demonstration with no slides—just code and results. RSVP @ https://forms.gle/QyH9v2KXw9AL7cCE8",
+      "shortDescription": "See a live demo fine-tuning Google’s Gemma 3 270M AI model for a custom task in under 40 minutes—just code, no slides—using Unsloth and LoRA in Google Colab.",
+      "speakerUUID": [
+        "d86fde6f-7994-4fe5-821b-9e8b622f90c8"
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "title": "Supercharging Flutter Apps with AI: Automating Workflows with n8n and Gemini",
+      "uuid": "82294d89-8826-45aa-a965-4eafc71c5ec7",
+      "description": "Building modern apps isn’t just about beautiful UIs — it’s about making them smarter and more automated. Thanks to AI (Gemini) and workflow automation (n8n), Flutter developers can now add intelligence and real-time automation to their apps without having to reinvent the wheel. RSVP @ https://forms.gle/DLkWST7CGCV9gwcB9",
+      "shortDescription": "Flutter devs can now use AI (Gemini) and n8n to make apps smarter and automate tasks easily—no need to build everything from scratch.",
+      "speakerUUID": [
+        "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
+      ],
+      "tags": [
+      ]
+    },
+    {
+      "title": "Build AI for the Real World with Gemma",
+      "uuid": "0b5a7e21-636b-41b1-b7a5-56b12309f56a",
+      "description": "Unlock Google's most powerful open source AI! In this workshop, you'll get hands-on with the Gemma family of models to build a real-world application, learning how to run powerful AI on your own laptop. RSVP @ https://forms.gle/c4Vz5rNfhNtMuB2D9",
+      "shortDescription": "Hands-on workshop: Build real apps with Google’s Gemma AI models on your own laptop.",
+      "speakerUUID": [
+        "bce0f861-ab51-4d08-8560-c1a942f11ced"
+      ],
+      "tags": [
       ]
     }
   ]

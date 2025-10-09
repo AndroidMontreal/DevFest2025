@@ -1,310 +1,260 @@
 {
-  "title": "Séances",
-  "description": "Séances | WTM Montreal 2025",
+  "title": "Sessions",
+  "description": "Sessions du DevFest Montréal 2025",
   "sessions": [
     {
-      "title": "Ouverture des portes (veuillez apporter votre pièce d'identité) et déjeuner.",
+      "title": "Ouverture des portes (veuillez apporter votre pièce d'identité) et petit-déjeuner",
       "uuid": "246a17da-adf9-4d8e-9c50-ef84bdf68c55",
-      "description": "Profitez du petit-déjeuner et réseautez avec les autres participant·e·s",
-      "speakerUUID": []
+      "description": "Profitez du petit-déjeuner et réseautez avec les autres participants",
+      "speakerUUID": [],
+      "isSpecialEvent": true
     },
     {
-      "title": "10 ans de Women Techmakers Montréal - Quelles sont les prochaines étapes ?",
+      "title": "Keynote",
       "uuid": "4d0cb762-4de4-43cf-b4ea-f02bcfa5b559",
-      "description": "",
-      "speakerUUID": []
+      "description": "Message de bienvenue et introduction à l'événement",
+      "speakerUUID": [
+        "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+      ],
+      "isSpecialEvent": true
     },
     {
-      "title": "Tout se passe juste à côté !",
+      "title": "Conférences, ateliers et démos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "d0c327de-afcc-41a4-a161-a82d0387ec86",
       "description": "Rejoignez-nous dans l'autre salle pour des conférences captivantes et des discussions inspirantes !",
       "speakerUUID": []
     },
     {
+      "title": "Démos VIP (Places limitées)",
+      "uuid": "468a0ecd-2ad1-4b52-8778-a5c0392b7808",
+      "description": "Voyez les choses en action lors de ces démos limitées (jusqu'à 10 personnes) dans l'une de nos salles de sous-commission",
+      "speakerUUID": []
+    },
+    {
+      "title": "Coaching de carrière 1:1",
+      "uuid": "2ea23aa0-28a6-4401-844f-039b2d879df2",
+      "description": "Venez discuter pendant 15-20 minutes avec un professionnel expérimenté et libérez votre plein potentiel !",
+      "speakerUUID": []
+    },
+    {
       "title": "Dîner",
       "uuid": "27ff7729-5792-4efd-a813-321fd6523e63",
-      "description": "Dégustez un délicieux repas et réseautez avec les autres participant·e·s",
+      "description": "Profitez d'un délicieux dîner et réseautez avec les autres participants",
+      "speakerUUID": [],
+      "isSpecialEvent": true
+    },
+    {
+      "title": "Conférences, ateliers et démos (Cloud, IA, ML, Web, Android & Flutter...)",
+      "uuid": "1d568a65-80e4-4531-a2f4-23ca2cb28986",
+      "description": "Profitez d'un délicieux dîner et réseautez avec les autres participants",
       "speakerUUID": []
     },
     {
       "title": "Mot de clôture",
       "uuid": "949819b7-15db-40ce-9cb8-abbcf5d44d90",
-      "description": "Prix de présence et remarques de clôture",
-      "speakerUUID": []
-    },
-    {
-      "title": "Allez à votre session",
-      "uuid": "6d6b3082-95a7-4c60-adf7-bb1939ca2acc",
-      "description": "",
-      "speakerUUID": []
-    },
-    {
-      "title": "Déplacez-vous vers la salle principale",
-      "uuid": "3c50c7e7-56af-4ab6-956d-9e506975ac36",
-      "description": "",
-      "speakerUUID": []
-    },
-    {
-      "title": "Réseautage",
-      "uuid": "9e045c45-2933-48cb-8e04-9032221c7723",
-      "description": "Collaborez et élargissez votre réseau! Rencontrez les conférencières, échangez des idées et explorez de nouvelles opportunités dans une ambiance détendue.",
-      "speakerUUID": []
-    },
-    {
-      "title": "Pause",
-      "uuid": "99d7a8a1-f36e-491e-a9dc-08f7331c0f7d",
-      "description": "",
-      "speakerUUID": []
-    },
-    {
-      "title": "Concevoir pour les créateur·trice·s : Stratégies UX pour les logiciels complexes",
-      "uuid": "a1b2c3d4-e5f6-7890-1abc-2def3ghi4jkl",
-      "description": "Les outils de création, comme les moteurs de jeux et les logiciels professionnels, sont pour la plupart conçus pour les utilisateur·rice·s intensif·ve·s qui ont besoin de flexibilité et de contrôle. Trop souvent, ces outils supposent que complexité et difficulté vont de pair, l'expérience utilisateur (UX) étant fréquemment reléguée au second plan. Cela se traduit par des courbes d'apprentissage abruptes, des interfaces encombrées et des flux de travail inefficaces.\n\nDans cet exposé, j'explorerai comment les stratégies UX peuvent redéfinir ce qui est possible dans les logiciels de création en les rendant plus intuitifs sans toutefois en sacrifier la puissance. Nous aborderons des concepts clés tels que la définition des profils d'utilisateur·rice·s, la priorisation des flux de travail et l'introduction de la complexité uniquement lorsque cela est nécessaire, permettant ainsi à divers créateur·rice·s de tous niveaux de compétences techniques de participer, d'expérimenter et d'innover.",
-      "shortDescription": "Les outils de création, comme les moteurs de jeux et les logiciels professionnels, sont pour la plupart conçus pour les utilisateur·rice·s intensif·ve·s qui ont besoin de flexibilité et de contrôle. Trop souvent, ces outils supposent que complexité et difficulté vont de pair, l'expérience utilisateur (UX) étant fréquemment reléguée au second plan. Cela se traduit par des courbes d'apprentissage abruptes, des interfaces encombrées et des flux de travail inefficaces.",
+      "description": "Tirage au sort et remarques de clôture",
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
+      "isSpecialEvent": true
+    },
+    {
+      "title": "Construisez avec l'IA - Créez votre premier agent IA",
+      "uuid": "a1b2c3d4-e5f6-7890-1abc-2def3ghi4jkl",
+      "description": "Fatigué de la théorie des agents IA ? Prêt à construire quelque chose ? Dans cette session interactive, nous oublierons les diapositives et passerons directement au code. Ce n'est pas une conférence. C'est une rampe de lancement. Construisons. RSVP @ https://forms.gle/7dshs6GFnMQikSej7",
+      "shortDescription": "Une session approfondie et guidée où Kiruthika accompagne les participants dans un laboratoire pratique pour construire une solution complète d'agent IA à partir de zéro en utilisant la boîte à outils ADK de Google.",
+      "speakerUUID": [
+        "d111b534-6acd-4631-a6d6-f8aa190f4ff8"
+      ],
       "tags": [
-        "Conférence en anglais",
-        "UX",
-        "Design",
-        "Logiciels",
-        "Créativité"
+        "AI Agents",
+        "AI",
+        "ADK Toolkit"
       ]
     },
     {
-      "title": "L'IA rencontre le développement web : créez votre portfolio en 30 minutes avec Cursor",
-      "uuid": "b2c3d4e5-f6g7-8901-2bcd-3efg4hij5klm",
-      "description": "Si vous avez déjà utilisé des outils comme GitHub Copilot ou ChatGPT, vous êtes déjà familier·ère·s avec les possibilités offertes par l'IA pour la programmation. Toutefois Cursor permet d'aller encore plus loin, facilitant la création de ce qu'on souhaite réaliser, rapidement et de façon efficiente.\n\nDans cet atelier, je vais vous présenter Cursor et vous démontrer la facilité avec laquelle vous pouvez l'utiliser pour donner vie à vos projets. Que ce soit pour apprendre une nouvelle technologie ou pour créer votre portfolio, la programmation assistée par Cursor permet non seulement de simplifier l'écriture du code, mais en faciliter également l'apprentissage par des explications données en temps réel. Joignez-vous à moi pour apprendre comment vous pourrez bâtir votre portfolio en 30 minutes seulement, et découvrir comment l'IA peut ouvrir des nouvelles possibilités durant votre cheminement en programmation.",
-      "shortDescription": "Si vous avez déjà utilisé des outils comme GitHub Copilot ou ChatGPT, vous êtes déjà familier·ère·s avec les possibilités offertes par l'IA pour la programmation. Toutefois Cursor permet d'aller encore plus loin, facilitant la création de ce qu'on souhaite réaliser, rapidement et de façon efficiente.",
+      "title": "Atelier de cinéma IA : créez votre premier film avec Gemini et Veo",
+      "uuid": "0eaf3eb4-4ee1-44fc-afb3-b3a5733a6db0",
+      "description": "Rejoignez le cinéaste et expert développeur Google en IA, Kevin Blanco, pour créer un court métrage complet en utilisant les outils d'IA de Google. Apprenez des techniques de narration professionnelles tout en construisant des scènes avec Gemini et Veo. RSVP @ https://forms.gle/62tF8rk5navH8JM5A",
+      "shortDescription": "Kevin Blanco créera un court métrage complet en utilisant les outils d'IA de Google. Apprenez des techniques de narration professionnelles tout en construisant des scènes avec Gemini et Veo.",
       "speakerUUID": [
-        "1a2b3c4d-5e6f-7890-abcd-ef1234567890"
+        "8a5c02f9-0df6-4f1f-8c00-8a4d1ec559f3"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "IA",
-        "Développement Web",
-        "Codage",
-        "Portfolio"
-      ]
+      "tags": []
     },
     {
-      "title": "Humaniser l'IA : donner du pouvoir à l'utilisateur grâce à la transparence du design",
-      "uuid": "c3d4e5f6-g7h8-9012-3cde-4fgh5ijk6lmn",
-      "description": "Découvrez les 5 piliers de la conception de l'IA, eux-mêmes basés sur les principes de conception de produits pour les soins de santé. Ensemble nous allons examiner comment créer une expérience utilisateur qui soit à la fois personnalisée, accessible et fiable, permettant de rejoindre une diversité d'individus, tout en favorisant l'inclusivité et la transparence. Que vous soyez novice ou expert·e, vous sortirez de cette conférence avec des outils qui vous aideront à développer des stratégies afin d'humaniser l'IA et qui auront un impact positif sur l'avenir du design.\nLes points suivants seront abordés dans cet atelier qui est conçu à la fois pour inspirer et outiller :\nSimilitude entre la conception de l'IA et la conception de produits pour les soins de santé... Cas concrets, comme l'intégration de l'IA dans l'application virtuelle d'une clinique de fertilité...",
-      "shortDescription": "Découvrez les 5 piliers de la conception de l'IA, eux-mêmes basés sur les principes de conception de produits pour les soins de santé. Ensemble nous allons examiner comment créer une expérience utilisateur qui soit à la fois personnalisée, accessible et fiable, permettant de rejoindre une diversité d'individus, tout en favorisant l'inclusivité et la transparence.",
+      "title": "Atelier Gemini CLI avec Firebase Studio",
+      "uuid": "5118f1ca-242f-4a7b-b2d8-ec9aec84ea4f",
+      "description": "Libérez l'IA dans votre flux de travail ! Dans cet atelier pratique, vous utiliserez la CLI Gemini dans Firebase Studio pour créer rapidement une application, de la génération du code de base au déploiement sur Google Cloud. RSVP @ https://forms.gle/3d1ULFpsxUnzMf5s6",
+      "shortDescription": "Vous utiliserez Gemini dans Firebase Studio pour créer rapidement une application.",
       "speakerUUID": [
-        "2e3f4g5h-6i7j-8k9l-mnop-qrstuvwxyz123"
+        "a547eadd-620e-4dbb-b40c-88bfd3c52555"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "IA",
-        "UX",
-        "Design",
-        "Transparence"
-      ]
+      "tags": []
     },
     {
-      "title": "Développer un agent d'IA en 10 minutes grâce au framework Letta",
-      "uuid": "d4e5f6g7-h8i9-0jkl-mnop-qrstu1234567",
-      "description": "Letta est un cadriciel (framework) qui grâce à son architecture axée sur la mémoire (MDC) et son environnement (ADE) visuel, facilite le développement d'agents IA. Durant cet atelier vous pourrez découvrir quelles fonctionnalités en font sa particularité, et vous assisterez en direct à la création d'un agent IA.",
-      "shortDescription": "Letta est un cadriciel (framework) qui grâce à son architecture axée sur la mémoire (MDC) et son environnement (ADE) visuel, facilite le développement d'agents IA.",
+      "title": "Le miroir numérique : une plongée dans l'IA, l'éthique et la responsabilité créative",
+      "uuid": "9617acf7-cd07-4f55-9f9b-5cf2efaa2b14",
+      "description": "À l'ère de l'IA générative puissante, que signifie être un créateur ? Cet atelier va au-delà du battage médiatique pour explorer les implications éthiques d'outils comme VEO, Imagen et Gemini de Google. Vous participerez à un défi de conception pratique, en utilisant ces plateformes pour prototyper rapidement des personnages et des environnements, mais l'accent sera mis sur la réflexion critique. Nous discuterons de l'approvisionnement responsable, du droit d'auteur, des biais dans les ensembles de données et de l'avenir de la créativité humaine.",
+      "shortDescription": "Un atelier pratique sur l'éthique de l'IA utilisant VEO, Imagen et Gemini de Google pour concevoir et réfléchir à la créativité et à la responsabilité.",
       "speakerUUID": [
-        "3h4i5j6k-7l8m-9n0o-pqrs-tuvwxyz123abc"
+        "85a9290e-5306-4887-9b7f-9234361f8b47"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "IA",
-        "Apprentissage Machine",
-        "Framework",
-        "Démo"
-      ]
+      "tags": []
     },
     {
-      "title": "L'évolution de l'expérience utilisateur (UX) à travers l'Intelligence artificielle: redefinir le design et les interactions avec l'usager",
-      "uuid": "e5f6g7h8-i9j0-klmn-opqr-stuv1234wxyz",
-      "description": "L’IA est en train de transformer la conception de l'expérience utilisateur (UX), en permettant une plus grande personnalisation, une meilleure prévisibilité des comportements et une plus grande capacité d'adaptation. Mais cette capacité accrue vient avec son lot de responsabilités : comment s'assurer que l'IA offre une meilleure expérience sans faire de compromis sur le plan éthique? Durant cet atelier nous allons examiner quelles fonctionnalités de l’IA influencent les tendances en UX, telles que le design génératif, la recherche sur les utilisateur·rice·s, l'automatisation de tâches répétitives lors du prototypage, et la réduction des biais. Nous allons explorer comment les outils offerts par l'IA transforment les patrons de conception du UX, aident à repenser l'accessibilité, et poussent les designers à travailler en symbiose avec celle-ci. À la fin de la conférence, les participant·e·s auront une meilleure idée des possibilités offertes par l'IA, seront mieux outillé·e·s pour l’intégrer de façon éthique, et réaliseront les opportunités de carrières d'avenir.",
-      "shortDescription": "L’IA est en train de transformer la conception de l'expérience utilisateur (UX), en permettant une plus grande personnalisation, une meilleure prévisibilité des comportements et une plus grande capacité d'adaptation. Mais cette capacité accrue vient avec son lot de responsabilités : comment s'assurer que l'IA offre une meilleure expérience sans faire de compromis sur le plan éthique?",
+      "title": "Du code à l'entreprise : une introduction à Google Agentspace et ADK",
+      "uuid": "14ce2d86-d3fc-472e-95dd-013609bea9e7",
+      "description": "Du code à l'entreprise : construisez un agent IA simple en direct en utilisant l'ADK et profitez pleinement de ses capacités dans Google Agentspace. Nous vous montrerons comment briser les silos de données, vous connecter à diverses sources et passer d'un seul agent à une solution complète pour débloquer une productivité réelle alimentée par l'IA.",
+      "shortDescription": "Construisez un agent IA en direct avec Google Agentspace et ADK, en connectant des sources de données pour augmenter la productivité de l'entreprise.",
       "speakerUUID": [
-        "4k5l6m7n-8o9p-0qrs-tuvw-xyz123abc456"
+        "55bd36ad-233a-4742-bd6c-7677e986fb5c",
+        "2a9739f3-e2ba-4c91-8dfc-ca7c1650d477"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "IA",
-        "UX",
-        "Design",
-        "Éthique"
-      ]
+      "tags": []
     },
     {
-      "title": "Repenser le cinéma : un festival de films mêlant technologie et culture s'invite à Montréal",
-      "uuid": "f6g7h8i9-j0k1-lmno-pqrs-tuvw1234xyz5",
-      "description": "Le mariage entre la technologie et le cinéma a ouvert des possibilités jusqu’ici insoupçonnées, de la création narrative pilotée par l’IA aux modèles de financement décentralisés du Web3. En tant que fondatrice de Las Flores, un festival de films Web3, j’ai dû surmonter plusieurs obstacles de nature culturelle, sexiste et financière pour parvenir à donner vie à cet événement hors du commun à Montréal.\nMon exposé portera sur : \nComment surmonter l’adversité : mon parcours en tant que femme mexicaine avant-gardiste dans une industrie essentiellement masculine.\nRedéfinir le cinéma : comment le Web3 et l’IA transforment la création, le financement et la distribution de films.\nCréer des initiatives technologiques fondées sur des principes d’inclusivité, d’accessibilité et de durabilité : enseignements tirés du développement d’un programme de financement de projets de films Web3-IA.\nDonner du pouvoir aux femmes dans la technologie : leçons sur la résilience, le leadership et la création d’impact dans les industries technologiques et créatives.\nEn redéfinissant ce qui est possible, Las Flores est devenu un catalyseur de collaboration, d’innovation et de diversité dans les arts cinématographiques.",
-      "shortDescription": "Le mariage entre la technologie et le cinéma a ouvert des possibilités jusqu’ici insoupçonnées, de la création narrative pilotée par l’IA aux modèles de financement décentralisés du Web3. En tant que fondatrice de Las Flores, un festival de films Web3, j’ai dû surmonter plusieurs obstacles de nature culturelle, sexiste et financière pour parvenir à donner vie à cet événement hors du commun à Montréal.",
+      "title": "Au-delà des projecteurs : construire des agents de données et Web au Cirque du Soleil",
+      "uuid": "0e0843fa-103a-4f37-96eb-6c3a3251f57e",
+      "description": "Le Cirque du Soleil est connu dans le monde entier pour ses spectacles, mais en coulisses, nous réinventons la façon dont les équipes et le public interagissent avec les données. Dans cette session, nous partagerons comment nous avons construit deux agents prêts pour la production, un pour un usage interne, un pour notre site Web, en utilisant le kit de développement d'agents et le moteur d'agents de Google.",
+      "shortDescription": "Le Cirque du Soleil a construit deux agents de données — un pour un usage interne, un pour son site Web — en utilisant le kit de développement d'agents et le moteur d'agents de Google pour améliorer l'interaction des équipes et du public avec les données.",
       "speakerUUID": [
-        "5m6n7o8p-9q0r-stuv-wxyz-123abc456def"
+        "c434ed68-b98b-476c-9258-73f410797337",
+        "6e699ed5-2bca-431c-919d-b26c17d14f46",
+        "2ad81bc9-aceb-4ce2-b1c6-71a250bc6d36",
+        "7a98ac81-6b7d-483a-aa57-5de5f8447c75"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "Web3",
-        "IA",
-        "Cinéma",
-        "Diversité"
-      ]
+      "tags": []
     },
     {
-      "title": "L'Art de Jongler : Comment naviguer les exigences de la vie en tant que femmes",
-      "uuid": "g7h8i9j0-k1l2-mnop-qrst-uvw123xyz456",
-      "description": "Cette table ronde explore les multiples facettes de la vie des femmes d'aujourd'hui, en se penchant sur l'équilibre délicat entre carrière, famille, aspirations personnelles et bien-être. Joignez-vous à nous pour explorer les défis et les réussites que rencontrent les femmes alors qu'elles naviguent dans les exigences en constante évolution de la vie moderne. Nos panélistes partageront leurs expériences personnelles, leurs idées et leurs stratégies pour prospérer dans un monde qui s'attend souvent à ce que les femmes soient tout pour tout le monde. Il s'agit d'une conversation pour les femmes qui recherchent de l'inspiration, du soutien et des conseils pratiques sur la façon de mener une vie épanouie et équilibrée.",
-      "shortDescription": "Cette table ronde explore les multiples facettes de la vie des femmes d'aujourd'hui, en se penchant sur l'équilibre délicat entre carrière, famille, aspirations personnelles et bien-être.",
+      "title": "L'IA peut-elle faire de la rétro-ingénierie ?",
+      "uuid": "33a3d979-100f-4f55-b516-f402a836929d",
+      "description": "Cette conférence explore le domaine difficile de la rétro-ingénierie, le processus de compréhension de ce que fait un code mystérieux, complexe et non commenté. Tâche traditionnellement difficile et à forte intensité humaine, la conférence remet en question la promesse émergente de l'IA d'automatiser et de surpasser les ingénieurs humains dans ce domaine.",
+      "shortDescription": "Cette conférence se demande si l'IA peut automatiser la rétro-ingénierie de code complexe et non commenté, une tâche habituellement difficile et effectuée par des humains.",
       "speakerUUID": [
-        "6n7o8p9q-0rst-uvw1-2xyz-3abc456def78",
-        "abec89d6-764e-4af5-9457-8d10bb68c79c",
-        "7b669b1f-5498-46ed-9e9f-ab4c71223227"
+        "148610e9-05d7-4058-8dcf-691d753342c3"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "Femmes",
-        "Leadership",
-        "Équilibre"
-      ]
+      "tags": []
     },
     {
-      "title": "Mythes et réalités entourant le nomadisme numérique : au-delà de la photo Instagram parfaite",
-      "uuid": "h8i9j0k1-l2m3-nopq-rstu-vwxyz1234567",
-      "description": "Dans cette conférence, je vous dévoilerai ce que signifie réellement d'être une nomade numérique, au-delà des photos Instagram de rêve prises au bord d’une piscine ou sur une plage tropicale. Pour certaines personnes, les plus grandes difficultés sont de passer de longues périodes loin de leurs proches, ou encore de devoir constamment s'adapter à des cultures différentes. Mais pour moi le principal défi est de nature beaucoup plus simple : trouver les endroits où je peux laver mes vêtements, considérant que je voyage très légèrement.\n\nJe vous partagerai des informations sur les destinations de voyage les plus sécuritaires, ce que les nomades numériques emportent dans leurs bagages, des recommandations et des conseils si vous travaillez dans le secteur de la technologie, et le véritable coût de la vie sur la route. En passant ce n'est pas aussi cher qu'on pourrait le penser. Être une nomade numérique n'est pas pour tout le monde, et c'est probablement un métier qu'on fait à court terme. En revanche, c'est un style de vie unique qui vous permet d'explorer des endroits magnifiques, de rencontrer des gens fascinants et, surtout, de vous découvrir vous-même.",
-      "shortDescription": "Dans cette conférence, je vous dévoilerai ce que signifie réellement d'être une nomade numérique, au-delà des photos Instagram de rêve prises au bord d’une piscine ou sur une plage tropicale. Pour certaines personnes, les plus grandes difficultés sont de passer de longues périodes loin de leurs proches, ou encore de devoir constamment s'adapter à des cultures différentes. Mais pour moi le principal défi est de nature beaucoup plus simple : trouver les endroits où je peux laver mes vêtements, considérant que je voyage très légèrement.",
+      "title": "Construire la chaîne de confiance : un plan directeur Google ADK pour un agent juridique IA ancré",
+      "uuid": "f86aabac-12d6-4181-a54c-5dca0ee33430",
+      "description": "Transformez une IA peu fiable en assistants juridiques dignes de confiance. Apprenez à construire une « chaîne de confiance » en utilisant Google ADK + Vertex AI Search + Cloud Run + Flutter pour éliminer les hallucinations et prouver chaque affirmation de l'IA avec des sources vérifiables.",
+      "shortDescription": "Rendez les assistants juridiques IA fiables et vérifiables en utilisant les outils Google.",
       "speakerUUID": [
-        "7o8p9q0r-stuv-wxyz-1234-5abc6def7890"
+        "b177a43f-039a-4a41-a285-e3fa82bb0d71"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "Nomade Numérique",
-        "Tech",
-        "Style de Vie",
-        "Voyage"
-      ]
+      "tags": []
     },
     {
-      "title": "Apprendre au fil de l’expérience",
-      "uuid": "i9j0k1l2-m3n4-opqr-stuv-wxyz12345678",
-      "description": "Mon hypothèse : Vous pouvez commencer, même avec 0 % de qualification, et apprendre par l’expérience: un encouragement à se lancer, peu importe votre niveau de compétence au départ. Pour entreprendre, pour démarrer une entreprise collective ou un OBNL, pas le choix d’avoir ce trait de caractère!\nComment «survivre» à l’apprentissage par expérience? \n- Gérer son stress (Les facteurs du stress) Cette méthode peut générer plus de stress, mais des outils aident à le gérer \n- Gérer chaque situation à la fois : Trouver de l’aide dès qu’un blocage survient \n- Abandonner le culte de la perfection : accepter que «assez bon» est suffisant et que chaque itération améliore les résultats \n- Redéfinir la perfection: créer / inventer un environnement de travail aligné avec vos valeurs et votre bien-être. \nConclusion : C’est votre tour! \n- Appel à l’action : «Commencez là où vous êtes, avec ce que vous avez.»",
-      "shortDescription": "Mon hypothèse : Vous pouvez commencer, même avec 0 % de qualification, et apprendre par l’expérience: un encouragement à se lancer, peu importe votre niveau de compétence au départ. Pour entreprendre, pour démarrer une entreprise collective ou un OBNL, pas le choix d’avoir ce trait de caractère!",
+      "title": "Gemini avec ServiceNow : un exemple d'utilisation de LLM dans les flux de travail d'entreprise",
+      "uuid": "c4c44c28-b703-4aae-b4c4-3f39efc6b210",
+      "description": "La conversation autour de l'IA et des grands modèles de langage (LLM) se concentre souvent sur les applications grand public, mais leur véritable pouvoir réside dans la transformation des opérations d'entreprise. Dans cette session, nous dépasserons la théorie et nous plongerons dans des cas d'utilisation pratiques et concrets de l'IA et des LLM au sein de la plateforme ServiceNow.",
+      "shortDescription": "Rendez les assistants juridiques IA fiables et vérifiables en utilisant les outils Google.",
       "speakerUUID": [
-        "8p9q0rst-uvwx-yz12-3456-7abc8def9012"
+        "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
-      "tags": [
-        "Conférence en français",
-        "Apprentissage",
-        "Expérience",
-        "Entrepreneuriat",
-        "Compétences Douces"
-      ]
+      "tags": []
     },
     {
-      "title": "Redéfinir la technologie à travers les communautés de femmes en tech",
-      "uuid": "j0k1l2m3-n4o5-pqrs-tuvw-xyz123456789a",
-      "description": "Dans ce monde où la technologie est en constante évolution, l’inclusivité et l’innovation vont de pair. Je vous invite à plonger dans un parcours profondément personnel qui a débuté par la création – en partie par hasard– d’une communauté de femmes œuvrant en tech, et qui a eu un impact important sur les individus, les équipes et la culture du travail.\n\nÀ travers des réflexions personnelles, des étapes concrètes et des leçons apprises, vous découvrirez comment créer un environnement de travail où les femmes s’épanouissent, brisent les barrières et redéfinissent ce qui est possible dans l’industrie. Que vous soyez une cadre cherchant à instaurer des changements ou simplement un·e allié·e curieux·se de savoir comment soutenir vos collègues, cette session vous inspirera à passer à l’action et à contribuer à un avenir où chacun·e a une voix.",
-      "shortDescription": "Dans ce monde où la technologie est en constante évolution, l’inclusivité et l’innovation vont de pair. Je vous invite à plonger dans un parcours profondément personnel qui a débuté par la création – en partie par hasard– d’une communauté de femmes œuvrant en tech, et qui a eu un impact important sur les individus, les équipes et la culture du travail.",
-      "speakerUUID": [
-        "9q0rstuv-wxyz-1234-5678-9abc0def1234"
-      ],
-      "tags": [
-        "Conférence en anglais",
-        "Femmes en Tech",
-        "Inclusivité",
-        "Communauté",
-        "Innovation"
-      ]
+      "title": "Conférence #6",
+      "uuid": "1fa20cab-ba76-4112-9e2e-a0540d5f6c1e",
+      "description": "Conférence #6",
+      "shortDescription": "Conférence #6",
+      "speakerUUID": [],
+      "tags": []
     },
     {
-      "title": "Développez votre première application mobile sans coder : atelier pratique sur FlutterFlow",
-      "uuid": "4b587937-e8e4-48a7-8894-0e3b75887152",
-      "description": "Cet atelier interactif est parfait pour les débutant·e·s qui souhaitent créer leur première application mobile sans écrire une seule ligne de code. Pendant cette session, nous utiliserons FlutterFlow, une plateforme intuitive sans code, pour concevoir et développer une application simple qui organise et affiche des données. Vous suivrez chaque étape avec des visuels et des instructions pratiques pour vous assurer de construire votre propre application d’ici la fin de l’atelier. Aucune expérience en programmation n’est nécessaire — il suffit d’apporter votre créativité ! À la fin de cet atelier, vous aurez non seulement une application fonctionnelle, mais aussi la confiance nécessaire pour continuer à créer et développer vos idées !",
-      "shortDescription": "Cet atelier interactif est parfait pour les débutant·e·s qui souhaitent créer leur première application mobile sans écrire une seule ligne de code",
-      "speakerUUID": [
-        "9b8f90fb-eeba-44a6-bceb-158cb03db360"
-      ],
-      "tags": [
-        "Conférence en anglais",
-        "Flutter"
-      ]
+      "title": "Conférence #1",
+      "uuid": "25547863-876f-4a20-9fb1-3df31b6be169",
+      "description": "Conférence #1",
+      "shortDescription": "Conférence #1",
+      "speakerUUID": [],
+      "tags": []
     },
     {
-      "title": "Jouez avec vos données au quotidien : Introduction à Looker Studio",
-      "uuid": "3bbe77cc-c1db-4827-9391-ffddf8e61c56",
-      "description": "Dans cet atelier pratique, nous rendrons la visualisation de données amusante et accessible. Vous apprendrez à utiliser Looker Studio pour créer un outil interactif simple à partir de données issues de la vie quotidienne. Aucun code requis — juste de la créativité ! À la fin de la session, vous repartirez avec un outil personnalisé et facile à comprendre, qui vous montrera comment appliquer des techniques de visualisation à votre quotidien. Que vous souhaitiez suivre vos habitudes, vos loisirs ou tout autre aspect de votre vie, cet atelier vous aidera à découvrir à quel point il est simple de donner vie aux données.",
-      "shortDescription": "Dans cet atelier pratique, nous rendrons la visualisation de données amusante et accessible. Vous apprendrez à utiliser Looker Studio pour créer un outil interactif simple à partir de données issues de la vie quotidienne.",
+      "title": "IA agentique pour la modernisation des inventaires existants : construire un schéma de données universel",
+      "uuid": "f4af3d18-5f08-44cf-b67e-4b688d7a28b8",
+      "description": "Débloquez une transformation numérique transparente avec notre schéma de données universel et notre agent de migration alimenté par l'IA, standardisez et automatisez l'intégration des actifs, en fournissant des analyses en temps réel et un déclassement rapide des systèmes existants, pérennisez vos opérations dès aujourd'hui !",
+      "shortDescription": "Le schéma de données universel et l'agent IA automatisent l'intégration des actifs et les analyses pour une transformation numérique rapide.",
       "speakerUUID": [
-        "9b8f90fb-eeba-44a6-bceb-158cb03db360"
+        "6679e097-7eaf-443c-bc37-5348284dc517",
+        "09770b99-ff7e-430f-9d26-bb752753613e"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "Looker"
-      ]
+      "tags": []
     },
     {
-      "title": "Technovation dans la vie réelle : Des Premières Lignes de Code aux Réseaux Neuronaux, un Grand Départ",
-      "uuid": "04c00baf-3ecc-4088-9ef6-6d5f2d37721b",
-      "description": "Technovation Montréal est un organisme à but non lucratif qui vise à développer les compétences technologiques et entrepreneuriales chez les filles de 8 à 18 ans. Voulez-vous savoir pourquoi leur mission est si importante ? Joignez-vous à nous pour voir comment leurs initiatives redéfinissent ce qui est possible et l'avenir de la technologie avec une démonstration pratique",
-      "shortDescription": "Joignez-vous à nous pour voir comment leurs initiatives redéfinissent ce qui est possible et l'avenir de la technologie avec une démonstration pratique",
+      "title": "À l'intérieur des frameworks de développement mobile",
+      "uuid": "b5c2421b-e7b4-48f7-b0b1-befaf20c7d44",
+      "description": "React Native, Flutter, .NET — comment fonctionnent-ils en coulisses ? Explorez les principes fondamentaux et les architectures qui permettent à ces frameworks de transformer du code multiplateforme en applications iOS et Android natives. Découvrez la magie derrière des fonctionnalités comme le rechargement à chaud, le code push et Gemini Nano.",
+      "shortDescription": "Apprenez comment React Native, Flutter et .NET transforment une seule base de code en applications natives, et comment fonctionnent des fonctionnalités comme le rechargement à chaud.",
       "speakerUUID": [
-        "1c0913e2-9ba4-4f6c-a2f7-aee46a45fd3a",
-        "1ac67011-3367-40de-81bc-941f5d977a31"
+        "1331b973-4f30-4f21-9942-072146e1713a"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "Technovation",
-        "Redefining what is possible"
-      ]
+      "tags": []
     },
     {
-      "title": "Organisations qui supportent les Femmes à Montréal : bâtir des ponts, abattre les murs, ensemble.",
-      "uuid": "66704b84-8be8-434e-be68-ec0f809bd633",
-      "description": "Ce panel présente les principales organisations qui soutiennent les femmes dans l'industrie technologique de Montréal. Nous sommes unis par un objectif commun : veiller à ce que les femmes aient les connaissances et les ressources nécessaires pour s'épanouir et façonner leur avenir dans la technologie, au même titre que leurs homologues masculins. Montréal possède un écosystème dynamique d'organisations travaillant à la réalisation de cette vision, et ce panel célèbre cette diversité. Bien que chaque organisation conserve son identité et son approche uniques, nous reconnaissons le pouvoir de la collaboration. Ensemble, nous amplifions notre impact et envoyons un message clair : nous nous engageons à travailler ensemble pour accueillir et autonomiser davantage de femmes et d'autre minorités dans le secteur technologique.",
-      "shortDescription": "Ce panel présente les principales organisations qui soutiennent les femmes dans l'industrie technologique de Montréal.",
+      "title": "Perfetto à petit budget : optimiser les performances d'Android sur du matériel bas de gamme",
+      "uuid": "183e7f47-5a72-4cc4-b90f-89c2bb779c94",
+      "description": "Les appareils bas de gamme présentent souvent les défis de performance les plus difficiles, où chaque cycle de processeur et chaque mégaoctet de mémoire comptent. Lorsque le profilage conventionnel échoue, Perfetto offre une visibilité système approfondie requise pour diagnostiquer des goulots d'étranglement complexes, une pression mémoire excessive ou une contention d'E/S inattendue.",
+      "shortDescription": "Perfetto aide à diagnostiquer les problèmes de performance sur les appareils bas de gamme lorsque le profilage normal échoue.",
       "speakerUUID": [
-        "da5116af-0b5f-4de4-afcd-3f70fedfa829",
-        "afd2bfd5-b7bf-45b4-bf1d-6dc647c3950c",
-        "0679723c-eda7-41b1-b858-638285c6bf52",
-        "3f2218bf-e2d9-4058-a8f5-9dedb5ed7a40",
-        "8859f090-b7ea-442c-980d-e9873b27cad7",
-        "39ff19cf-09b8-40a3-888c-6db039b0ac29",
-        "9b3c02ca-6dfb-4a5f-92e1-26de7e865f79"
+        "3130c533-0ac5-432d-b30c-922afa98ba64"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "Women in Tech"
-      ]
+      "tags": []
     },
     {
-      "title": "Biais d'algorithme : peut-on un jour espérer une IA exempte de discrimination?",
-      "uuid": "9aef74ad-140d-46d7-afe8-0081c521b778",
-      "description": "Les systèmes d’IA étant de plus en plus intégrés dans les processus décisionnels critiques, les préoccupations concernant l’équité et les biais occupent une place grandissante. Cet atelier explore comment les biais peuvent émerger et se propager tout au long du cycle de développement de l’apprentissage automatique, de la collecte des données au déploiement des modèles, entraînant des impacts réels. Nous commencerons par décortiquer différentes définitions de l’équité, en soulignant la complexité de traduire des notions sociales en formulations mathématiques. Grâce à des exercices pratiques inspirés d’applications réelles, les participant·e·s seront confrontés aux défis que pose la définition de l’équité dans des scénarios de prise de décision binaire. Ces exercices illustreront la nature sociotechnique de l’équité, en insistant sur le fait que les interventions techniques seules ne peuvent pas résoudre les biais systémiques. De plus, nous examinerons comment les biais s’intègrent dans le pipeline d’apprentissage automatique, influençant les résultats de manière subtile mais significative. Au-delà des mesures traditionnelles d’équité, nous explorerons également les défis posés par l’IA générative, allant des biais de représentation aux disparités dans la génération de contenu. À la fin de cet atelier, les participant·e·s auront une compréhension approfondie de l’équité comme un problème multidimensionnel et repartiront avec des pistes concrètes pour développer des systèmes d’IA plus responsables.",
-      "shortDescription": "Cet atelier explore comment les biais peuvent émerger et se propager tout au long du cycle de développement de l’apprentissage automatique, de la collecte des données au déploiement des modèles, entraînant des impacts réels.",
+      "title": "Persona intelligent : accélérer les informations sur les consommateurs avec des personas synthétiques",
+      "uuid": "750ffce5-5eac-4df8-96c5-6dfc850fb158",
+      "description": "Nous visons à transformer la recherche sur les consommateurs avec des personas synthétiques alimentés par l'IA ! Remplacez les entretiens de recherche coûteux par des consommateurs numériques réalistes qui fournissent des informations instantanées et cohérentes 24h/24 et 7j/7. Découvrez comment l'architecture d'IA multi-nœuds atteint une précision de plus de 90 % dans la simulation du comportement réel des consommateurs.",
+      "shortDescription": "Les personas synthétiques alimentés par l'IA remplacent les entretiens coûteux en simulant des informations réelles sur les consommateurs avec une précision de plus de 90 %.",
       "speakerUUID": [
-        "4f0343aa-4129-48b9-bdec-42399d0cfb01",
-        "efb2a752-3172-4f30-a050-6cbe246ac8f8"
+        "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "IA",
-        "Biais"
-      ]
+      "tags": []
     },
     {
-      "title": "\"Comment puis-je le casser ?\" – Un atelier sur la défense en cybersécurité",
-      "uuid": "51816b76-526d-4482-9779-552c5d5bb0db",
-      "description": "Les pirates informatiques sophistiqués sont surfaits : même vous pourriez casser une application Web. Dans cet atelier interactif, nous jouerons l'avocat du diable et explorerons des scénarios de cybersécurité réels dans lesquels l'attaquant peut être n'importe qui : un criminel, un interne ou même un participant involontaire. Découvrez comment la proactivité joue un rôle crucial dans le maintien de solides défenses de cybersécurité. Parfait pour tous ceux qui souhaitent comprendre les principes fondamentaux de la sécurité en ligne.",
-      "shortDescription": "Les pirates informatiques sophistiqués sont surfaits : même vous pourriez casser une application Web. Dans cet atelier interactif, nous jouerons l'avocat du diable et explorerons des scénarios de cybersécurité réels.",
+      "title": "Coaching de carrière 1:1",
+      "uuid": "ba42d1ef-7f39-4de7-aa7a-33ddc80c903d",
+      "description": "Lancez votre carrière dans la technologie : obtenez un mentorat individuel d'un professionnel chevronné. Que vous soyez étudiant ou développeur expérimenté, obtenez des conseils personnalisés en cloud, IA, données, sécurité et conseil pour accélérer votre parcours professionnel. RSVP @ https://forms.gle/h1WUsausyuwRCT8r8",
+      "shortDescription": "Obtenez un mentorat technologique individuel pour une croissance de carrière accélérée dans le cloud, l'IA, les données et la sécurité.",
       "speakerUUID": [
-        "1e0f4d60-7214-4a1a-bd75-ed5c7abda233",
-        "f95f0ba1-12aa-4e58-a8c8-0a8d56951054"
+        "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "85a9290e-5306-4887-9b7f-9234361f8b47",
+        "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
-      "tags": [
-        "Conférence en anglais",
-        "Cybersécurité"
-      ]
+      "tags": []
+    },
+    {
+      "title": "Affinage de modèle en direct : personnalisation de Gemma 3 270M en moins de 40 minutes",
+      "uuid": "71f0abc9-de35-46dc-a93a-ca8420dd8213",
+      "description": "Soyez témoin de la puissance de l'IA accessible alors que nous affinons le nouveau modèle Gemma 3 270M de Google en direct sur scène en moins de 40 minutes. Cette démo se concentre sur la personnalisation post-formation, montrant comment un modèle pré-entraîné puissant peut être rapidement adapté à une tâche spécialisée. Pour y parvenir dans le temps imparti, nous tirerons parti de la vitesse et de l'efficacité remarquables de la bibliothèque Unsloth pour l'affinage efficace des paramètres (PEFT) avec LoRA, le tout dans un environnement Google Colab standard. Il s'agit d'une démonstration pratique, étape par étape, sans diapositives, uniquement du code et des résultats. RSVP @ https://forms.gle/QyH9v2KXw9AL7cCE8",
+      "shortDescription": "Regardez une démo en direct affinant le modèle Gemma 3 de Google pour une tâche personnalisée en moins de 40 minutes en utilisant Unsloth et Colab — uniquement du code, pas de diapositives.",
+      "speakerUUID": [
+        "d86fde6f-7994-4fe5-821b-9e8b622f90c8"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Suralimenter les applications Flutter avec l'IA : automatiser les flux de travail avec n8n et Gemini",
+      "uuid": "82294d89-8826-45aa-a965-4eafc71c5ec7",
+      "description": "Construire des applications modernes ne se limite pas à de belles interfaces utilisateur, il s'agit de les rendre plus intelligentes et plus automatisées. Grâce à l'IA (Gemini) et à l'automatisation des flux de travail (n8n), les développeurs Flutter peuvent désormais ajouter de l'intelligence et de l'automatisation en temps réel à leurs applications sans avoir à réinventer la roue. RSVP @ https://forms.gle/DLkWST7CGCV9gwcB9",
+      "shortDescription": "Les développeurs Flutter peuvent désormais utiliser l'IA (Gemini) et n8n pour rendre les applications plus intelligentes et automatiser facilement les tâches, sans avoir à tout créer à partir de zéro.",
+      "speakerUUID": [
+        "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Construisez une IA pour le monde réel avec Gemma",
+      "uuid": "0b5a7e21-636b-41b1-b7a5-56b12309f56a",
+      "description": "Débloquez l'IA open source la plus puissante de Google ! Dans cet atelier, vous vous familiariserez avec la famille de modèles Gemma pour créer une application du monde réel, en apprenant à exécuter une IA puissante sur votre propre ordinateur portable. RSVP @ https://forms.gle/c4Vz5rNfhNtMuB2D9",
+      "shortDescription": "Atelier pratique : créez de vraies applications avec les modèles d'IA Gemma de Google sur votre propre ordinateur portable.",
+      "speakerUUID": [
+        "bce0f861-ab51-4d08-8560-c1a942f11ced"
+      ],
+      "tags": []
     }
   ]
 }
+

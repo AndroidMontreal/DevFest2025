@@ -4,53 +4,42 @@ import { useTranslations } from 'next-intl';
 export const SessionInfo = ({ session, index }) => {
   // Get schedule data from translations
   const s = useTranslations('schedule');
-  const timeSlots = Array.isArray(s.raw('timeSlots')) ? s.raw('timeSlots') : [];
-  const rooms = Array.isArray(s.raw('rooms')) ? s.raw('rooms') : [];
+  const tracks = Array.isArray(s.raw('tracks')) ? s.raw('tracks') : [];
 
-  const timeSlot = timeSlots.find((ts) =>
-    ts.tracks.find((tracks) =>
-      tracks.sessions.some((s) => s.sessionUUID === session.uuid)
-    )
-  );
+  // Variables to hold the found room name and time string.
+  let roomName = null;
+  let timeString = null;
 
-  const room = rooms.find(
-    (r) =>
-      r.uuid ===
-      timeSlot?.tracks.find((track) =>
-        track.sessions.some((s) => s.sessionUUID === session.uuid)
-      ).roomUUID
-  );
-  /*Temporary comment*/
-  // If no timeSlot is found, return null or an error message
-  if (!timeSlot) {
-    return null;
+  // Loop through each track (e.g., "The Workshop Hub") in your schedule.
+  for (const track of tracks) {
+    // Inside each track, find the session that matches the current session's UUID.
+    const sessionInTrack = track.sessions.find(
+      (s) => s.sessionUUID === session.uuid
+    );
+
+    // If a match is found, store its room name and time, then stop looping.
+    if (sessionInTrack) {
+      roomName = track.name;
+      timeString = sessionInTrack.time;
+      break;
+    }
   }
 
-  const formattedStartTime = new Date(
-    `2025-04-05 ${timeSlot.startTime}`
-  ).toLocaleTimeString([], {
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false,
-  });
-
-  const formattedEndTime = new Date(
-    `2025-04-05 ${timeSlot.endTime}`
-  ).toLocaleTimeString([], {
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false,
-  });
+  // If the session UUID isn't found anywhere in the schedule, render nothing.
+  // This prevents errors if a session is defined but not yet scheduled.
+  if (!roomName) {
+    return null;
+  }
 
   return (
     <div key={session.uuid} id="sessionDetails" className="prose">
       <h3 className="text-[min(7vw,25px)] leading-[1.3] tracking-tight font-semibold text-[#2480F0] mt-6 mb-0">
         {session.title}
       </h3>
-      <div className="flex mb-6">
+      <div className="flex mb-2">
         {/*Temporary comment*/}
-        <p className="text-gray-600 mt-2 text-sm font-semibold ">
-          {room?.name} ({formattedStartTime} ~ {formattedEndTime})
+        <p className="text-gray-600 mt-2 mb-2 text-sm font-semibold ">
+          {roomName} ({timeString})
         </p>
       </div>
       <div className="prose lg:prose-base">
