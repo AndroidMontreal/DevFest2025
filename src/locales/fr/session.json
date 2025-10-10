@@ -34,7 +34,11 @@
       "title": "Coaching de carrière 1:1",
       "uuid": "2ea23aa0-28a6-4401-844f-039b2d879df2",
       "description": "Discutez pendant 15 à 20 minutes avec un professionnel chevronné et libérez votre plein potentiel !",
-      "speakerUUID": [],
+      "speakerUUID": [
+        "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "85a9290e-5306-4887-9b7f-9234361f8b47",
+        "11bc74f2-75c1-4d59-a347-16ced19db81f"
+      ],
       "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
       "rsvpButtonText": "S'inscrire ici"
     },
@@ -48,7 +52,7 @@
     {
       "title": "Conférences, ateliers et démos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "1d568a65-80e4-4531-a2f4-23ca2cb28986",
-      "description": "Profitez d'un délicieux déjeuner et réseautez avec les autres participants.",
+      "description": "Rejoignez-nous dans l'autre salle pour des conférences captivantes et des discussions inspirantes !",
       "speakerUUID": []
     },
     {

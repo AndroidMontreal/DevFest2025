@@ -39,7 +39,8 @@ const ScheduleItem = ({ item, isLast }) => {
           {!isLast && (
             <div className="absolute top-2 left-1/2 -translate-x-1/2 w-0.5 h-full bg-gray-200"></div>
           )}
-          <div className="absolute top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-gray-200 ring-4 ring-white z-10"></div>
+          <div
+            className="absolute top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-gray-200 ring-4 ring-white z-10"></div>
         </div>
         <div className="pb-12">
           <p className="block sm:hidden text-sm font-medium text-gray-500 mb-2">
@@ -72,10 +73,11 @@ const ScheduleItem = ({ item, isLast }) => {
         </p>
       </div>
       <div className="relative h-full">
-        {!isLast && (
-          <div className="absolute top-2 left-1/2 -translate-x-1/2 w-0.5 h-full bg-gray-200"></div>
-        )}
-        <div className="absolute top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-gray-200 ring-4 ring-white z-10"></div>
+
+        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-0.5 h-full bg-gray-200"></div>
+
+        <div
+          className="absolute top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-gray-200 ring-4 ring-white z-10"></div>
       </div>
       <div className="pb-12">
         <p className="block sm:hidden text-sm font-medium text-gray-500 mb-2">
@@ -108,7 +110,7 @@ const TrackSelector = ({ tracks, activeTrackName, setActiveTrackName }) => {
         const hasOverflow = el.scrollWidth > el.clientWidth;
         setShowLeftArrow(hasOverflow && el.scrollLeft > 0);
         setShowRightArrow(
-          hasOverflow && el.scrollLeft < el.scrollWidth - el.clientWidth - 1
+          hasOverflow && el.scrollLeft < el.scrollWidth - el.clientWidth - 1,
         );
       }
     };
@@ -218,18 +220,18 @@ export default function SchedulePage() {
   const speakersData = t.raw('speaker');
 
   const [activeTrackName, setActiveTrackName] = useState(
-    scheduleData.tracks[0].name
+    scheduleData.tracks[0].name,
   );
 
   const scheduleItems = useMemo(() => {
     const currentTrack = scheduleData.tracks.find(
-      (track) => track.name === activeTrackName
+      (track) => track.name === activeTrackName,
     );
     if (!currentTrack) return [];
 
     const sessionsMap = new Map(sessionsData.sessions.map((s) => [s.uuid, s]));
     const speakersMap = new Map(
-      speakersData.speakers.map((sp) => [sp.uuid, sp])
+      speakersData.speakers.map((sp) => [sp.uuid, sp]),
     );
 
     return currentTrack.sessions.map((scheduledSession) => {

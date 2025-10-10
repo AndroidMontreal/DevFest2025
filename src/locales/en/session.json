@@ -34,7 +34,11 @@
       "title": "Career Coaching 1:1",
       "uuid": "2ea23aa0-28a6-4401-844f-039b2d879df2",
       "description": "Get to chat for 15-20 mins with a seasoned professional and unlock your full potential!",
-      "speakerUUID": [],
+      "speakerUUID": [
+        "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "85a9290e-5306-4887-9b7f-9234361f8b47",
+        "11bc74f2-75c1-4d59-a347-16ced19db81f"
+      ],
       "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
       "rsvpButtonText": "RSVP Here"
     },
@@ -48,7 +52,7 @@
     {
       "title": "Talks, Workshops and Demos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "1d568a65-80e4-4531-a2f4-23ca2cb28986",
-      "description": "Enjoy a delicious lunch and network with other attendees",
+      "description": "Join us in the other room for captivating talks and inspiring discussions!",
       "speakerUUID": []
     },
     {
