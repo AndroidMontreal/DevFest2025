@@ -1,7 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import SpeakerInfo from '@/components/elements/SpeakerInfo';
 import { notFound } from 'next/navigation';
-import { locales } from '@/i18n';
 
 export default async function SpeakerPage({ params }) {
   const { lang, slug } = await params;
@@ -15,21 +14,17 @@ export default async function SpeakerPage({ params }) {
 
   // Get sessions data from translations
   const sessions = Array.isArray(s.raw('sessions')) ? s.raw('sessions') : [];
-  const speakerSessions = sessions.filter((session) =>
-    session.speakerUUID.includes(speaker?.uuid)
-  );
+  const speakerSessions = sessions.filter((session) => session.speakerUUID.includes(speaker?.uuid));
 
   if (!speaker && !speakerSessions) {
     notFound();
   }
 
-  return (
-    <SpeakerInfo
+  return (<SpeakerInfo
       speaker={speaker}
       speakerSessions={speakerSessions}
       locale={lang}
-    />
-  );
+    />);
 }
 
 export async function generateStaticParams({ params }) {

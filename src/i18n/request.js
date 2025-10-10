@@ -26,7 +26,7 @@ export async function loadTranslations(locale, namespaces) {
       messages[ns] = data;
     } catch (error) {
       throw new Error(
-        `Failed to load translations for locale "${locale}": ${error.message || String(error)}`
+        `Failed to load translations for locale "${locale}": ${error.message || String(error)}`,
       );
     }
   }
@@ -34,12 +34,15 @@ export async function loadTranslations(locale, namespaces) {
 }
 
 export default getRequestConfig(async ({ requestLocale }) => {
-  let locale = requestLocale;
-  if (!locales.includes(locale)) {
-    locale = defaultLocale; // Fallback to 'en' if invalid
+  let locale = await requestLocale;
+
+  if (!locale || !locales.includes(locale)) {
+    locale = defaultLocale;
   }
+
   try {
     const messages = await loadTranslations(locale, namespaces);
+
 
     return {
       locale,
@@ -50,10 +53,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       locales,
     };
   } catch (error) {
-    // This catches any error (string, object, etc.) and re-throws it
-    // as a proper Error instance, which fixes the build.
     throw new Error(
-      `Failed to load translations for locale "${locale}": ${error.message || String(error)}`
+      `Failed to load translations for locale "${locale}": ${error.message || String(error)}`,
     );
   }
 });

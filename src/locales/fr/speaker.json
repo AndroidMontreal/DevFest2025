@@ -7,7 +7,7 @@
       "name": "Stacy Véronneau",
       "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
       "slug": "stacy-veronneau",
-      "title": "Directrice des services professionnels et de l'ingénierie des ventes chez SE Cloud Experts",
+      "title": "Ingénieur client principal chez Badal (par TELUS Digital)",
       "shortBio": "Je suis une évangéliste passionnée du Cloud et une leader technique. Je combine un sens aigu des affaires avec une connaissance approfondie des technologies cloud. Mon parcours dans la technologie est alimenté par un amour pour l'apprentissage et le partage des connaissances, en particulier dans l'intégration cloud, la sécurité, l'IA et les opérations. Que vous soyez novice ou professionnel chevronné du cloud, je suis là pour engager des discussions approfondies, collaborer sur des projets passionnants et partager les leçons de mon parcours.",
       "image": "/images/speakers/stacy_veronneau.png",
       "social": {
@@ -109,8 +109,8 @@
       "uuid": "2ad81bc9-aceb-4ce2-b1c6-71a250bc6d36",
       "slug": "moulay-el-mehdi-ettouhami",
       "title": "Groupe Cirque du Soleil",
-      "shortBio": "La courte biographie de Moulay El Mehdi Ettouhami sera bientôt mise à jour.",
-      "image": "/images/speakers/placeholder.png",
+      "shortBio": "Moulay El Mehdi Ettouhami est architecte de solutions à Montréal, spécialisé dans les solutions cloud et web pour des plateformes à grande échelle. Titulaire d’une maîtrise en génie logiciel et doté d’une expertise approfondie en Azure, GCP, Sitecore et automatisation DevOps, il dirige actuellement les initiatives d’architecture digitale chez le Cirque du Soleil.\n\n",
+      "image": "/images/speakers/moulay-el-mehdi-ettouhami.jpg",
       "social": {
         "linkedIn": "https://www.linkedin.com/"
       }
@@ -143,7 +143,7 @@
       "slug": "boris-wilfried-nyasse",
       "title": "Google Developer Expert",
       "shortBio": "Boris-Wilfried Nyasse est un leader technologique senior et un Google Developer Expert (GDE) basé à Montréal, reconnu pour la création et la mise à l'échelle d'équipes d'ingénierie performantes et pour la promotion de l'innovation dans le cloud, l'IA et les plateformes. Avec plus de 10 ans d'expérience, il a occupé des postes de direction tels que Directeur principal du développement logiciel chez Datavalet Technologies et VP de l'ingénierie chez Stack Labs Canada. Boris excelle dans l'architecture native du cloud (Google Cloud Platform), l'ingénierie axée sur l'IA et le développement de logiciels, et est connu pour la création et la mise à l'échelle de startups, notamment dans le secteur de l'EdTech.",
-      "image": "/images/speakers/boris-wilfried-nyasse.jpg",
+      "image": "/images/speakers/boris-wilfried-nyasse.png",
       "social": {
         "linkedIn": "https://www.linkedin.com/in/bwnyasse/"
       }

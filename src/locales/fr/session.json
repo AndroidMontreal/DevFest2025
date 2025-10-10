@@ -5,14 +5,14 @@
     {
       "title": "Ouverture des portes (veuillez apporter votre pièce d'identité) et petit-déjeuner",
       "uuid": "246a17da-adf9-4d8e-9c50-ef84bdf68c55",
-      "description": "Profitez du petit-déjeuner et réseautez avec les autres participants",
+      "description": "Profitez du petit-déjeuner et réseautez avec les autres participants.",
       "speakerUUID": [],
       "isSpecialEvent": true
     },
     {
-      "title": "Keynote",
+      "title": "Discours d'ouverture",
       "uuid": "4d0cb762-4de4-43cf-b4ea-f02bcfa5b559",
-      "description": "Message de bienvenue et introduction à l'événement",
+      "description": "Message de bienvenue et présentation de l'événement.",
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
@@ -25,34 +25,36 @@
       "speakerUUID": []
     },
     {
-      "title": "Démos VIP (Places limitées)",
+      "title": "Démos VIP (places limitées)",
       "uuid": "468a0ecd-2ad1-4b52-8778-a5c0392b7808",
-      "description": "Voyez les choses en action lors de ces démos limitées (jusqu'à 10 personnes) dans l'une de nos salles de sous-commission",
+      "description": "Voyez les choses en action lors de ces démos limitées (jusqu'à 10 personnes) dans l'une de nos salles de réunion.",
       "speakerUUID": []
     },
     {
       "title": "Coaching de carrière 1:1",
       "uuid": "2ea23aa0-28a6-4401-844f-039b2d879df2",
-      "description": "Venez discuter pendant 15-20 minutes avec un professionnel expérimenté et libérez votre plein potentiel !",
-      "speakerUUID": []
+      "description": "Discutez pendant 15 à 20 minutes avec un professionnel chevronné et libérez votre plein potentiel !",
+      "speakerUUID": [],
+      "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
+      "rsvpButtonText": "S'inscrire ici"
     },
     {
-      "title": "Dîner",
+      "title": "Déjeuner",
       "uuid": "27ff7729-5792-4efd-a813-321fd6523e63",
-      "description": "Profitez d'un délicieux dîner et réseautez avec les autres participants",
+      "description": "Profitez d'un délicieux déjeuner et réseautez avec les autres participants.",
       "speakerUUID": [],
       "isSpecialEvent": true
     },
     {
       "title": "Conférences, ateliers et démos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "1d568a65-80e4-4531-a2f4-23ca2cb28986",
-      "description": "Profitez d'un délicieux dîner et réseautez avec les autres participants",
+      "description": "Profitez d'un délicieux déjeuner et réseautez avec les autres participants.",
       "speakerUUID": []
     },
     {
-      "title": "Mot de clôture",
+      "title": "Mot de la fin",
       "uuid": "949819b7-15db-40ce-9cb8-abbcf5d44d90",
-      "description": "Tirage au sort et remarques de clôture",
+      "description": "Tirage au sort et remarques de clôture.",
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
@@ -61,41 +63,47 @@
     {
       "title": "Construisez avec l'IA - Créez votre premier agent IA",
       "uuid": "a1b2c3d4-e5f6-7890-1abc-2def3ghi4jkl",
-      "description": "Fatigué de la théorie des agents IA ? Prêt à construire quelque chose ? Dans cette session interactive, nous oublierons les diapositives et passerons directement au code. Ce n'est pas une conférence. C'est une rampe de lancement. Construisons. RSVP @ https://forms.gle/7dshs6GFnMQikSej7",
+      "description": "Fatigué de la théorie des agents IA ? Prêt à construire quelque chose de concret ? Dans cette session interactive, nous oublierons les diapositives et passerons directement au code. Ce n'est pas une conférence. C'est une rampe de lancement. Construisons.",
       "shortDescription": "Une session approfondie et guidée où Kiruthika accompagne les participants dans un laboratoire pratique pour construire une solution complète d'agent IA à partir de zéro en utilisant la boîte à outils ADK de Google.",
       "speakerUUID": [
         "d111b534-6acd-4631-a6d6-f8aa190f4ff8"
       ],
       "tags": [
-        "AI Agents",
-        "AI",
-        "ADK Toolkit"
-      ]
+        "Agents IA",
+        "IA",
+        "Boîte à outils ADK"
+      ],
+      "rsvpLink": "https://forms.gle/7dshs6GFnMQikSej7",
+      "rsvpButtonText": "S'inscrire ici"
     },
     {
-      "title": "Atelier de cinéma IA : créez votre premier film avec Gemini et Veo",
+      "title": "Atelier de cinéma IA : Créez votre premier film avec Gemini et Veo",
       "uuid": "0eaf3eb4-4ee1-44fc-afb3-b3a5733a6db0",
-      "description": "Rejoignez le cinéaste et expert développeur Google en IA, Kevin Blanco, pour créer un court métrage complet en utilisant les outils d'IA de Google. Apprenez des techniques de narration professionnelles tout en construisant des scènes avec Gemini et Veo. RSVP @ https://forms.gle/62tF8rk5navH8JM5A",
+      "description": "Rejoignez le cinéaste et expert développeur Google en IA, Kevin Blanco, pour créer un court métrage complet en utilisant les outils d'IA de Google. Apprenez des techniques de narration professionnelles tout en construisant des scènes avec Gemini et Veo.",
       "shortDescription": "Kevin Blanco créera un court métrage complet en utilisant les outils d'IA de Google. Apprenez des techniques de narration professionnelles tout en construisant des scènes avec Gemini et Veo.",
       "speakerUUID": [
         "8a5c02f9-0df6-4f1f-8c00-8a4d1ec559f3"
       ],
-      "tags": []
+      "tags": [],
+      "rsvpLink": "https://forms.gle/62tF8rk5navH8JM5A",
+      "rsvpButtonText": "S'inscrire ici"
     },
     {
       "title": "Atelier Gemini CLI avec Firebase Studio",
       "uuid": "5118f1ca-242f-4a7b-b2d8-ec9aec84ea4f",
-      "description": "Libérez l'IA dans votre flux de travail ! Dans cet atelier pratique, vous utiliserez la CLI Gemini dans Firebase Studio pour créer rapidement une application, de la génération du code de base au déploiement sur Google Cloud. RSVP @ https://forms.gle/3d1ULFpsxUnzMf5s6",
+      "description": "Libérez l'IA dans votre flux de travail ! Dans cet atelier pratique, vous utiliserez le Gemini CLI dans Firebase Studio pour créer rapidement une application, de la génération du code de base au déploiement sur Google Cloud.",
       "shortDescription": "Vous utiliserez Gemini dans Firebase Studio pour créer rapidement une application.",
       "speakerUUID": [
         "a547eadd-620e-4dbb-b40c-88bfd3c52555"
       ],
-      "tags": []
+      "tags": [],
+      "rsvpLink": "https://forms.gle/3d1ULFpsxUnzMf5s6",
+      "rsvpButtonText": "S'inscrire ici"
     },
     {
-      "title": "Le miroir numérique : une plongée dans l'IA, l'éthique et la responsabilité créative",
+      "title": "Le miroir numérique : Une plongée en profondeur dans l'IA, l'éthique et la responsabilité créative",
       "uuid": "9617acf7-cd07-4f55-9f9b-5cf2efaa2b14",
-      "description": "À l'ère de l'IA générative puissante, que signifie être un créateur ? Cet atelier va au-delà du battage médiatique pour explorer les implications éthiques d'outils comme VEO, Imagen et Gemini de Google. Vous participerez à un défi de conception pratique, en utilisant ces plateformes pour prototyper rapidement des personnages et des environnements, mais l'accent sera mis sur la réflexion critique. Nous discuterons de l'approvisionnement responsable, du droit d'auteur, des biais dans les ensembles de données et de l'avenir de la créativité humaine.",
+      "description": "À l'ère de la puissante IA générative, que signifie être un créateur ? Cet atelier va au-delà du battage médiatique pour explorer les implications éthiques des outils comme VEO, Imagen et Gemini de Google. Vous participerez à un défi de conception pratique, en utilisant ces plateformes pour prototyper rapidement des personnages et des environnements, mais l'accent sera mis sur la réflexion critique. Nous discuterons de l'approvisionnement responsable, du droit d'auteur, des biais dans les ensembles de données et de l'avenir de la créativité humaine.",
       "shortDescription": "Un atelier pratique sur l'éthique de l'IA utilisant VEO, Imagen et Gemini de Google pour concevoir et réfléchir à la créativité et à la responsabilité.",
       "speakerUUID": [
         "85a9290e-5306-4887-9b7f-9234361f8b47"
@@ -103,9 +111,9 @@
       "tags": []
     },
     {
-      "title": "Du code à l'entreprise : une introduction à Google Agentspace et ADK",
+      "title": "Du code à l'entreprise : Une introduction à Google Agentspace et ADK",
       "uuid": "14ce2d86-d3fc-472e-95dd-013609bea9e7",
-      "description": "Du code à l'entreprise : construisez un agent IA simple en direct en utilisant l'ADK et profitez pleinement de ses capacités dans Google Agentspace. Nous vous montrerons comment briser les silos de données, vous connecter à diverses sources et passer d'un seul agent à une solution complète pour débloquer une productivité réelle alimentée par l'IA.",
+      "description": "Du code à l'entreprise : construisez un agent IA simple en direct à l'aide de l'ADK et profitez pleinement de ses capacités dans Google Agentspace. Nous vous montrerons comment décloisonner les données, vous connecter à diverses sources et passer d'un simple agent à une solution complète pour libérer une productivité réelle, alimentée par l'IA.",
       "shortDescription": "Construisez un agent IA en direct avec Google Agentspace et ADK, en connectant des sources de données pour augmenter la productivité de l'entreprise.",
       "speakerUUID": [
         "55bd36ad-233a-4742-bd6c-7677e986fb5c",
@@ -114,9 +122,9 @@
       "tags": []
     },
     {
-      "title": "Au-delà des projecteurs : construire des agents de données et Web au Cirque du Soleil",
+      "title": "Au-delà des projecteurs : Construire des agents de données et Web au Cirque du Soleil",
       "uuid": "0e0843fa-103a-4f37-96eb-6c3a3251f57e",
-      "description": "Le Cirque du Soleil est connu dans le monde entier pour ses spectacles, mais en coulisses, nous réinventons la façon dont les équipes et le public interagissent avec les données. Dans cette session, nous partagerons comment nous avons construit deux agents prêts pour la production, un pour un usage interne, un pour notre site Web, en utilisant le kit de développement d'agents et le moteur d'agents de Google.",
+      "description": "Le Cirque du Soleil est connu dans le monde entier pour ses spectacles, mais en coulisses, nous réinventons la façon dont les équipes et le public interagissent avec les données. Dans cette session, nous partagerons comment nous avons construit deux agents prêts pour la production, l'un pour un usage interne, l'autre pour notre site Web, en utilisant le kit de développement d'agents et le moteur d'agents de Google.",
       "shortDescription": "Le Cirque du Soleil a construit deux agents de données — un pour un usage interne, un pour son site Web — en utilisant le kit de développement d'agents et le moteur d'agents de Google pour améliorer l'interaction des équipes et du public avec les données.",
       "speakerUUID": [
         "c434ed68-b98b-476c-9258-73f410797337",
@@ -129,28 +137,28 @@
     {
       "title": "L'IA peut-elle faire de la rétro-ingénierie ?",
       "uuid": "33a3d979-100f-4f55-b516-f402a836929d",
-      "description": "Cette conférence explore le domaine difficile de la rétro-ingénierie, le processus de compréhension de ce que fait un code mystérieux, complexe et non commenté. Tâche traditionnellement difficile et à forte intensité humaine, la conférence remet en question la promesse émergente de l'IA d'automatiser et de surpasser les ingénieurs humains dans ce domaine.",
-      "shortDescription": "Cette conférence se demande si l'IA peut automatiser la rétro-ingénierie de code complexe et non commenté, une tâche habituellement difficile et effectuée par des humains.",
+      "description": "Cette conférence explore le domaine difficile de la rétro-ingénierie, le processus consistant à comprendre ce que fait un code mystérieux, complexe et non commenté. Tâche traditionnellement difficile et à forte intensité humaine, la conférence remet en question la promesse émergente de l'IA d'automatiser et de surpasser les ingénieurs humains dans ce domaine.",
+      "shortDescription": "Cette conférence se demande si l'IA peut automatiser la rétro-ingénierie de code complexe et non commenté, une tâche généralement difficile et effectuée par des humains.",
       "speakerUUID": [
         "148610e9-05d7-4058-8dcf-691d753342c3"
       ],
       "tags": []
     },
     {
-      "title": "Construire la chaîne de confiance : un plan directeur Google ADK pour un agent juridique IA ancré",
+      "title": "Construire la chaîne de confiance : un modèle Google ADK pour un agent IA juridique fondé",
       "uuid": "f86aabac-12d6-4181-a54c-5dca0ee33430",
-      "description": "Transformez une IA peu fiable en assistants juridiques dignes de confiance. Apprenez à construire une « chaîne de confiance » en utilisant Google ADK + Vertex AI Search + Cloud Run + Flutter pour éliminer les hallucinations et prouver chaque affirmation de l'IA avec des sources vérifiables.",
-      "shortDescription": "Rendez les assistants juridiques IA fiables et vérifiables en utilisant les outils Google.",
+      "description": "Transformez une IA peu fiable en assistants juridiques dignes de confiance. Apprenez à construire une « chaîne de confiance » à l'aide de Google ADK + Vertex AI Search + Cloud Run + Flutter pour éliminer les hallucinations et prouver chaque affirmation de l'IA avec des sources vérifiables.",
+      "shortDescription": "Rendez l'IA fiable pour le travail juridique : utilisez Google ADK, Vertex AI, Cloud Run et Flutter pour vérifier chaque affirmation avec des sources réelles et arrêter les hallucinations.",
       "speakerUUID": [
         "b177a43f-039a-4a41-a285-e3fa82bb0d71"
       ],
       "tags": []
     },
     {
-      "title": "Gemini avec ServiceNow : un exemple d'utilisation de LLM dans les flux de travail d'entreprise",
+      "title": "Gemini avec ServiceNow : Un exemple d'utilisation de LLM dans les flux de travail d'entreprise",
       "uuid": "c4c44c28-b703-4aae-b4c4-3f39efc6b210",
-      "description": "La conversation autour de l'IA et des grands modèles de langage (LLM) se concentre souvent sur les applications grand public, mais leur véritable pouvoir réside dans la transformation des opérations d'entreprise. Dans cette session, nous dépasserons la théorie et nous plongerons dans des cas d'utilisation pratiques et concrets de l'IA et des LLM au sein de la plateforme ServiceNow.",
-      "shortDescription": "Rendez les assistants juridiques IA fiables et vérifiables en utilisant les outils Google.",
+      "description": "La conversation autour de l'IA et des grands modèles de langage (LLM) se concentre souvent sur les applications grand public, mais leur véritable pouvoir réside dans la transformation des opérations d'entreprise. Dans cette session, nous dépasserons la théorie pour nous plonger dans des cas d'utilisation pratiques et concrets de l'IA et des LLM au sein de la plateforme ServiceNow.",
+      "shortDescription": "Découvrez comment l'IA et les LLM transforment les opérations d'entreprise, avec des cas d'utilisation pratiques de la plateforme ServiceNow, et pas seulement des applications grand public.",
       "speakerUUID": [
         "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
@@ -173,9 +181,9 @@
       "tags": []
     },
     {
-      "title": "IA agentique pour la modernisation des inventaires existants : construire un schéma de données universel",
+      "title": "IA agentique pour la modernisation des inventaires hérités : Construire un schéma de données universel",
       "uuid": "f4af3d18-5f08-44cf-b67e-4b688d7a28b8",
-      "description": "Débloquez une transformation numérique transparente avec notre schéma de données universel et notre agent de migration alimenté par l'IA, standardisez et automatisez l'intégration des actifs, en fournissant des analyses en temps réel et un déclassement rapide des systèmes existants, pérennisez vos opérations dès aujourd'hui !",
+      "description": "Débloquez une transformation numérique transparente avec notre schéma de données universel et notre agent de migration alimenté par l'IA, standardisez et automatisez l'intégration des actifs, en fournissant des analyses en temps réel et un déclassement rapide des systèmes hérités, pérennisez vos opérations dès aujourd'hui !",
       "shortDescription": "Le schéma de données universel et l'agent IA automatisent l'intégration des actifs et les analyses pour une transformation numérique rapide.",
       "speakerUUID": [
         "6679e097-7eaf-443c-bc37-5348284dc517",
@@ -186,8 +194,8 @@
     {
       "title": "À l'intérieur des frameworks de développement mobile",
       "uuid": "b5c2421b-e7b4-48f7-b0b1-befaf20c7d44",
-      "description": "React Native, Flutter, .NET — comment fonctionnent-ils en coulisses ? Explorez les principes fondamentaux et les architectures qui permettent à ces frameworks de transformer du code multiplateforme en applications iOS et Android natives. Découvrez la magie derrière des fonctionnalités comme le rechargement à chaud, le code push et Gemini Nano.",
-      "shortDescription": "Apprenez comment React Native, Flutter et .NET transforment une seule base de code en applications natives, et comment fonctionnent des fonctionnalités comme le rechargement à chaud.",
+      "description": "React Native, Flutter, .NET — comment fonctionnent-ils en coulisses ? Explorez les principes fondamentaux et les architectures qui permettent à ces frameworks de transformer du code multiplateforme en applications natives iOS et Android. Découvrez la magie derrière des fonctionnalités comme le rechargement à chaud, le code push et Gemini Nano.",
+      "shortDescription": "Apprenez comment React Native, Flutter et .NET transforment une base de code unique en applications natives, et comment fonctionnent des fonctionnalités comme le rechargement à chaud.",
       "speakerUUID": [
         "1331b973-4f30-4f21-9942-072146e1713a"
       ],
@@ -196,15 +204,15 @@
     {
       "title": "Perfetto à petit budget : optimiser les performances d'Android sur du matériel bas de gamme",
       "uuid": "183e7f47-5a72-4cc4-b90f-89c2bb779c94",
-      "description": "Les appareils bas de gamme présentent souvent les défis de performance les plus difficiles, où chaque cycle de processeur et chaque mégaoctet de mémoire comptent. Lorsque le profilage conventionnel échoue, Perfetto offre une visibilité système approfondie requise pour diagnostiquer des goulots d'étranglement complexes, une pression mémoire excessive ou une contention d'E/S inattendue.",
-      "shortDescription": "Perfetto aide à diagnostiquer les problèmes de performance sur les appareils bas de gamme lorsque le profilage normal échoue.",
+      "description": "Les appareils bas de gamme présentent souvent les plus grands défis en matière de performances, où chaque cycle de processeur et chaque mégaoctet de mémoire comptent. Lorsque le profilage conventionnel échoue, Perfetto offre la visibilité système approfondie nécessaire pour diagnostiquer les goulots d'étranglement complexes, la pression excessive sur la mémoire ou les contentions d'E/S inattendues.",
+      "shortDescription": "Perfetto aide à diagnostiquer les problèmes de performances sur les appareils bas de gamme lorsque le profilage normal échoue.",
       "speakerUUID": [
         "3130c533-0ac5-432d-b30c-922afa98ba64"
       ],
       "tags": []
     },
     {
-      "title": "Persona intelligent : accélérer les informations sur les consommateurs avec des personas synthétiques",
+      "title": "Smart Persona : Accélérer les informations sur les consommateurs avec des personas synthétiques",
       "uuid": "750ffce5-5eac-4df8-96c5-6dfc850fb158",
       "description": "Nous visons à transformer la recherche sur les consommateurs avec des personas synthétiques alimentés par l'IA ! Remplacez les entretiens de recherche coûteux par des consommateurs numériques réalistes qui fournissent des informations instantanées et cohérentes 24h/24 et 7j/7. Découvrez comment l'architecture d'IA multi-nœuds atteint une précision de plus de 90 % dans la simulation du comportement réel des consommateurs.",
       "shortDescription": "Les personas synthétiques alimentés par l'IA remplacent les entretiens coûteux en simulant des informations réelles sur les consommateurs avec une précision de plus de 90 %.",
@@ -214,46 +222,40 @@
       "tags": []
     },
     {
-      "title": "Coaching de carrière 1:1",
-      "uuid": "ba42d1ef-7f39-4de7-aa7a-33ddc80c903d",
-      "description": "Lancez votre carrière dans la technologie : obtenez un mentorat individuel d'un professionnel chevronné. Que vous soyez étudiant ou développeur expérimenté, obtenez des conseils personnalisés en cloud, IA, données, sécurité et conseil pour accélérer votre parcours professionnel. RSVP @ https://forms.gle/h1WUsausyuwRCT8r8",
-      "shortDescription": "Obtenez un mentorat technologique individuel pour une croissance de carrière accélérée dans le cloud, l'IA, les données et la sécurité.",
-      "speakerUUID": [
-        "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-        "85a9290e-5306-4887-9b7f-9234361f8b47",
-        "11bc74f2-75c1-4d59-a347-16ced19db81f"
-      ],
-      "tags": []
-    },
-    {
-      "title": "Affinage de modèle en direct : personnalisation de Gemma 3 270M en moins de 40 minutes",
+      "title": "Affinage de modèle en direct : Personnalisation de Gemma 3 270M en moins de 40 minutes",
       "uuid": "71f0abc9-de35-46dc-a93a-ca8420dd8213",
-      "description": "Soyez témoin de la puissance de l'IA accessible alors que nous affinons le nouveau modèle Gemma 3 270M de Google en direct sur scène en moins de 40 minutes. Cette démo se concentre sur la personnalisation post-formation, montrant comment un modèle pré-entraîné puissant peut être rapidement adapté à une tâche spécialisée. Pour y parvenir dans le temps imparti, nous tirerons parti de la vitesse et de l'efficacité remarquables de la bibliothèque Unsloth pour l'affinage efficace des paramètres (PEFT) avec LoRA, le tout dans un environnement Google Colab standard. Il s'agit d'une démonstration pratique, étape par étape, sans diapositives, uniquement du code et des résultats. RSVP @ https://forms.gle/QyH9v2KXw9AL7cCE8",
-      "shortDescription": "Regardez une démo en direct affinant le modèle Gemma 3 de Google pour une tâche personnalisée en moins de 40 minutes en utilisant Unsloth et Colab — uniquement du code, pas de diapositives.",
+      "description": "Découvrez la puissance de l'IA accessible alors que nous affinons le nouveau modèle Gemma 3 270M de Google en direct sur scène en moins de 40 minutes. Cette démonstration se concentre sur la personnalisation post-entraînement, montrant comment un modèle pré-entraîné puissant peut être rapidement adapté à une tâche spécialisée. Pour y parvenir dans le temps imparti, nous utiliserons la vitesse et l'efficacité remarquables de la bibliothèque Unsloth pour l'affinage par réglage fin efficace des paramètres (PEFT) avec LoRA, le tout dans un environnement Google Colab standard. Il s'agit d'une démonstration pratique, étape par étape, sans diapositives — juste du code et des résultats.",
+      "shortDescription": "Assistez à une démonstration en direct de l'affinage du modèle d'IA Gemma 3 270M de Google pour une tâche personnalisée en moins de 40 minutes — juste du code, sans diapositives — en utilisant Unsloth et LoRA dans Google Colab.",
       "speakerUUID": [
         "d86fde6f-7994-4fe5-821b-9e8b622f90c8"
       ],
-      "tags": []
+      "tags": [],
+      "rsvpLink": "https://forms.gle/QyH9v2KXw9AL7cCE8",
+      "rsvpButtonText": "S'inscrire ici"
     },
     {
-      "title": "Suralimenter les applications Flutter avec l'IA : automatiser les flux de travail avec n8n et Gemini",
+      "title": "Surcharger les applications Flutter avec l'IA : Automatiser les flux de travail avec n8n et Gemini",
       "uuid": "82294d89-8826-45aa-a965-4eafc71c5ec7",
-      "description": "Construire des applications modernes ne se limite pas à de belles interfaces utilisateur, il s'agit de les rendre plus intelligentes et plus automatisées. Grâce à l'IA (Gemini) et à l'automatisation des flux de travail (n8n), les développeurs Flutter peuvent désormais ajouter de l'intelligence et de l'automatisation en temps réel à leurs applications sans avoir à réinventer la roue. RSVP @ https://forms.gle/DLkWST7CGCV9gwcB9",
+      "description": "La création d'applications modernes ne se limite pas à de belles interfaces utilisateur — il s'agit de les rendre plus intelligentes et plus automatisées. Grâce à l'IA (Gemini) et à l'automatisation des flux de travail (n8n), les développeurs Flutter peuvent désormais ajouter de l'intelligence et une automatisation en temps réel à leurs applications sans avoir à réinventer la roue.",
       "shortDescription": "Les développeurs Flutter peuvent désormais utiliser l'IA (Gemini) et n8n pour rendre les applications plus intelligentes et automatiser facilement les tâches, sans avoir à tout créer à partir de zéro.",
       "speakerUUID": [
         "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
-      "tags": []
+      "tags": [],
+      "rsvpLink": "https://forms.gle/DLkWST7CGCV9gwcB9",
+      "rsvpButtonText": "S'inscrire ici"
     },
     {
       "title": "Construisez une IA pour le monde réel avec Gemma",
       "uuid": "0b5a7e21-636b-41b1-b7a5-56b12309f56a",
-      "description": "Débloquez l'IA open source la plus puissante de Google ! Dans cet atelier, vous vous familiariserez avec la famille de modèles Gemma pour créer une application du monde réel, en apprenant à exécuter une IA puissante sur votre propre ordinateur portable. RSVP @ https://forms.gle/c4Vz5rNfhNtMuB2D9",
+      "description": "Débloquez l'IA open source la plus puissante de Google ! Dans cet atelier, vous vous familiariserez avec la famille de modèles Gemma pour créer une application du monde réel, en apprenant à exécuter une IA puissante sur votre propre ordinateur portable.",
       "shortDescription": "Atelier pratique : créez de vraies applications avec les modèles d'IA Gemma de Google sur votre propre ordinateur portable.",
       "speakerUUID": [
         "bce0f861-ab51-4d08-8560-c1a942f11ced"
       ],
-      "tags": []
+      "tags": [],
+      "rsvpLink": "https://forms.gle/c4Vz5rNfhNtMuB2D9",
+      "rsvpButtonText": "S'inscrire ici"
     }
   ]
 }

@@ -33,8 +33,10 @@
     {
       "title": "Career Coaching 1:1",
       "uuid": "2ea23aa0-28a6-4401-844f-039b2d879df2",
-      "description": "Get to chat for 15-20 mins with a seasoned professional and unlock your full potential!\n",
-      "speakerUUID": []
+      "description": "Get to chat for 15-20 mins with a seasoned professional and unlock your full potential!",
+      "speakerUUID": [],
+      "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
+      "rsvpButtonText": "RSVP Here"
     },
     {
       "title": "Lunch",
@@ -61,7 +63,7 @@
     {
       "title": "Build With AI - Build Your First AI Agent",
       "uuid": "a1b2c3d4-e5f6-7890-1abc-2def3ghi4jkl",
-      "description": "Tired of AI agent theory? Ready to actually build something? In this interactive session, we'll forget the slides and jump straight into the code. This isn't a lecture. It's a launchpad. Let's build. RSVP @ https://forms.gle/7dshs6GFnMQikSej7",
+      "description": "Tired of AI agent theory? Ready to actually build something? In this interactive session, we'll forget the slides and jump straight into the code. This isn't a lecture. It's a launchpad. Let's build.",
       "shortDescription": "A deep, guided session where Kiruthika leads participants in a hands-on lab to build a complete AI Agent solution from scratch using Google's ADK Toolkit.",
       "speakerUUID": [
         "d111b534-6acd-4631-a6d6-f8aa190f4ff8"
@@ -70,29 +72,33 @@
         "AI Agents",
         "AI",
         "ADK Toolkit"
-      ]
+      ],
+      "rsvpLink": "https://forms.gle/7dshs6GFnMQikSej7",
+      "rsvpButtonText": "RSVP Here"
     },
     {
       "title": "AI Filmmaking Workshop: Create Your First Movie with Gemini and Veo",
       "uuid": "0eaf3eb4-4ee1-44fc-afb3-b3a5733a6db0",
-      "description": "Join Filmmaker and AI Google Developer Expert Kevin Blanco to create a complete short film using Google's AI tools. Learn professional storytelling techniques while building scenes with Gemini and Veo. RSVP @ https://forms.gle/62tF8rk5navH8JM5A",
+      "description": "Join Filmmaker and AI Google Developer Expert Kevin Blanco to create a complete short film using Google's AI tools. Learn professional storytelling techniques while building scenes with Gemini and Veo.",
       "shortDescription": "Kevin Blanco will create a complete short film using Google's AI tools. Learn professional storytelling techniques while building scenes with Gemini and Veo.",
       "speakerUUID": [
         "8a5c02f9-0df6-4f1f-8c00-8a4d1ec559f3"
       ],
-      "tags": [
-      ]
+      "tags": [],
+      "rsvpLink": "https://forms.gle/62tF8rk5navH8JM5A",
+      "rsvpButtonText": "RSVP Here"
     },
     {
       "title": "Gemini CLI Workshop with Firebase Studio",
       "uuid": "5118f1ca-242f-4a7b-b2d8-ec9aec84ea4f",
-      "description": "Unleash AI in your workflow! In this hands-on workshop, you'll use the Gemini CLI within Firebase Studio to rapidly build an application, covering everything from generating boilerplate to deploying on Google Cloud. RSVP @ https://forms.gle/3d1ULFpsxUnzMf5s6",
+      "description": "Unleash AI in your workflow! In this hands-on workshop, you'll use the Gemini CLI within Firebase Studio to rapidly build an application, covering everything from generating boilerplate to deploying on Google Cloud.",
       "shortDescription": "You will use the Gemini within Firebase Studio to rapidly build an application.",
       "speakerUUID": [
         "a547eadd-620e-4dbb-b40c-88bfd3c52555"
       ],
-      "tags": [
-      ]
+      "tags": [],
+      "rsvpLink": "https://forms.gle/3d1ULFpsxUnzMf5s6",
+      "rsvpButtonText": "RSVP Here"
     },
     {
       "title": "The Digital Mirror: A Deep Dive into AI, Ethics, and Creative Responsibility",
@@ -102,8 +108,7 @@
       "speakerUUID": [
         "85a9290e-5306-4887-9b7f-9234361f8b47"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "From Code to Enterprise: An Introduction to Google Agentspace and ADK",
@@ -114,8 +119,7 @@
         "55bd36ad-233a-4742-bd6c-7677e986fb5c",
         "2a9739f3-e2ba-4c91-8dfc-ca7c1650d477"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Beyond the Spotlight: Building Data & Web Agents at Cirque du Soleil",
@@ -128,8 +132,7 @@
         "2ad81bc9-aceb-4ce2-b1c6-71a250bc6d36",
         "7a98ac81-6b7d-483a-aa57-5de5f8447c75"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Can AI do reverse engineering ?",
@@ -139,8 +142,7 @@
       "speakerUUID": [
         "148610e9-05d7-4058-8dcf-691d753342c3"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Building the Chain of Trust: A Google ADK Blueprint for Grounded Legal AI Agen",
@@ -150,8 +152,7 @@
       "speakerUUID": [
         "b177a43f-039a-4a41-a285-e3fa82bb0d71"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Gemini with ServiceNow: An Example of LLM Usage in Enterprise Workflows",
@@ -161,28 +162,23 @@
       "speakerUUID": [
         "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Talk #6",
       "uuid": "1fa20cab-ba76-4112-9e2e-a0540d5f6c1e",
       "description": "Talk #6",
       "shortDescription": "Talk #6",
-      "speakerUUID": [
-      ],
-      "tags": [
-      ]
+      "speakerUUID": [],
+      "tags": []
     },
     {
       "title": "Talk #1",
       "uuid": "25547863-876f-4a20-9fb1-3df31b6be169",
       "description": "Talk #1",
       "shortDescription": "Talk #1",
-      "speakerUUID": [
-      ],
-      "tags": [
-      ]
+      "speakerUUID": [],
+      "tags": []
     },
     {
       "title": "Agentic AI for Legacy Inventory Modernization: Building a Universal Data Schem",
@@ -193,8 +189,7 @@
         "6679e097-7eaf-443c-bc37-5348284dc517",
         "09770b99-ff7e-430f-9d26-bb752753613e"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Inside Mobile Development Frameworks",
@@ -204,8 +199,7 @@
       "speakerUUID": [
         "1331b973-4f30-4f21-9942-072146e1713a"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Perfetto on a Budget: Optimizing Android Performance on Low-End Hardware",
@@ -215,8 +209,7 @@
       "speakerUUID": [
         "3130c533-0ac5-432d-b30c-922afa98ba64"
       ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Smart Persona: Accelerating Consumer Insights with Synthetic Personas",
@@ -226,54 +219,44 @@
       "speakerUUID": [
         "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
       ],
-      "tags": [
-      ]
-    },
-    {
-      "title": "Career Coaching 1:1",
-      "uuid": "ba42d1ef-7f39-4de7-aa7a-33ddc80c903d",
-      "description": "Kickstart Your Tech Career: Get 1:1 mentorship from a seasoned pro. Whether you’re a student or an experienced developer, get personalized guidance in cloud, AI, data, security, and consulting to fast-track your professional journey. RSVP @ https://forms.gle/h1WUsausyuwRCT8r8",
-      "shortDescription": "Get 1:1 tech mentorship for fast-tracked career growth in cloud, AI, data, and security.",
-      "speakerUUID": [
-        "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-        "85a9290e-5306-4887-9b7f-9234361f8b47",
-        "11bc74f2-75c1-4d59-a347-16ced19db81f"
-      ],
-      "tags": [
-      ]
+      "tags": []
     },
     {
       "title": "Live Model Fine-Tuning: Customizing Gemma 3 270M in Under 40 Minutes",
       "uuid": "71f0abc9-de35-46dc-a93a-ca8420dd8213",
-      "description": "Witness the power of accessible AI as we fine-tune Google's new Gemma 3 270M model live on stage in under 40 minutes. This demo focuses on post-training customization, showcasing how a powerful pre-trained model can be rapidly adapted for a specialized task. To achieve this within the time limit, we will leverage the Unsloth library's remarkable speed and efficiency for Parameter-Efficient Fine-Tuning (PEFT) with LoRA, all within a standard Google Colab environment. This is a practical, step-by-step demonstration with no slides—just code and results. RSVP @ https://forms.gle/QyH9v2KXw9AL7cCE8",
+      "description": "Witness the power of accessible AI as we fine-tune Google's new Gemma 3 270M model live on stage in under 40 minutes. This demo focuses on post-training customization, showcasing how a powerful pre-trained model can be rapidly adapted for a specialized task. To achieve this within the time limit, we will leverage the Unsloth library's remarkable speed and efficiency for Parameter-Efficient Fine-Tuning (PEFT) with LoRA, all within a standard Google Colab environment. This is a practical, step-by-step demonstration with no slides—just code and results.",
       "shortDescription": "See a live demo fine-tuning Google’s Gemma 3 270M AI model for a custom task in under 40 minutes—just code, no slides—using Unsloth and LoRA in Google Colab.",
       "speakerUUID": [
         "d86fde6f-7994-4fe5-821b-9e8b622f90c8"
       ],
-      "tags": [
-      ]
+      "tags": [],
+      "rsvpLink": "https://forms.gle/QyH9v2KXw9AL7cCE8",
+      "rsvpButtonText": "RSVP Here"
     },
     {
       "title": "Supercharging Flutter Apps with AI: Automating Workflows with n8n and Gemini",
       "uuid": "82294d89-8826-45aa-a965-4eafc71c5ec7",
-      "description": "Building modern apps isn’t just about beautiful UIs — it’s about making them smarter and more automated. Thanks to AI (Gemini) and workflow automation (n8n), Flutter developers can now add intelligence and real-time automation to their apps without having to reinvent the wheel. RSVP @ https://forms.gle/DLkWST7CGCV9gwcB9",
+      "description": "Building modern apps isn’t just about beautiful UIs — it’s about making them smarter and more automated. Thanks to AI (Gemini) and workflow automation (n8n), Flutter developers can now add intelligence and real-time automation to their apps without having to reinvent the wheel.",
       "shortDescription": "Flutter devs can now use AI (Gemini) and n8n to make apps smarter and automate tasks easily—no need to build everything from scratch.",
       "speakerUUID": [
         "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
-      "tags": [
-      ]
+      "tags": [],
+      "rsvpLink": "https://forms.gle/DLkWST7CGCV9gwcB9",
+      "rsvpButtonText": "RSVP Here"
     },
     {
       "title": "Build AI for the Real World with Gemma",
       "uuid": "0b5a7e21-636b-41b1-b7a5-56b12309f56a",
-      "description": "Unlock Google's most powerful open source AI! In this workshop, you'll get hands-on with the Gemma family of models to build a real-world application, learning how to run powerful AI on your own laptop. RSVP @ https://forms.gle/c4Vz5rNfhNtMuB2D9",
+      "description": "Unlock Google's most powerful open source AI! In this workshop, you'll get hands-on with the Gemma family of models to build a real-world application, learning how to run powerful AI on your own laptop.",
       "shortDescription": "Hands-on workshop: Build real apps with Google’s Gemma AI models on your own laptop.",
       "speakerUUID": [
         "bce0f861-ab51-4d08-8560-c1a942f11ced"
       ],
-      "tags": [
-      ]
+      "tags": [],
+      "rsvpLink": "https://forms.gle/c4Vz5rNfhNtMuB2D9",
+      "rsvpButtonText": "RSVP Here"
     }
   ]
 }
+
