@@ -2,31 +2,31 @@
   "site": {
     "title": "DevFest Montreal 2025 | Google Developers Group Montreal | GDG Cloud Montreal | WTM Montreal | Flutter Montreal | GDSC Concordia | GDSC McGill",
     "description": "DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google’s developer tools",
-    "og_image": "/images/logo/eventHeader.gif"
+    "og_image": "/images/logo/eventHeader.jpg"
   },
   "home": {
     "title": "DevFest Montreal 2025 | Google Developers Group Montreal | GDG Cloud Montreal | WTM Montreal | Flutter Montreal | GDSC Concordia | GDSC McGill",
     "description": "DevFests are local tech conferences hosted by Google Developer Groups (GDG) around the world. Each DevFest event is crafted by its local organizers to fit the needs and interests of its local developer community. Whether it be through hands-on learning experiences, technical talks delivered in local languages by experts, or by simply meeting fellow local developers, DevFest attendees learn how to build together and innovate on Google’s developer tools",
-    "og_image": "/images/logo/eventHeader.gif"
+    "og_image": "/images/logo/eventHeader.jpg"
   },
   "team": {
     "title": "Meet the DevFest Montreal 2025 Team",
     "description": "Get to know the passionate individuals organizing DevFest Montreal 2025.",
-    "og_image": "/images/logo/eventHeader.gif"
+    "og_image": "/images/logo/eventHeader.jpg"
   },
   "speakers": {
     "title": "DevFest Montreal 2025 - Speakers",
     "description": "Discover the inspiring speakers and tech leaders featured at DevFest Montreal 2025.",
-    "og_image": "/images/logo/eventHeader.gif"
+    "og_image": "/images/logo/eventHeader.jpg"
   },
   "schedule": {
     "title": "DevFest Montreal 2025 - Conference Schedule",
     "description": "View the full schedule of talks, workshops, and events for DevFest Montreal 2025. Plan your IWD experience!",
-    "og_image": "/images/logo/eventHeader.gif"
+    "og_image": "/images/logo/eventHeader.jpg"
   },
   "code-of-conduct": {
     "title": "DevFest Montreal 2025 - Code of Conduct",
     "description": "Our commitment to a safe and inclusive environment. Read the DevFest Montreal 2025 Code of Conduct.",
-    "og_image": "/images/logo/eventHeader.gif"
+    "og_image": "/images/logo/eventHeader.jpg"
   }
 }
