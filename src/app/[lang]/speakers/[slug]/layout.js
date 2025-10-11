@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
     title: `${speaker?.name} | DevFest Montreal 2025`,
     description: speaker?.shortBio,
     openGraph: {
-      images: [speaker?.image],
+      images: [speaker?.og_image],
     },
   };
 }
