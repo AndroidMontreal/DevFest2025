@@ -169,14 +169,6 @@
       "tags": []
     },
     {
-      "title": "Conférence #6",
-      "uuid": "1fa20cab-ba76-4112-9e2e-a0540d5f6c1e",
-      "description": "Conférence #6",
-      "shortDescription": "Conférence #6",
-      "speakerUUID": [],
-      "tags": []
-    },
-    {
       "title": "Conférence #1",
       "uuid": "25547863-876f-4a20-9fb1-3df31b6be169",
       "description": "Conférence #1",
@@ -222,6 +214,16 @@
       "shortDescription": "Les personas synthétiques alimentés par l'IA remplacent les entretiens coûteux en simulant des informations réelles sur les consommateurs avec une précision de plus de 90 %.",
       "speakerUUID": [
         "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Human Computer Interaction: The UX of AI",
+      "uuid": "d12aa6ca-81ff-4123-989e-bf7d21ae7464",
+      "description": "Why is it so hard to talk to AI? It’s not you, it’s the language. I’ll share humorous examples of human miscommunication to illustrate why ‘natural language’ doesn’t translate as you’d expect, and what we can do to address the issue.",
+      "shortDescription": "This talk humorously explores why human-AI communication is challenging, using real-world miscommunication examples to show how natural language often fails—and offering ways to improve how we talk to AI.",
+      "speakerUUID": [
+        "5f8735c9-9ca8-42c3-b902-dfcd11dc9252"
       ],
       "tags": []
     },

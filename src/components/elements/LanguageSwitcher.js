@@ -1,12 +1,15 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
+import { Suspense } from 'react';
+import { usePathname, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useLocale } from 'next-intl';
 import { locales } from '@/i18n';
 
-const LanguageSwitcher = () => {
+// The actual switcher component that uses useSearchParams
+function LanguageSwitcherContent() {
   const pathName = usePathname();
+  const searchParams = useSearchParams();
   const currentLocale = useLocale();
 
   // Get the alternative locale
@@ -17,19 +20,16 @@ const LanguageSwitcher = () => {
 
     const segments = pathName.split('/');
     segments[1] = locale;
-    return segments.join('/');
+    const newPath = segments.join('/');
+
+    // Preserve query parameters (like ?track=xxx)
+    const queryString = searchParams.toString();
+    return queryString ? `${newPath}?${queryString}` : newPath;
   };
 
   return (
     <div className="flex items-center">
       {alternativeLocale && (
-        //   <Link
-        //     href={redirectedPathName(alternativeLocale)}
-        //     className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-100"
-        //   >
-        //     {alternativeLocale.toUpperCase()}
-        //   </Link>
-        // )}
         <Link
           href={redirectedPathName(alternativeLocale)}
           className="text-gray-800 px-4 py-2 text-md hover:text-black hover:bg-gray-200 rounded-full"
@@ -38,6 +38,21 @@ const LanguageSwitcher = () => {
         </Link>
       )}
     </div>
+  );
+}
+
+// Main component with Suspense wrapper
+const LanguageSwitcher = () => {
+  return (
+    <Suspense fallback={
+      <div className="flex items-center">
+        <div className="text-gray-800 px-4 py-2 text-md">
+          ...
+        </div>
+      </div>
+    }>
+      <LanguageSwitcherContent />
+    </Suspense>
   );
 };
 

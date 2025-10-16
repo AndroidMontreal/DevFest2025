@@ -234,6 +234,18 @@
       }
     },
     {
+      "name": "Bryce Howitson",
+      "uuid": "5f8735c9-9ca8-42c3-b902-dfcd11dc9252",
+      "slug": "bryce-howitson",
+      "title": "Ingénieur Principal en Interface Utilisateur - Availity﻿",
+      "shortBio": "Bryce Howitson est Ingénieur Principal en Interface Utilisateur chez Availity et un leader expérimenté en design Produit/UX basé à Minneapolis. Fort de plus de 20 ans d’expérience, il est spécialisé dans la conception et la création de produits numériques centrés sur l’utilisateur, que ce soit pour le web, le mobile, la réalité augmentée/virtuelle ou la voix. Bryce est reconnu pour accompagner des organisations — des startups aux entreprises du Fortune 100 — à travers tout le cycle de développement produit, et excelle en stratégie UX, prototypage, recherche utilisateur et développement front-end. Il est également Google Developer Expert (UI/UX), conférencier et mentor, travaillant activement à améliorer l’accès aux soins de santé grâce à un meilleur design.",
+      "image": "/images/speakers/bryce-howitson.jpg",
+      "og_image": "/images/speakers/bryce-howitson.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/brycehowitson"
+      }
+    },
+    {
       "name": "Thomas Chong",
       "uuid": "d86fde6f-7994-4fe5-821b-9e8b622f90c8",
       "slug": "thomas-chong",

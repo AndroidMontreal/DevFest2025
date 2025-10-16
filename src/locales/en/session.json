@@ -7,7 +7,8 @@
       "uuid": "246a17da-adf9-4d8e-9c50-ef84bdf68c55",
       "description": "Enjoy the breakfast and network with other attendees",
       "speakerUUID": [],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "registration"
     },
     {
       "title": "Keynote",
@@ -16,7 +17,8 @@
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "registration"
     },
     {
       "title": "Talks, Workshops and Demos (Cloud, IA, ML, Web, Android & Flutter...)",
@@ -169,14 +171,6 @@
       "tags": []
     },
     {
-      "title": "Talk #6",
-      "uuid": "1fa20cab-ba76-4112-9e2e-a0540d5f6c1e",
-      "description": "Talk #6",
-      "shortDescription": "Talk #6",
-      "speakerUUID": [],
-      "tags": []
-    },
-    {
       "title": "Talk #1",
       "uuid": "25547863-876f-4a20-9fb1-3df31b6be169",
       "description": "Talk #1",
@@ -222,6 +216,16 @@
       "shortDescription": "AI-powered synthetic personas replace costly interviews by simulating real consumer insights with 90%+ accuracy.",
       "speakerUUID": [
         "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
+      ],
+      "tags": []
+    },
+    {
+      "title": "Human Computer Interaction: The UX of AI",
+      "uuid": "d12aa6ca-81ff-4123-989e-bf7d21ae7464",
+      "description": "Why is it so hard to talk to AI? It’s not you, it’s the language. I’ll share humorous examples of human miscommunication to illustrate why ‘natural language’ doesn’t translate as you’d expect, and what we can do to address the issue.",
+      "shortDescription": "This talk humorously explores why human-AI communication is challenging, using real-world miscommunication examples to show how natural language often fails—and offering ways to improve how we talk to AI.",
+      "speakerUUID": [
+        "5f8735c9-9ca8-42c3-b902-dfcd11dc9252"
       ],
       "tags": []
     },

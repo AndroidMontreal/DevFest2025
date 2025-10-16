@@ -234,6 +234,18 @@
       }
     },
     {
+      "name": "Bryce Howitson",
+      "uuid": "5f8735c9-9ca8-42c3-b902-dfcd11dc9252",
+      "slug": "bryce-howitson",
+      "title": "Senior User Interface Engineer - Availity",
+      "shortBio": "Bryce Howitson is a Senior User Interface Engineer at Availity and a seasoned Product/UX design leader based in Minneapolis. With over 20 years of experience, he specializes in designing and building user-centric digital products across web, mobile, AR/VR, and voice platforms. Bryce is known for guiding organizations—from startups to Fortune 100 companies—through the full product development lifecycle, excelling in UX strategy, prototyping, user research, and front-end development. He's also a Google Developer Expert (UI/UX), speaker, and mentor actively working to improve healthcare delivery through better design.",
+      "image": "/images/speakers/bryce-howitson.jpg",
+      "og_image": "/images/speakers/bryce-howitson.jpg",
+      "social": {
+        "linkedIn": "https://www.linkedin.com/in/brycehowitson"
+      }
+    },
+    {
       "name": "Thomas Chong",
       "uuid": "d86fde6f-7994-4fe5-821b-9e8b622f90c8",
       "slug": "thomas-chong",

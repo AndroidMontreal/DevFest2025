@@ -86,10 +86,6 @@
         {
           "time": "3:15 PM - 4:00 PM",
           "sessionUUID": "c4c44c28-b703-4aae-b4c4-3f39efc6b210"
-        },
-        {
-          "time": "4:15 PM - 5:00 PM",
-          "sessionUUID": "1fa20cab-ba76-4112-9e2e-a0540d5f6c1e"
         }
       ]
     },
@@ -98,24 +94,24 @@
       "name": "The Atrium",
       "sessions": [
         {
-          "time": "10:00 AM - 10:45 AM",
-          "sessionUUID": "25547863-876f-4a20-9fb1-3df31b6be169"
-        },
-        {
-          "time": "11:00 AM - 11:45 AM",
+          "time": "10:15 AM - 11:00 AM",
           "sessionUUID": "f4af3d18-5f08-44cf-b67e-4b688d7a28b8"
         },
         {
-          "time": "1:30 PM - 2:15 PM",
+          "time": "11:15 AM - 12:00 PM",
           "sessionUUID": "b5c2421b-e7b4-48f7-b0b1-befaf20c7d44"
         },
         {
-          "time": "2:30 PM - 3:15 PM",
+          "time": "1:30 PM - 2:30 PM",
           "sessionUUID": "183e7f47-5a72-4cc4-b90f-89c2bb779c94"
         },
         {
-          "time": "3:30 PM - 4:15 PM",
+          "time": "2:45 AM - 3:30 PM",
           "sessionUUID": "750ffce5-5eac-4df8-96c5-6dfc850fb158"
+        },
+        {
+          "time": "4:00 PM - 5:00 PM",
+          "sessionUUID": "d12aa6ca-81ff-4123-989e-bf7d21ae7464"
         }
       ]
     },
@@ -147,5 +143,47 @@
         }
       ]
     }
-  ]
+  ],
+  "quickTips": {
+    "title": "Quick Tips",
+    "subtitle": "Make it a day to remember",
+    "items": [
+      {
+        "icon": "pumpkin",
+        "text": "Halloween theme—come in costume!"
+      },
+      {
+        "icon": "target",
+        "text": "Dive into one track for deeper learning"
+      },
+      {
+        "icon": "clock",
+        "text": "Reserve workshop seats early—they fill up fast"
+      },
+      {
+        "icon": "users",
+        "text": "Take time to meet and connect with others"
+      },
+      {
+        "icon": "calendar",
+        "text": "Arrive 15 minutes early for great seats and swag"
+      },
+      {
+        "icon": "message",
+        "text": "Get involved—ask questions!"
+      },
+      {
+        "icon": "hash",
+        "text": "Stay tuned to #DevFestMontreal for updates"
+      },
+      {
+        "icon": "utensils",
+        "text": "Use lunch break to network"
+      },
+      {
+        "icon": "megaphone",
+        "text": "Join closing note for raffle prizes"
+      }
+    ]
+  }
 }

@@ -13,7 +13,6 @@ const siteTitle = 'DevFest Montreal 2025';
 const siteDescription =
   'The biggest Google Developer Group community-run developer event in Montreal';
 
-
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: siteTitle,
@@ -21,8 +20,8 @@ export const metadata = {
   alternates: {
     canonical: '/',
     languages: {
-      'en': '/en',
-      'fr': '/fr',
+      en: '/en',
+      fr: '/fr',
     },
   },
   openGraph: {
@@ -33,11 +32,10 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }) {
   return (
     <html className={openSans.className}>
-    <body className="flex flex-col min-h-screen">{children}</body>
+      <body className="flex flex-col min-h-screen">{children}</body>
     </html>
   );
 }
