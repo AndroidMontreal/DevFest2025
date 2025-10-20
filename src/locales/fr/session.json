@@ -7,7 +7,13 @@
       "uuid": "246a17da-adf9-4d8e-9c50-ef84bdf68c55",
       "description": "Profitez du petit-déjeuner et réseautez avec les autres participants.",
       "speakerUUID": [],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "registration",
+      "tags": [
+        "DevFestMTL",
+        "Networking",
+        "Welcome"
+      ]
     },
     {
       "title": "Discours d'ouverture",
@@ -16,19 +22,35 @@
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "keynote",
+      "tags": [
+        "DevFestMTL",
+        "Keynote",
+        "Opening"
+      ]
     },
     {
       "title": "Conférences, ateliers et démos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "d0c327de-afcc-41a4-a161-a82d0387ec86",
       "description": "Rejoignez-nous dans l'autre salle pour des conférences captivantes et des discussions inspirantes !",
-      "speakerUUID": []
+      "speakerUUID": [],
+      "tags": [
+        "DevFestMTL",
+        "Talks",
+        "Workshops"
+      ]
     },
     {
       "title": "Démos VIP (places limitées)",
       "uuid": "468a0ecd-2ad1-4b52-8778-a5c0392b7808",
       "description": "Voyez les choses en action lors de ces démos limitées (jusqu'à 10 personnes) dans l'une de nos salles de réunion.",
-      "speakerUUID": []
+      "speakerUUID": [],
+      "tags": [
+        "DevFestMTL",
+        "Demos",
+        "AI"
+      ]
     },
     {
       "title": "Coaching de carrière 1:1",
@@ -40,20 +62,37 @@
         "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
       "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
-      "rsvpButtonText": "S'inscrire ici"
+      "rsvpButtonText": "S'inscrire ici",
+      "tags": [
+        "Career",
+        "Mentorship",
+        "Coaching",
+        "Networking"
+      ]
     },
     {
       "title": "Déjeuner",
       "uuid": "27ff7729-5792-4efd-a813-321fd6523e63",
       "description": "Profitez d'un délicieux déjeuner et réseautez avec les autres participants.",
       "speakerUUID": [],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "lunch",
+      "tags": [
+        "DevFestMTL",
+        "Lunch",
+        "Networking"
+      ]
     },
     {
       "title": "Conférences, ateliers et démos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "1d568a65-80e4-4531-a2f4-23ca2cb28986",
       "description": "Rejoignez-nous dans l'autre salle pour des conférences captivantes et des discussions inspirantes !",
-      "speakerUUID": []
+      "speakerUUID": [],
+      "tags": [
+        "DevFestMTL",
+        "Talks",
+        "Workshops"
+      ]
     },
     {
       "title": "Mot de la fin",
@@ -62,7 +101,14 @@
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "raffles",
+      "tags": [
+        "DevFestMTL",
+        "Closing",
+        "Raffles",
+        "Networking"
+      ]
     },
     {
       "title": "Construisez avec l'IA - Créez votre premier agent IA",
@@ -73,9 +119,12 @@
         "d111b534-6acd-4631-a6d6-f8aa190f4ff8"
       ],
       "tags": [
-        "Agents IA",
-        "IA",
-        "Boîte à outils ADK"
+        "AI",
+        "Agents",
+        "ADK",
+        "GoogleAI",
+        "Workshop",
+        "CodeLab"
       ],
       "rsvpLink": "https://forms.gle/7dshs6GFnMQikSej7",
       "rsvpButtonText": "S'inscrire ici"
@@ -88,7 +137,14 @@
       "speakerUUID": [
         "8a5c02f9-0df6-4f1f-8c00-8a4d1ec559f3"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemini",
+        "Veo",
+        "GenAI",
+        "Filmmaking",
+        "Workshop"
+      ],
       "rsvpLink": "https://forms.gle/62tF8rk5navH8JM5A",
       "rsvpButtonText": "S'inscrire ici"
     },
@@ -100,7 +156,14 @@
       "speakerUUID": [
         "a547eadd-620e-4dbb-b40c-88bfd3c52555"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemini",
+        "CLI",
+        "Firebase",
+        "Cloud",
+        "Workshop"
+      ],
       "rsvpLink": "https://forms.gle/3d1ULFpsxUnzMf5s6",
       "rsvpButtonText": "S'inscrire ici"
     },
@@ -112,7 +175,14 @@
       "speakerUUID": [
         "85a9290e-5306-4887-9b7f-9234361f8b47"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Ethics",
+        "GenAI",
+        "VEO",
+        "Imagen",
+        "ResponsibleAI"
+      ]
     },
     {
       "title": "Du code à l'entreprise : Une introduction à Google Agentspace et ADK",
@@ -123,7 +193,13 @@
         "55bd36ad-233a-4742-bd6c-7677e986fb5c",
         "2a9739f3-e2ba-4c91-8dfc-ca7c1650d477"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Agents",
+        "ADK",
+        "Enterprise",
+        "Cloud"
+      ]
     },
     {
       "title": "Au-delà des projecteurs : Construire des agents de données et Web au Cirque du Soleil",
@@ -136,7 +212,13 @@
         "2ad81bc9-aceb-4ce2-b1c6-71a250bc6d36",
         "7a98ac81-6b7d-483a-aa57-5de5f8447c75"
       ],
-      "tags": []
+      "tags": [
+        "Web",
+        "AI",
+        "Data",
+        "Agents",
+        "ADK"
+      ]
     },
     {
       "title": "L'IA peut-elle faire de la rétro-ingénierie ?",
@@ -146,7 +228,13 @@
       "speakerUUID": [
         "148610e9-05d7-4058-8dcf-691d753342c3"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Security",
+        "Engineering",
+        "Code",
+        "Automation"
+      ]
     },
     {
       "title": "Construire la chaîne de confiance : un modèle Google ADK pour un agent IA juridique fondé",
@@ -156,7 +244,14 @@
       "speakerUUID": [
         "b177a43f-039a-4a41-a285-e3fa82bb0d71"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "ADK",
+        "VertexAI",
+        "Cloud",
+        "Flutter",
+        "LegalTech"
+      ]
     },
     {
       "title": "Gemini avec ServiceNow : Un exemple d'utilisation de LLM dans les flux de travail d'entreprise",
@@ -166,7 +261,14 @@
       "speakerUUID": [
         "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Gemini",
+        "LLM",
+        "Enterprise",
+        "Web",
+        "ServiceNow"
+      ]
     },
     {
       "title": "Conférence #1",
@@ -185,7 +287,13 @@
         "6679e097-7eaf-443c-bc37-5348284dc517",
         "09770b99-ff7e-430f-9d26-bb752753613e"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Agents",
+        "Data",
+        "Modernization",
+        "Enterprise"
+      ]
     },
     {
       "title": "À l'intérieur des frameworks de développement mobile",
@@ -195,7 +303,14 @@
       "speakerUUID": [
         "1331b973-4f30-4f21-9942-072146e1713a"
       ],
-      "tags": []
+      "tags": [
+        "Android",
+        "Mobile",
+        "Flutter",
+        "ReactNative",
+        "iOS",
+        "Gemini"
+      ]
     },
     {
       "title": "Perfetto à petit budget : optimiser les performances d'Android sur du matériel bas de gamme",
@@ -205,7 +320,13 @@
       "speakerUUID": [
         "3130c533-0ac5-432d-b30c-922afa98ba64"
       ],
-      "tags": []
+      "tags": [
+        "Android",
+        "Performance",
+        "Mobile",
+        "Debugging",
+        "Perfetto"
+      ]
     },
     {
       "title": "Smart Persona : Accélérer les informations sur les consommateurs avec des personas synthétiques",
@@ -215,17 +336,29 @@
       "speakerUUID": [
         "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Personas",
+        "UX",
+        "Research",
+        "Data"
+      ]
     },
     {
-      "title": "Human Computer Interaction: The UX of AI",
+      "title": "Interaction Homme-Machine : L'UX de l'IA",
       "uuid": "d12aa6ca-81ff-4123-989e-bf7d21ae7464",
-      "description": "Why is it so hard to talk to AI? It’s not you, it’s the language. I’ll share humorous examples of human miscommunication to illustrate why ‘natural language’ doesn’t translate as you’d expect, and what we can do to address the issue.",
-      "shortDescription": "This talk humorously explores why human-AI communication is challenging, using real-world miscommunication examples to show how natural language often fails—and offering ways to improve how we talk to AI.",
+      "description": "Cette conférence explore avec humour pourquoi la communication entre l'humain et l'IA représente un défi. En s'appuyant sur des exemples concrets de malentendus, elle démontre les limites du langage naturel et propose des pistes pour améliorer notre façon de communiquer avec l'IA.",
+      "shortDescription": "Cette conférence, avec humour, montre les défis et malentendus de la communication entre humains et IA, et propose des idées pour mieux dialoguer avec l’intelligence artificielle.",
       "speakerUUID": [
         "5f8735c9-9ca8-42c3-b902-dfcd11dc9252"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "UX",
+        "HCI",
+        "Design",
+        "NLP"
+      ]
     },
     {
       "title": "Affinage de modèle en direct : Personnalisation de Gemma 3 270M en moins de 40 minutes",
@@ -235,7 +368,14 @@
       "speakerUUID": [
         "d86fde6f-7994-4fe5-821b-9e8b622f90c8"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemma",
+        "FineTuning",
+        "LLM",
+        "GenAI",
+        "LiveDemo"
+      ],
       "rsvpLink": "https://forms.gle/QyH9v2KXw9AL7cCE8",
       "rsvpButtonText": "S'inscrire ici"
     },
@@ -247,7 +387,14 @@
       "speakerUUID": [
         "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Flutter",
+        "Mobile",
+        "Android",
+        "Gemini",
+        "Automation"
+      ],
       "rsvpLink": "https://forms.gle/DLkWST7CGCV9gwcB9",
       "rsvpButtonText": "S'inscrire ici"
     },
@@ -259,7 +406,13 @@
       "speakerUUID": [
         "bce0f861-ab51-4d08-8560-c1a942f11ced"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemma",
+        "Workshop",
+        "LLM",
+        "OpenSource"
+      ],
       "rsvpLink": "https://forms.gle/c4Vz5rNfhNtMuB2D9",
       "rsvpButtonText": "S'inscrire ici"
     }

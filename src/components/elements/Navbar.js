@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { useParams, usePathname } from 'next/navigation';
 import { v4 as uuidv4 } from 'uuid';
 import { useTranslations } from 'next-intl';
+import { LuUsers, LuCalendar, LuMic } from 'react-icons/lu';
+import { getIcon } from '@/lib/icons';
 
 const Navbar = ({ isMobile }) => {
   const pathname = usePathname();
@@ -26,7 +28,7 @@ const Navbar = ({ isMobile }) => {
       aria-label="Main navigation"
       className={
         isMobile
-          ? 'flex flex-col space-y-2 '
+          ? 'flex flex-col space-y-2'
           : 'hidden lg:flex space-x-3 items-center'
       }
     >
@@ -36,6 +38,8 @@ const Navbar = ({ isMobile }) => {
           (normalizedPathname === '/' && link.href === '/') ||
           (link.href !== '/' && normalizedPathname.startsWith(link.href));
 
+        const IconComponent = getIcon(link.icon);
+
         return (
           <Link
             key={link.uuid}
@@ -43,18 +47,26 @@ const Navbar = ({ isMobile }) => {
             target={link.newWindow ? '_blank' : '_self'}
             rel={link.newWindow ? 'noopener noreferrer' : undefined}
             className={`
-            text-gray-800
-            px-4
-            py-2
-            text-md
-            hover:text-black
-            hover:bg-gray-200
-            ${!isMobile && 'rounded-full'}
-            ${isActive ? 'bg-gray-200 text-gray-800' : ''} 
-          `}
+              flex items-center gap-1
+              text-gray-900
+              px-4
+              py-2
+              text-md
+              hover:text-gray-900
+              hover:bg-gray-200
+              hover:ring-1
+              hover:ring-gray-600
+              transition-all
+              hover:shadow-sm
+              duration-200
+              ease-in
+              ${!isMobile && 'rounded-full'}
+              ${isActive ? 'bg-gray-200 text-gray-900 sm:ring-gray-600 sm:ring-1' : ''} 
+            `}
             aria-current={isActive ? 'page' : undefined}
           >
-            {link.label}
+            {IconComponent && <IconComponent size={20} strokeWidth={2} />}
+            <span>{link.label}</span>
           </Link>
         );
       })}

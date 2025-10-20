@@ -8,7 +8,6 @@ import React, { useEffect, useRef, useState } from 'react';
  * scroll navigation arrows. They are updated based on the scroll position and overflow of the track container.
  */
 const TrackSelector = ({ tracks, activeTrackName, onTrackChange }) => {
-
   const scrollContainerRef = useRef(null);
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(false);
@@ -20,7 +19,7 @@ const TrackSelector = ({ tracks, activeTrackName, onTrackChange }) => {
         const hasOverflow = el.scrollWidth > el.clientWidth;
         setShowLeftArrow(hasOverflow && el.scrollLeft > 0);
         setShowRightArrow(
-          hasOverflow && el.scrollLeft < el.scrollWidth - el.clientWidth - 1,
+          hasOverflow && el.scrollLeft < el.scrollWidth - el.clientWidth - 1
         );
       }
     };
@@ -59,13 +58,13 @@ const TrackSelector = ({ tracks, activeTrackName, onTrackChange }) => {
         .scrollbar-hide::-webkit-scrollbar { display: none; }
         .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
       `}</style>
-      <div className="flex items-center justify-center w-full">
+      <div className="flex items-center justify-center w-full my-2">
         <button
           onClick={() => scroll('left')}
           className={`p-2 transition-all ${showLeftArrow ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
         >
           <svg
-            className="h-6 w-6 text-blue-600"
+            className="h-6 w-6 text-blue-800"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -81,15 +80,15 @@ const TrackSelector = ({ tracks, activeTrackName, onTrackChange }) => {
 
         <div
           ref={scrollContainerRef}
-          className="flex-1 flex items-center gap-3 overflow-x-auto whitespace-nowrap scrollbar-hide px-2"
+          className="flex-1 flex items-center gap-3 overflow-x-auto whitespace-nowrap scrollbar-hide px-2 py-3"
         >
           {tracks.map((track) => (
             <button
               key={track.uuid}
               onClick={() => onTrackChange(track.uuid)}
-              className={`px-4 py-2 text-sm sm:text-base font-semibold rounded-full transition-colors duration-200 flex-shrink-0 ${
+              className={`px-4 py-2 text-sm sm:text-base font-semibold rounded-full transition-colors duration-200 flex-shrink-0 cursor-pointer ${
                 activeTrackName === track.name
-                  ? 'bg-blue-600 text-white shadow-md'
+                  ? 'bg-blue-600 text-blue-50 shadow-md'
                   : 'bg-transparent text-gray-700 hover:text-blue-600'
               }`}
             >

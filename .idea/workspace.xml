@@ -5,26 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/elements/AddToCalendarButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/elements/ScheduleContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/elements/ScheduleItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/elements/ScheduleSpeakerInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/elements/TrackSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/colors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/CalendarButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/QuickTips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/RegularSessionCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/SpeakersList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/SpecialEventCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/elements/TagsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/generateGoogleCalendarUrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/[lang]/schedule/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/schedule/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/schedule/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/schedule/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/elements/LanguageSwitcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/LanguageSwitcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/YearChip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/YearSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en/schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/schedule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/MobileDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/MobileDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/PillButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/PillButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/ScheduleContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/ScheduleContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/ScheduleItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/ScheduleItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/ScheduleSpeakerInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/ScheduleSpeakerInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/SpeakerCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/SpeakerCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/TeamMemberCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/TeamMemberCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/TrackSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/TrackSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sections/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/navigation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/en/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/session.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en/speaker.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/speaker.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/fr/schedule.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/schedule.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/navigation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/fr/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/session.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/fr/speaker.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/speaker.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,11 +109,11 @@
       <recent name="C:\Users\solan\Desktop\WTM 2025\wtm-2025\src\app\[lang]\code-of-conduct" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\solan\Desktop\DevFest2025\web\src\lib" />
       <recent name="C:\Users\solan\Desktop\WTM 2025\wtm-2025\src\components\elements" />
       <recent name="C:\Users\solan\Desktop\WTM 2025\wtm-2025\src\app" />
       <recent name="C:\Users\solan\Desktop\WTM 2025\wtm-2025\src\app\[lang]" />
       <recent name="C:\Users\solan\Desktop\GDG Montreal\DevFest 2024\devfest\public\images\partners" />
-      <recent name="C:\Users\solan\Desktop\GDG Montreal\DevFest 2024\devfest\public\images\logo" />
     </key>
   </component>
   <component name="RunManager" selected="Makefile Target.run">
@@ -227,6 +233,9 @@
       <workItem from="1760329388596" duration="755000" />
       <workItem from="1760330178972" duration="7801000" />
       <workItem from="1760600705680" duration="2157000" />
+      <workItem from="1760722805774" duration="27315000" />
+      <workItem from="1760817201491" duration="3546000" />
+      <workItem from="1760927404370" duration="4657000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,8 @@ const Button = ({
   disabled = false,
   aria_label = label,
   className = '',
-  onClick, // Add onClick prop for handling click events
+  onClick,
+  children, // Add onClick prop for handling click events
 }) => {
   return (
     <Link
@@ -34,6 +35,7 @@ const Button = ({
         className
       )}
     >
+      {children}
       {label}
     </Link>
   );

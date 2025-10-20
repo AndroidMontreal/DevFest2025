@@ -9,8 +9,8 @@ const TeamMemberCard = ({ member }) => {
       rel="noopener noreferrer"
       className="group flex hover:text-red-700"
     >
-      <div className="flex flex-col">
-        <div className="relative aspect-square overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
+      <div className="flex flex-col hover:-translate-y-1.5 transition-all duration-200 ease-in">
+        <div className="relative aspect-square overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-shadow duration-200">
           {/* Fixed aspect ratio container */}
           <Image
             src={member.image}
@@ -18,7 +18,7 @@ const TeamMemberCard = ({ member }) => {
             height={500}
             loading="lazy"
             width={500}
-            className="rounded-2xl aspect-square object-cover shadow-lg group-hover:shadow-xl group-hover:scale-105 transition-transform duration-300"
+            className="rounded-2xl aspect-square object-cover shadow-lg group-hover:shadow-xl group-hover:scale-105 transition-all duration-200 ease-in"
           />
         </div>
 

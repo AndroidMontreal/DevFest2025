@@ -10,16 +10,21 @@ import PillButton from '@/components/elements/PillButton';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from '@/components/elements/LanguageSwitcher';
 import { useParams, usePathname, useRouter } from 'next/navigation';
+import ICON_REGISTRY, { getIcon } from '@/lib/icons';
+
+function IconComponent(props) {
+  return null;
+}
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = useTranslations('navigation.header');
   const { lang } = useParams();
-
+  const IconComponent = ICON_REGISTRY.ticket;
   return (
     <header className="sticky top-0 z-50 mt-0 px-3">
       <div className="bg-white container mx-auto flex items-center justify-between rounded-b-2xl pt-3 ">
-        <div className="bg-gray-50 container mx-auto flex items-center justify-between p-5 rounded-2xl shadow-md">
+        <div className=" container mx-auto flex items-center justify-between p-5 rounded-2xl shadow-md  ring-2 ring-gray-400">
           {/* Logo and other elements on the left */}
           <div className="flex items-center space-x-3">
             <Link href={`/${lang}`}>
@@ -38,10 +43,14 @@ const Header = () => {
             <LanguageSwitcher />
 
             <PillButton
-              className="ml-3 hidden lg:flex"
+              className="hidden lg:flex bg-blue-600 text-blue-100 hover:bg-blue-500 duration-200 transition-all ease-in flex gap-1 items-center"
               href={t('ticketButtonLink')}
               label={t('ticketButtonText')}
-            />
+            >
+              {IconComponent && (
+                <IconComponent size={22} strokeWidth={2} className="font" />
+              )}
+            </PillButton>
           </div>
           {/* Hamburger Menu (Mobile) */}
           <button

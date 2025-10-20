@@ -9,15 +9,16 @@ const SpeakerCard = ({ speaker }) => {
       target="_self" // Open 2023 links in new tab
       className="group flex"
     >
-      <div className="flex flex-col">
-        <div className="relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition">
+      <div className="flex flex-col hover:-translate-y-1.5 transition-all duration-200 ease-in">
+        <div className="relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-200 ease-in">
           {/* Fixed aspect ratio container */}
           <Image
             src={speaker.image}
             alt={`${speaker.name}'s avatar`}
             height={400}
             width={400}
-            className="rounded-2xl aspect-square object-cover w-fit group-hover:scale-105 transition"
+            className="rounded-2xl aspect-square object-cover w-fit group-hover:scale-105 transition-all duration-200 ease-in"
+            blurDataURL={speaker.image}
           />
         </div>
 

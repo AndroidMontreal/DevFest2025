@@ -8,7 +8,12 @@
       "description": "Enjoy the breakfast and network with other attendees",
       "speakerUUID": [],
       "isSpecialEvent": true,
-      "icon": "registration"
+      "icon": "registration",
+      "tags": [
+        "DevFestMTL",
+        "Networking",
+        "Welcome"
+      ]
     },
     {
       "title": "Keynote",
@@ -18,19 +23,34 @@
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
       "isSpecialEvent": true,
-      "icon": "registration"
+      "icon": "keynote",
+      "tags": [
+        "DevFestMTL",
+        "Keynote",
+        "Opening"
+      ]
     },
     {
       "title": "Talks, Workshops and Demos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "d0c327de-afcc-41a4-a161-a82d0387ec86",
       "description": "Join us in the other room for captivating talks and inspiring discussions!",
-      "speakerUUID": []
+      "speakerUUID": [],
+      "tags": [
+        "DevFestMTL",
+        "Talks",
+        "Workshops"
+      ]
     },
     {
       "title": "VIP Demos (Limited seating)",
       "uuid": "468a0ecd-2ad1-4b52-8778-a5c0392b7808",
       "description": "See things in action in these limited (up to 10 people) demos in one of our breakout rooms",
-      "speakerUUID": []
+      "speakerUUID": [],
+      "tags": [
+        "DevFestMTL",
+        "Demos",
+        "AI"
+      ]
     },
     {
       "title": "Career Coaching 1:1",
@@ -42,20 +62,37 @@
         "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
       "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
-      "rsvpButtonText": "RSVP Here"
+      "rsvpButtonText": "RSVP Here",
+      "tags": [
+        "Career",
+        "Mentorship",
+        "Coaching",
+        "Networking"
+      ]
     },
     {
       "title": "Lunch",
       "uuid": "27ff7729-5792-4efd-a813-321fd6523e63",
       "description": "Enjoy a delicious lunch and network with other attendees",
       "speakerUUID": [],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "lunch",
+      "tags": [
+        "DevFestMTL",
+        "Lunch",
+        "Networking"
+      ]
     },
     {
       "title": "Talks, Workshops and Demos (Cloud, IA, ML, Web, Android & Flutter...)",
       "uuid": "1d568a65-80e4-4531-a2f4-23ca2cb28986",
       "description": "Join us in the other room for captivating talks and inspiring discussions!",
-      "speakerUUID": []
+      "speakerUUID": [],
+      "tags": [
+        "DevFestMTL",
+        "Talks",
+        "Workshops"
+      ]
     },
     {
       "title": "Closing Note",
@@ -64,7 +101,14 @@
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479"
       ],
-      "isSpecialEvent": true
+      "isSpecialEvent": true,
+      "icon": "raffles",
+      "tags": [
+        "DevFestMTL",
+        "Closing",
+        "Raffles",
+        "Networking"
+      ]
     },
     {
       "title": "Build With AI - Build Your First AI Agent",
@@ -75,9 +119,12 @@
         "d111b534-6acd-4631-a6d6-f8aa190f4ff8"
       ],
       "tags": [
-        "AI Agents",
         "AI",
-        "ADK Toolkit"
+        "Agents",
+        "ADK",
+        "GoogleAI",
+        "Workshop",
+        "CodeLab"
       ],
       "rsvpLink": "https://forms.gle/7dshs6GFnMQikSej7",
       "rsvpButtonText": "RSVP Here"
@@ -90,7 +137,14 @@
       "speakerUUID": [
         "8a5c02f9-0df6-4f1f-8c00-8a4d1ec559f3"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemini",
+        "Veo",
+        "GenAI",
+        "Filmmaking",
+        "Workshop"
+      ],
       "rsvpLink": "https://forms.gle/62tF8rk5navH8JM5A",
       "rsvpButtonText": "RSVP Here"
     },
@@ -102,7 +156,14 @@
       "speakerUUID": [
         "a547eadd-620e-4dbb-b40c-88bfd3c52555"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemini",
+        "CLI",
+        "Firebase",
+        "Cloud",
+        "Workshop"
+      ],
       "rsvpLink": "https://forms.gle/3d1ULFpsxUnzMf5s6",
       "rsvpButtonText": "RSVP Here"
     },
@@ -114,7 +175,14 @@
       "speakerUUID": [
         "85a9290e-5306-4887-9b7f-9234361f8b47"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Ethics",
+        "GenAI",
+        "VEO",
+        "Imagen",
+        "ResponsibleAI"
+      ]
     },
     {
       "title": "From Code to Enterprise: An Introduction to Google Agentspace and ADK",
@@ -125,7 +193,13 @@
         "55bd36ad-233a-4742-bd6c-7677e986fb5c",
         "2a9739f3-e2ba-4c91-8dfc-ca7c1650d477"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Agents",
+        "ADK",
+        "Enterprise",
+        "Cloud"
+      ]
     },
     {
       "title": "Beyond the Spotlight: Building Data & Web Agents at Cirque du Soleil",
@@ -138,7 +212,13 @@
         "2ad81bc9-aceb-4ce2-b1c6-71a250bc6d36",
         "7a98ac81-6b7d-483a-aa57-5de5f8447c75"
       ],
-      "tags": []
+      "tags": [
+        "Web",
+        "AI",
+        "Data",
+        "Agents",
+        "ADK"
+      ]
     },
     {
       "title": "Can AI do reverse engineering ?",
@@ -148,7 +228,13 @@
       "speakerUUID": [
         "148610e9-05d7-4058-8dcf-691d753342c3"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Security",
+        "Engineering",
+        "Code",
+        "Automation"
+      ]
     },
     {
       "title": "Building the Chain of Trust: A Google ADK Blueprint for Grounded Legal AI Agen",
@@ -158,7 +244,14 @@
       "speakerUUID": [
         "b177a43f-039a-4a41-a285-e3fa82bb0d71"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "ADK",
+        "VertexAI",
+        "Cloud",
+        "Flutter",
+        "LegalTech"
+      ]
     },
     {
       "title": "Gemini with ServiceNow: An Example of LLM Usage in Enterprise Workflows",
@@ -168,7 +261,14 @@
       "speakerUUID": [
         "11bc74f2-75c1-4d59-a347-16ced19db81f"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Gemini",
+        "LLM",
+        "Enterprise",
+        "Web",
+        "ServiceNow"
+      ]
     },
     {
       "title": "Talk #1",
@@ -187,7 +287,13 @@
         "6679e097-7eaf-443c-bc37-5348284dc517",
         "09770b99-ff7e-430f-9d26-bb752753613e"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Agents",
+        "Data",
+        "Modernization",
+        "Enterprise"
+      ]
     },
     {
       "title": "Inside Mobile Development Frameworks",
@@ -197,7 +303,14 @@
       "speakerUUID": [
         "1331b973-4f30-4f21-9942-072146e1713a"
       ],
-      "tags": []
+      "tags": [
+        "Android",
+        "Mobile",
+        "Flutter",
+        "ReactNative",
+        "iOS",
+        "Gemini"
+      ]
     },
     {
       "title": "Perfetto on a Budget: Optimizing Android Performance on Low-End Hardware",
@@ -207,7 +320,13 @@
       "speakerUUID": [
         "3130c533-0ac5-432d-b30c-922afa98ba64"
       ],
-      "tags": []
+      "tags": [
+        "Android",
+        "Performance",
+        "Mobile",
+        "Debugging",
+        "Perfetto"
+      ]
     },
     {
       "title": "Smart Persona: Accelerating Consumer Insights with Synthetic Personas",
@@ -217,7 +336,13 @@
       "speakerUUID": [
         "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "Personas",
+        "UX",
+        "Research",
+        "Data"
+      ]
     },
     {
       "title": "Human Computer Interaction: The UX of AI",
@@ -227,7 +352,13 @@
       "speakerUUID": [
         "5f8735c9-9ca8-42c3-b902-dfcd11dc9252"
       ],
-      "tags": []
+      "tags": [
+        "AI",
+        "UX",
+        "HCI",
+        "Design",
+        "NLP"
+      ]
     },
     {
       "title": "Live Model Fine-Tuning: Customizing Gemma 3 270M in Under 40 Minutes",
@@ -237,7 +368,14 @@
       "speakerUUID": [
         "d86fde6f-7994-4fe5-821b-9e8b622f90c8"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemma",
+        "FineTuning",
+        "LLM",
+        "GenAI",
+        "LiveDemo"
+      ],
       "rsvpLink": "https://forms.gle/QyH9v2KXw9AL7cCE8",
       "rsvpButtonText": "RSVP Here"
     },
@@ -249,7 +387,14 @@
       "speakerUUID": [
         "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Flutter",
+        "Mobile",
+        "Android",
+        "Gemini",
+        "Automation"
+      ],
       "rsvpLink": "https://forms.gle/DLkWST7CGCV9gwcB9",
       "rsvpButtonText": "RSVP Here"
     },
@@ -261,7 +406,13 @@
       "speakerUUID": [
         "bce0f861-ab51-4d08-8560-c1a942f11ced"
       ],
-      "tags": [],
+      "tags": [
+        "AI",
+        "Gemma",
+        "Workshop",
+        "LLM",
+        "OpenSource"
+      ],
       "rsvpLink": "https://forms.gle/c4Vz5rNfhNtMuB2D9",
       "rsvpButtonText": "RSVP Here"
     }

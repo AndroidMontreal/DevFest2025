@@ -2,29 +2,34 @@
 // Centralized icon mapping for the entire application
 
 import {
-  LuTarget,
-  LuClock,
-  LuUsers,
-  LuCreditCard,
   LuCalendar,
-  LuDownload,
-  LuMessageCircle,
-  LuHash,
-  LuUtensils,
-  LuLightbulb,
-  LuTrophy,
+  LuCamera,
+  LuClock,
   LuCoffee,
+  LuDownload,
+  LuGift,
+  LuGlobe,
+  LuHash,
+  LuLightbulb,
+  LuMail,
+  LuMapPin,
+  LuMegaphone,
+  LuMessageCircle,
+  LuPhone,
+  LuStar,
+  LuTarget,
+  LuTicketCheck,
+  LuTrophy,
+  LuUserRoundCheck,
+  LuUsers,
+  LuUtensils,
   LuWifi,
   LuZap,
-  LuStar,
-  LuGift,
-  LuMapPin,
-  LuCamera,
-  LuPhone,
-  LuMail,
-  LuMegaphone,
 } from 'react-icons/lu';
 import { GiPumpkinLantern } from 'react-icons/gi';
+import { FaRegIdBadge } from 'react-icons/fa6';
+import { CgNotes } from 'react-icons/cg';
+import { MdOutlineFastfood } from 'react-icons/md';
 
 /**
  * Icon registry for the application
@@ -41,7 +46,14 @@ export const ICON_REGISTRY = {
   clock: LuClock,
   calendar: LuCalendar,
   pumpkin: GiPumpkinLantern,
+  keynote: CgNotes,
+  team: LuUsers,
+  schedule: LuCalendar,
+  speakers: LuUserRoundCheck,
+  ticket: LuTicketCheck,
   // People & Networking
+  language: LuGlobe,
+  registration: FaRegIdBadge,
   users: LuUsers,
   message: LuMessageCircle,
   phone: LuPhone,
@@ -53,6 +65,7 @@ export const ICON_REGISTRY = {
   coffee: LuCoffee,
   gift: LuGift,
   camera: LuCamera,
+  lunch: MdOutlineFastfood,
 
   // Tech & Features
   wifi: LuWifi,
@@ -64,7 +77,7 @@ export const ICON_REGISTRY = {
   lightbulb: LuLightbulb,
   trophy: LuTrophy,
   star: LuStar,
-
+  raffles: CgNotes,
   // Location
   map: LuMapPin,
 };

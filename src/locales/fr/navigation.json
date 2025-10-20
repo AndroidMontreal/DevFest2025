@@ -7,15 +7,18 @@
     "headerNavigation": [
       {
         "href": "/team",
-        "label": "Équipe"
+        "label": "Équipe",
+        "icon": "team"
       },
       {
         "href": "/schedule",
-        "label": "Horaire"
+        "label": "Horaire",
+        "icon": "schedule"
       },
       {
         "href": "/speakers",
-        "label": "Conférencier·ère·s"
+        "label": "Conférencier·ère·s",
+        "icon": "speakers"
       }
     ]
   },

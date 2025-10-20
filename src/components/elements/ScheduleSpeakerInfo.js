@@ -1,26 +1,34 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 /**
- * ScheduleSpeakerInfo component displays a speaker's image, name, and title.
- * It is used within the schedule view to show who is presenting a session.
- * @param {object} props - The component props.
- * @param {string} props.name - The name of the speaker.
- * @param {string} props.title - The title or role of the speaker.
- * @param {string} props.image - The URL of the speaker's profile image.
+ * ScheduleSpeakerInfo component displays a clickable speaker card
+ * that redirects to the speaker's detail page
  */
-const ScheduleSpeakerInfo = ({ name, title, image }) => (
-  <div className="flex items-center gap-3 mt-3 rounded-md">
-    <Image
-      className="h-9 w-9 rounded-full  object-cover"
-      src={image}
-      alt={name}
-      width={8}
-      height={8}
-    />
-    <div>
-      <p className="text-sm text-gray-800">{name}</p>
-      <p className="text-xs text-gray-500">{title}</p>
-    </div>
-  </div>
-);
+const ScheduleSpeakerInfo = ({ speaker, locale = 'en' }) => {
+  const { uuid, name, title, slug, image } = speaker;
+
+  return (
+    <Link
+      href={`/${locale}/speakers/${slug}`}
+      className="flex items-center gap-3 mt-1 rounded-md  p-2 -ml-2 transition-all duration-200 group "
+      title={`${name} - ${title}`}
+    >
+      <Image
+        className="h-11 w-11 rounded shadow object-cover group-hover:shadow-md group-hover:scale-[105%]  transition-all duration-200 ease-in"
+        src={image}
+        alt={name}
+        width={44}
+        height={44}
+      />
+      <div>
+        <p className="text-base font-semibold tracking-normal text-gray-800 group-hover:text-blue-800 transition-colors duration-200">
+          {name}
+        </p>
+        <p className="text-xs text-gray-500">{title}</p>
+      </div>
+    </Link>
+  );
+};
+
 export default ScheduleSpeakerInfo;

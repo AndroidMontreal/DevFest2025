@@ -1,7 +1,6 @@
 import Navbar from '@/components/elements/Navbar';
 import Link from 'next/link';
-import { useParams} from 'next/navigation';
-
+import { useParams } from 'next/navigation';
 
 const MobileDrawer = ({ isOpen, onClose }) => {
   const { lang } = useParams();
@@ -28,7 +27,6 @@ const MobileDrawer = ({ isOpen, onClose }) => {
       {/* Header/Title Section */}
       <Link href={`/${lang}`}>
         <div className="mb-4 pl-4 pt-3">
-          {' '}
           {/* Add margin-bottom for spacing */}
           <h2 className="text-md">DevFest 2025</h2>
           <p className="text-gray-500 text-sm">GDG Montréal</p>

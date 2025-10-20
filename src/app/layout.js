@@ -35,7 +35,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className={openSans.className}>
-      <body className="flex flex-col min-h-screen">{children}</body>
+      <body className="bg-gray-50 flex flex-col min-h-screen ">{children}</body>
     </html>
   );
 }
