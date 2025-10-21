@@ -15,14 +15,14 @@ const ScheduleSpeakerInfo = ({ speaker, locale = 'en' }) => {
       title={`${name} - ${title}`}
     >
       <Image
-        className="h-11 w-11 rounded shadow object-cover group-hover/a:shadow-md group-hover/a:scale-[105%]  transition-all duration-200 ease-in"
+        className="h-11 w-11 rounded shadow object-cover group-hover/a:shadow-md group-active/a:shadow-md group-hover/a:scale-[105%] group-active/a:scale-[105%] transition-all duration-200 ease-in"
         src={image}
         alt={name}
         width={44}
         height={44}
       />
       <div>
-        <p className="text-base font-semibold tracking-normal text-gray-800 group-hover/a:text-blue-800 transition-colors duration-200">
+        <p className="text-base font-semibold tracking-normal text-gray-800 group-hover/a:text-blue-800 group-active/a:text-blue-800 transition-colors duration-200">
           {name}
         </p>
         <p className="text-xs text-gray-500">{title}</p>

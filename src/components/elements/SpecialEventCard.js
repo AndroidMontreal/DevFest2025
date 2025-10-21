@@ -16,7 +16,7 @@ const SpecialEventCard = ({
   const IconComponent = icon ? getIcon(icon) : null;
 
   return (
-    <div className="bg-white rounded-2xl shadow hover:shadow-xl transition-all duration-200 ease-in hover:-translate-y-1.5 p-4 ring-2 ring-gray-300 sm:p-6 relative overflow-hidden group">
+    <div className="bg-white rounded-2xl shadow hover:shadow-xl  active:shadow-xl transition-all duration-200 ease-in active:-translate-y-1.5 hover:-translate-y-1.5 p-4 ring-2 ring-gray-300 sm:p-6 relative overflow-hidden group">
       <div className="pr-12">
         <h3 className="text-xl font-bold text-gray-700">{title}</h3>
         {description && (
