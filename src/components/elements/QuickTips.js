@@ -20,7 +20,7 @@ const QuickTips = ({ tips }) => {
           return (
             <div
               key={index}
-              className={`flex items-start gap-3 rounded-xl px-4 py-3 group transition-all duration-300 ease-in-out ${colors.bg} ${colors.text} ${rotation} hover:rotate-0 active:scale-[1.02] hover:scale-[1.02] hover:shadow-lg active:shadow-lg`}
+              className={`flex items-start gap-3 rounded-xl px-4 py-3 group transition-all duration-300 ease-in-out ${colors.bg} ${colors.text} ${rotation} hover:rotate-0 active:rotate-0 active:scale-[1.02] hover:scale-[1.02] hover:shadow-lg active:shadow-lg`}
             >
               <div className="mt-0.5 flex-shrink-0 group-hover:rotate-6 group-active:rotate-6 transition-all duration-300">
                 {IconComponent && <IconComponent size={21} />}
