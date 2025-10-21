@@ -71,9 +71,9 @@
       ]
     },
     {
-      "title": "Déjeuner",
+      "title": "Dîner & Tirage",
       "uuid": "27ff7729-5792-4efd-a813-321fd6523e63",
-      "description": "Profitez d'un délicieux déjeuner et réseautez avec les autres participants.",
+      "description": "Profitez d’un délicieux dîner, réseauter avec les autres participants et ne manquez pas votre chance de participer à notre tirage du midi pour gagner des prix excitants!",
       "speakerUUID": [],
       "isSpecialEvent": true,
       "icon": "lunch",
@@ -185,10 +185,10 @@
       ]
     },
     {
-      "title": "Du code à l'entreprise : Une introduction à Google Agentspace et ADK",
+      "title": "Du code à l'entreprise : Une introduction à Gemini Enterprise et ADK",
       "uuid": "14ce2d86-d3fc-472e-95dd-013609bea9e7",
       "description": "Du code à l'entreprise : construisez un agent IA simple en direct à l'aide de l'ADK et profitez pleinement de ses capacités dans Google Agentspace. Nous vous montrerons comment décloisonner les données, vous connecter à diverses sources et passer d'un simple agent à une solution complète pour libérer une productivité réelle, alimentée par l'IA.",
-      "shortDescription": "Construisez un agent IA en direct avec Google Agentspace et ADK, en connectant des sources de données pour augmenter la productivité de l'entreprise.",
+      "shortDescription": "Construisez un agent IA en direct avec Google Enterpriseet ADK, en connectant des sources de données pour augmenter la productivité de l'entreprise.",
       "speakerUUID": [
         "55bd36ad-233a-4742-bd6c-7677e986fb5c",
         "2a9739f3-e2ba-4c91-8dfc-ca7c1650d477"

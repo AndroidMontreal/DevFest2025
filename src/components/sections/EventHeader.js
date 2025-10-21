@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { CalendarDaysIcon, MapPinIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import themeImg from '@/public/images/eventHeader/halloween_theme.png';
+import themeImg from '@/public/images/eventHeader/halloween_theme.jpg';
 import col2img1 from '@/public/images/eventHeader/devfest_2025_02.jpg';
 import col2img2 from '@/public/images/eventHeader/devfest_2025_03.jpg';
 import col3img1 from '@/public/images/eventHeader/devfest_2025_04.jpg';

@@ -20,7 +20,6 @@ const QuickTips = ({ tips }) => {
           const IconComponent = getIcon(tip.icon);
           const colors = getColorForIndex(index);
           const rotation = getRotationForIndex(index);
-
           return (
             <div
               key={index}

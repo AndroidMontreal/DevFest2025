@@ -71,6 +71,8 @@ export default function ScheduleContent() {
         type: isSpecialEvent ? 'special' : 'talk',
         icon: sessionDetails.icon,
         tags: sessionDetails.tags,
+        rsvpLink: sessionDetails.rsvpLink,
+        rsvpButtonText: sessionDetails.rsvpButtonText,
       };
     });
   }, [activeTrack, sessions, speakers]);

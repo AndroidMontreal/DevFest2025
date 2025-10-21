@@ -3,47 +3,6 @@ import SpecialEventCard from '@/components/elements/SpecialEventCard';
 import RegularSessionCard from '@/components/elements/RegularSessionCard';
 
 /**
- * Main Schedule Item Component
- */
-const ScheduleItem = ({ item, isLast, room, eventDate = '2025-11-01' }) => {
-  const { time, type, title, description, speakers, tags, icon } = item;
-  const locale = useLocale();
-
-  return (
-    <div className="grid grid-cols-[1fr] sm:grid-cols-[10rem_1.75rem_1fr] items-start">
-      <TimeDisplay time={time} />
-      <Timeline isLast={isLast} />
-
-      <div className="pb-12 md:pl-3">
-        {type === 'special' ? (
-          <SpecialEventCard
-            title={title}
-            description={description}
-            speakers={speakers}
-            tags={tags}
-            icon={icon}
-            locale={locale}
-          />
-        ) : (
-          <RegularSessionCard
-            title={title}
-            description={description}
-            speakers={speakers}
-            tags={tags}
-            time={time}
-            eventDate={eventDate}
-            room={room}
-            locale={locale}
-          />
-        )}
-      </div>
-    </div>
-  );
-};
-
-export default ScheduleItem;
-
-/**
  * Shared Timeline Component
  */
 const Timeline = ({ isLast }) => (
@@ -70,3 +29,55 @@ const TimeDisplay = ({ time }) => (
     </p>
   </>
 );
+
+/**
+ * Main Schedule Item Component
+ */
+const ScheduleItem = ({ item, isLast, room, eventDate = '2025-11-01' }) => {
+  const {
+    time,
+    type,
+    title,
+    description,
+    speakers,
+    tags,
+    icon,
+    rsvpLink,
+    rsvpButtonText,
+  } = item;
+  const locale = useLocale();
+  return (
+    <div className="grid grid-cols-[1fr] sm:grid-cols-[10rem_1.75rem_1fr] items-start">
+      <TimeDisplay time={time} />
+      <Timeline isLast={isLast} />
+
+      <div className="pb-12 md:pl-3">
+        {type === 'special' ? (
+          <SpecialEventCard
+            title={title}
+            description={description}
+            speakers={speakers}
+            tags={tags}
+            icon={icon}
+            locale={locale}
+          />
+        ) : (
+          <RegularSessionCard
+            title={title}
+            description={description}
+            speakers={speakers}
+            tags={tags}
+            time={time}
+            eventDate={eventDate}
+            room={room}
+            locale={locale}
+            rsvpLink={rsvpLink}
+            rsvpButtonText={rsvpButtonText}
+          />
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default ScheduleItem;
