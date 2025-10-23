@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/elements/QuickTips.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/QuickTips.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/[lang]/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/[lang]/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout454.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/session.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/session.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +216,9 @@
       <workItem from="1760722805774" duration="27315000" />
       <workItem from="1760817201491" duration="3546000" />
       <workItem from="1760927404370" duration="7939000" />
-      <workItem from="1761015171335" duration="6521000" />
+      <workItem from="1761015171335" duration="6863000" />
+      <workItem from="1761063729070" duration="2953000" />
+      <workItem from="1761249504791" duration="615000" />
     </task>
     <servers />
   </component>
