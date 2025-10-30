@@ -333,8 +333,8 @@
     {
       "title": "Smart Persona : Accélérer les informations sur les consommateurs avec des personas synthétiques",
       "uuid": "750ffce5-5eac-4df8-96c5-6dfc850fb158",
-      "description": "Nous visons à transformer la recherche sur les consommateurs avec des personas synthétiques alimentés par l'IA ! Remplacez les entretiens de recherche coûteux par des consommateurs numériques réalistes qui fournissent des informations instantanées et cohérentes 24h/24 et 7j/7. Découvrez comment l'architecture d'IA multi-nœuds atteint une précision de plus de 90 % dans la simulation du comportement réel des consommateurs.",
-      "shortDescription": "Les personas synthétiques alimentés par l'IA remplacent les entretiens coûteux en simulant des informations réelles sur les consommateurs avec une précision de plus de 90 %.",
+      "description": "Les applications d’IA modernes nécessitent des architectures robustes et fiables. Cette session explore la génération augmentée de récupération agentique (RAG) et la puissance des motifs de conception multinœuds pour améliorer les performances des grands modèles de langage. Nous utilisons un système de persona synthétique comme étude de cas complexe pour illustrer ces concepts. L’accent sera mis sur la méthodologie technique : comment utiliser des agents spécialisés pour des fonctions telles que la récupération de connaissances, la modélisation de traits et la génération de réponses. Les participants acquerront une compréhension approfondie des stratégies de mise en œuvre, des cadres d’orchestration et des meilleures pratiques essentielles pour construire et maintenir des solutions RAG multinœuds hautement cohérentes dans n’importe quel secteur.",
+      "shortDescription": "Apprenez à construire une IA robuste avec Agentic RAG et des architectures multi-nœuds. Découvrez comment des agents spécialisés peuvent être orchestrés pour des tâches telles que la récupération de connaissances et la génération de réponses en utilisant des exemples concrets et les meilleures pratiques.",
       "speakerUUID": [
         "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
       ],

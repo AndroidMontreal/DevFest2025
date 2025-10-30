@@ -50,7 +50,8 @@
       "image": "/images/speakers/jhin-lee.jpg",
       "og_image": "/images/speakers/opengraph/jhin-lee.jpg",
       "social": {
-        "linkedIn": "https://www.linkedin.com/in/leehack/"
+        "linkedIn": "https://www.linkedin.com/in/leehack/",
+        "website": "https://leehack.com/"
       }
     },
     {

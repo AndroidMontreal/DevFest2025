@@ -333,8 +333,8 @@
     {
       "title": "Smart Persona: Accelerating Consumer Insights with Synthetic Personas",
       "uuid": "750ffce5-5eac-4df8-96c5-6dfc850fb158",
-      "description": "We aim to transform consumer research with AI-powered synthetic personas! Replace expensive research interviews with realistic digital consumers who provide instant, consistent insights 24/7. See how multi-node AI architecture achieves 90%+ accuracy in simulating real consumer behavior.",
-      "shortDescription": "AI-powered synthetic personas replace costly interviews by simulating real consumer insights with 90%+ accuracy.",
+      "description": "Modern AI applications require robust, reliable architectures. This session explores Agentic Retrieval Augmented Generation (RAG) and the power of multi-node design patterns to enhance large language model performance. We use a synthetic persona system as a complex case study to illustrate these concepts. The focus will be on the technical methodology: how to utilize specialized agents for functions like knowledge retrieval, trait modeling, and response generation. Attendees will gain a deep understanding of the implementation strategies, orchestration frameworks, and best practices essential for building and maintaining highly consistent, multi-node RAG solutions in any industry.",
+      "shortDescription": "Learn how to build robust AI with Agentic RAG and multi-node architectures. Discover how specialized agents can be orchestrated for tasks like knowledge retrieval and response generation using real-world examples and best practices.",
       "speakerUUID": [
         "29b9deee-7ade-4ca8-b7e7-eb0fdd9d81a4"
       ],

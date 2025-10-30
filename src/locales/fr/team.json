@@ -5,12 +5,6 @@
     "title": "Organisateur·trice·s",
     "organizers": [
       {
-        "name": "Ali Yazdi",
-        "title": "Ingénieur logiciel senior chez EXFO, organisateur GDG & Flutter Montréal",
-        "image": "/images/team/ali.jpg",
-        "link": "https://devfest2023.gdgmontreal.com/speaker/ali-yazdi/"
-      },
-      {
         "name": "Billy Taing",
         "title": "Ingénieur logiciel @IAIAO",
         "image": "/images/team/billy.jpg",
@@ -20,7 +14,7 @@
         "name": "Jhin Lee",
         "title": "Développeur Full-Stack @Unity | GDE Flutter | Organisateur GDG & Flutter Montréal",
         "image": "/images/team/jhin.jpg",
-        "link": "https://g.dev/leehack"
+        "link": "https://leehack.com/"
       },
       {
         "name": "Laurence de Villers",
@@ -53,12 +47,6 @@
         "link": "https://developers.google.com/profile/u/109280340170455499902"
       },
       {
-        "name": "Nav Singh",
-        "title": "Ingénieur Android senior | GDE Android",
-        "image": "/images/team/nav.png",
-        "link": "https://www.linkedin.com/in/navczydev/"
-      },
-      {
         "name": "Florian Ley",
         "title": "Gestionnaire d'applications chez Davidson Canada | Organisateur GDG Cloud Montréal",
         "image": "/images/team/florian.png",
@@ -75,12 +63,90 @@
         "title": "Développeur Android chez Transit | Organisateur GDG",
         "image": "/images/team/sam.jpg",
         "link": "https://www.linkedin.com/in/samueldionne"
+      },
+      {
+        "name": "Etienne Caron",
+        "title": "Fondateur de la technologie, Kanastruk Inc.",
+        "image": "/images/team/etienne.jpg",
+        "link": "https://www.linkedin.com/in/etcaron/"
       }
     ]
   },
   "volunteer": {
     "title": "Bénévoles",
     "volunteers": [
+      {
+        "name": "Ali Yazdi",
+        "title": "Ingénieur logiciel principal chez EXFO, organisateur GDG & Flutter Montréal",
+        "image": "/images/team/volunteers/ali.jpg",
+        "link": "https://www.linkedin.com/in/aliyazdi75/"
+      },
+      {
+        "name": "Nav Singh",
+        "title": "Ingénieur Android principal | GDE Android",
+        "image": "/images/team/volunteers/nav.png",
+        "link": "https://www.linkedin.com/in/navczydev/"
+      },
+      {
+        "name": "Brigitte Couture",
+        "title": "Étudiante en développement d'applications mobiles, consultante en gouvernance et gestion d'organisations à but non lucratif",
+        "image": "/images/team/volunteers/brigitte.jpg",
+        "link": "https://www.linkedin.com/in/brigittecouture/"
+      },
+      {
+        "name": "Salee Yadav",
+        "title": "Analyste de données",
+        "image": "/images/team/volunteers/saleem.jpg",
+        "link": "https://www.linkedin.com/in/saleem-yadav-03271116b/"
+      },
+      {
+        "name": "César Bustamante",
+        "title": "Conseiller en infonuagique | Architecte de solutions",
+        "image": "/images/team/volunteers/cesar.jpg",
+        "link": "https://www.linkedin.com/in/c%C3%A9sarbustamante/"
+      },
+      {
+        "name": "Varun Oza",
+        "title": "Passionné du cloud | AWS CCP | Facilitateur Google Cloud Arcade 2023 chez Google",
+        "image": "/images/team/volunteers/varun.jpg",
+        "link": "https://linkedin.com/in/varun-oza"
+      },
+      {
+        "name": "Kodeeshwari Solanki",
+        "title": "Développeuse mobile | Administratrice sécurité chez Wesbell Logistics",
+        "image": "/images/team/volunteers/kodeeshwari.jpg",
+        "link": "https://www.linkedin.com/in/kodeeshwari/"
+      },
+      {
+        "name": "Younes Gharbili",
+        "title": "Maîtrise en informatique appliquée | Organisateur principal GDG sur le Campus Concordia",
+        "image": "/images/team/volunteers/younes.jpg",
+        "link": "https://www.linkedin.com/in/younesgharbili/"
+      },
+      {
+        "name": "Adyan Ullah",
+        "title": "Informatique + IA à McGill | Projets GDG",
+        "image": "/images/team/volunteers/adyan.jpg",
+        "link": "https://www.linkedin.com/in/adyan-ullah/"
+      },
+      {
+        "name": "Nadia Tahiri",
+        "title": "Professeure adjointe, informatique, Université de Sherbrooke",
+        "image": "/images/team/volunteers/nadia.jpg",
+        "link": "https://www.linkedin.com/in/tahiri-nadia/"
+      },
+      {
+        "name": "Denny Perez",
+        "title": "Analyste Assurance Qualité logicielle chez Nventive, Ambassadrice Women Techmakers",
+        "image": "/images/team/volunteers/denny.png",
+        "link": "https://www.linkedin.com/in/dennyperez18/"
+      },
+      {
+        "name": "Angel Pineda Perez",
+        "title": "Bénévole au DevFest Montréal 2025",
+        "image": "/images/team/volunteers/angel_pineda_perez.jpg",
+        "link": "#"
+      }
     ]
   }
 }
