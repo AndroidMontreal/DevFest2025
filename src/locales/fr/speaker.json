@@ -259,15 +259,16 @@
       }
     },
     {
-      "name": "Ethiel ADIASSA",
+      "name": "Etienne Caron",
       "uuid": "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b",
-      "slug": "ethiel-adiassa",
-      "title": "AutoNation",
-      "shortBio": "Ethiel A. (Ethiel Adiassa) est un ingénieur logiciel senior chez AutoNation, un Google Developer Expert et un chargé de cours à l'Université au Collège de Paris. Il se spécialise dans la fintech, le développement d'applications mobiles et les pratiques de codage propres, notamment en utilisant Flutter et Dart. Ethiel crée des solutions bancaires numériques pour les marchés africains et donne aux étudiants en technologie une formation pertinente pour l'industrie.",
-      "image": "/images/speakers/ethiel-adiassa.jpg",
-      "og_image": "/images/speakers/opengraph/ethiel-adiassa.jpg",
+      "slug": "etienne-caron",
+      "title": "Fondateur de la technologie, Kanastruk Inc.",
+      "shortBio": "Etienne Caron est un fondateur technologique basé à Montréal, au Canada, et dirige Kanastruk Inc.—un laboratoire d’innovation spécialisé dans le développement logiciel, l’IoT, l’apprentissage automatique et les systèmes embarqués. Avec plus de 25 ans d’expérience, il a travaillé sur des projets majeurs pour des entreprises telles que Bell Canada et Instacart, et a occupé des rôles clés chez Shopify, Passwordbox et 8D Technologies. Etienne est un expert du développement Android et de l’architecture, des solutions Kotlin multiplateforme et des intégrations d’apprentissage automatique. Mentor communautaire, il soutient activement les startups et les étudiants, partageant des connaissances pratiques approfondies tirées de projets logiciels à grande échelle et des événements technologiques d’avant-garde.",
+      "image": "/images/speakers/etienne.jpg",
+      "og_image": "/images/speakers/etienne.jpg",
       "social": {
-        "linkedIn": "https://www.linkedin.com/in/ethiel-adiassa/"
+        "linkedIn": "https://www.linkedin.com/in/etcaron/",
+        "website": "https://sessionize.com/etienne-caron/"
       }
     },
     {

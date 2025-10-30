@@ -7,7 +7,7 @@ const SpeakersList = ({ speakers, locale }) => {
   if (!speakers || speakers.length === 0) return null;
 
   return (
-    <div className="flex flex-row gap-1 flex-wrap mt-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
       {speakers.map((speaker) => (
         <ScheduleSpeakerInfo
           key={speaker.uuid}

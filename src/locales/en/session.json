@@ -59,7 +59,8 @@
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479",
         "85a9290e-5306-4887-9b7f-9234361f8b47",
-        "11bc74f2-75c1-4d59-a347-16ced19db81f"
+        "11bc74f2-75c1-4d59-a347-16ced19db81f",
+        "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
       "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
       "rsvpButtonText": "RSVP Here",
@@ -382,23 +383,20 @@
       "rsvpButtonText": "RSVP Here"
     },
     {
-      "title": "Supercharging Flutter Apps with AI: Automating Workflows with n8n and Gemini",
+      "title": "DiY Android Kiosks Workshop: Turning a Raspberry Pi into a Modular Workhorse",
       "uuid": "82294d89-8826-45aa-a965-4eafc71c5ec7",
-      "description": "Building modern apps isn’t just about beautiful UIs — it’s about making them smarter and more automated. Thanks to AI (Gemini) and workflow automation (n8n), Flutter developers can now add intelligence and real-time automation to their apps without having to reinvent the wheel.",
-      "shortDescription": "Flutter devs can now use AI (Gemini) and n8n to make apps smarter and automate tasks easily—no need to build everything from scratch.",
+      "description": "What happens when you take a Raspberry Pi with a touchscreen, slap Android on it, and bolt it onto an 80/20 aluminum cube? You get a kiosk that does way more than your average locked-down tablet. I'll show you how to build your own modular Android-based system that plays nice with USB peripherals you wouldn’t normally expect: Think webcams, and servos for automated 3D scanning and photography. Join us for a fun exploration into how Android can be pushed beyond its usual limits, in kiosk mode!",
+      "shortDescription": "Build a modular Android kiosk with Raspberry Pi, touchscreen, and aluminum frame—compatible with USB devices like webcams and servos for advanced 3D scanning and photography, showcasing Android’s potential beyond standard kiosk setups.",
       "speakerUUID": [
         "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
       "tags": [
-        "AI",
-        "Flutter",
+        "RaspberryPi",
         "Mobile",
         "Android",
-        "Gemini",
-        "Automation"
-      ],
-      "rsvpLink": "https://forms.gle/DLkWST7CGCV9gwcB9",
-      "rsvpButtonText": "RSVP Here"
+        "3DScanning",
+        "Photography"
+      ]
     },
     {
       "title": "Build AI for the Real World with Gemma",

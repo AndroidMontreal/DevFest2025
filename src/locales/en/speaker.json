@@ -259,15 +259,16 @@
       }
     },
     {
-      "name": "Ethiel ADIASSA",
+      "name": "Etienne Caron",
       "uuid": "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b",
-      "slug": "ethiel-adiassa",
-      "title": "AutoNation",
-      "shortBio": "Ethiel A. (Ethiel Adiassa) is a Senior Software Engineer at AutoNation, Google Developer Expert, and University Lecturer at Collège de Paris. He specializes in fintech, mobile app development, and clean coding practices, notably using Flutter and Dart. Ethiel builds digital banking solutions for African markets and empowers tech students with industry-relevant education.",
-      "image": "/images/speakers/ethiel-adiassa.jpg",
-      "og_image": "/images/speakers/opengraph/ethiel-adiassa.jpg",
+      "slug": "etienne-caron",
+      "title": "Tech Founder, Kanastruk Inc.",
+      "shortBio": "Etienne Caron is a tech founder based in Montreal, Canada, and leads Kanastruk Inc.—an innovation lab specializing in software development, IoT, machine learning, and embedded systems. With over 25 years of experience, he has worked on notable projects for companies like Bell Canada and Instacart, and played key roles at Shopify, Passwordbox, and 8D Technologies. Etienne is an expert in Android development and architecture, Kotlin multiplatform solutions, and machine learning integrations. A community mentor, he actively supports startups and students, sharing deep practical insights drawn from large-scale software projects and cutting-edge technology events.",
+      "image": "/images/speakers/etienne.jpg",
+      "og_image": "/images/speakers/etienne.jpg",
       "social": {
-        "linkedIn": "https://www.linkedin.com/in/ethiel-adiassa/"
+        "linkedIn": "https://www.linkedin.com/in/etcaron/",
+        "website": "https://sessionize.com/etienne-caron/"
       }
     },
     {

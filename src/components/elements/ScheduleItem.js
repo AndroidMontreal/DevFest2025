@@ -47,7 +47,7 @@ const ScheduleItem = ({ item, isLast, room, eventDate = '2025-11-01' }) => {
   } = item;
   const locale = useLocale();
   return (
-    <div className="grid grid-cols-[1fr] sm:grid-cols-[10rem_1.75rem_1fr] items-start">
+    <div className="grid grid-cols-[1fr] sm:grid-cols-[9rem_1.75rem_1fr] items-start">
       <TimeDisplay time={time} />
       <Timeline isLast={isLast} />
 

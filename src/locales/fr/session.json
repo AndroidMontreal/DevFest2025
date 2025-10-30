@@ -59,7 +59,8 @@
       "speakerUUID": [
         "f47ac10b-58cc-4372-a567-0e02b2c3d479",
         "85a9290e-5306-4887-9b7f-9234361f8b47",
-        "11bc74f2-75c1-4d59-a347-16ced19db81f"
+        "11bc74f2-75c1-4d59-a347-16ced19db81f",
+        "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
       "rsvpLink": "https://forms.gle/h1WUsausyuwRCT8r8",
       "rsvpButtonText": "S'inscrire ici",
@@ -382,23 +383,20 @@
       "rsvpButtonText": "S'inscrire ici"
     },
     {
-      "title": "Surcharger les applications Flutter avec l'IA : Automatiser les flux de travail avec n8n et Gemini",
+      "title": "Atelier Kiosques Android (DiY) : Comment transformer un Raspberry Pi en un outil de travail modulaire",
       "uuid": "82294d89-8826-45aa-a965-4eafc71c5ec7",
-      "description": "La création d'applications modernes ne se limite pas à de belles interfaces utilisateur — il s'agit de les rendre plus intelligentes et plus automatisées. Grâce à l'IA (Gemini) et à l'automatisation des flux de travail (n8n), les développeurs Flutter peuvent désormais ajouter de l'intelligence et une automatisation en temps réel à leurs applications sans avoir à réinventer la roue.",
+      "description": "Que se passe-t-il si vous prenez un Raspberry Pi avec écran tactile, que vous y installez Android, et que vous le fixez sur un cube en aluminium 80/20 ? Vous obtenez un kiosque qui en fait bien plus que votre tablette verrouillée habituelle.\n\nJe vous montrerai comment construire votre propre système modulaire basé sur Android qui fonctionne parfaitement avec des périphériques USB auxquels vous ne vous attendriez pas : Pensez aux webcams et aux servomoteurs pour la numérisation 3D et la photographie automatisées.",
       "shortDescription": "Les développeurs Flutter peuvent désormais utiliser l'IA (Gemini) et n8n pour rendre les applications plus intelligentes et automatiser facilement les tâches, sans avoir à tout créer à partir de zéro.",
       "speakerUUID": [
         "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],
       "tags": [
-        "AI",
-        "Flutter",
+        "RaspberryPi",
         "Mobile",
         "Android",
-        "Gemini",
-        "Automation"
-      ],
-      "rsvpLink": "https://forms.gle/DLkWST7CGCV9gwcB9",
-      "rsvpButtonText": "S'inscrire ici"
+        "3DScanning",
+        "Photography"
+      ]
     },
     {
       "title": "Construisez une IA pour le monde réel avec Gemma",
