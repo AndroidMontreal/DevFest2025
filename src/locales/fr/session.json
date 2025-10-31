@@ -386,7 +386,7 @@
       "title": "Atelier Kiosques Android (DiY) : Comment transformer un Raspberry Pi en un outil de travail modulaire",
       "uuid": "82294d89-8826-45aa-a965-4eafc71c5ec7",
       "description": "Que se passe-t-il si vous prenez un Raspberry Pi avec écran tactile, que vous y installez Android, et que vous le fixez sur un cube en aluminium 80/20 ? Vous obtenez un kiosque qui en fait bien plus que votre tablette verrouillée habituelle.\n\nJe vous montrerai comment construire votre propre système modulaire basé sur Android qui fonctionne parfaitement avec des périphériques USB auxquels vous ne vous attendriez pas : Pensez aux webcams et aux servomoteurs pour la numérisation 3D et la photographie automatisées.",
-      "shortDescription": "Les développeurs Flutter peuvent désormais utiliser l'IA (Gemini) et n8n pour rendre les applications plus intelligentes et automatiser facilement les tâches, sans avoir à tout créer à partir de zéro.",
+      "shortDescription": "Transformez un Raspberry Pi tactile sous Android fixé sur un cube 80/20 en kiosque polyvalent. Découvrez comment créer un système modulaire compatible avec des périphériques USB inattendus, comme des webcams et des servomoteurs, pour automatiser la numérisation 3D et la photographie.",
       "speakerUUID": [
         "d3c0ffd5-811d-4923-ba2d-f5a10c18cd7b"
       ],

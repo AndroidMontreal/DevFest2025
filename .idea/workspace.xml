@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/ScheduleItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/ScheduleItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/elements/SpeakersList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/SpeakersList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/session.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en/speaker.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/speaker.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/fr/session.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/session.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/fr/speaker.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/speaker.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +217,7 @@
       <workItem from="1761249504791" duration="1680000" />
       <workItem from="1761589564510" duration="1491000" />
       <workItem from="1761790486066" duration="5343000" />
-      <workItem from="1761848514337" duration="2804000" />
+      <workItem from="1761848514337" duration="4519000" />
     </task>
     <servers />
   </component>
