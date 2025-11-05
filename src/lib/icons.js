@@ -31,6 +31,7 @@ import { FaRegIdBadge } from 'react-icons/fa6';
 import { CgNotes } from 'react-icons/cg';
 import { MdOutlineFastfood } from 'react-icons/md';
 import { AiOutlineHome } from 'react-icons/ai';
+import { PiGooglePhotosLogo } from 'react-icons/pi';
 
 /**
  * Icon registry for the application
@@ -53,6 +54,7 @@ export const ICON_REGISTRY = {
   schedule: LuCalendar,
   speakers: LuUserRoundCheck,
   ticket: LuTicketCheck,
+  photos: PiGooglePhotosLogo,
   // People & Networking
   language: LuGlobe,
   registration: FaRegIdBadge,

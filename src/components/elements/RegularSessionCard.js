@@ -50,8 +50,8 @@ const RegularSessionCard = ({
       <h3 className="text-xl font-semibold text-gray-700 pr-12">{title}</h3>
       <p className="text-sm tracking-normal text-gray-500">{description}</p>
 
-      {/* RSVP Button - After description, before speakers */}
-      <RSVPButton rsvpLink={rsvpLink} rsvpButtonText={rsvpButtonText} />
+      {/* RSVP Button - Post DevFest Hide it */}
+      {/*<RSVPButton rsvpLink={rsvpLink} rsvpButtonText={rsvpButtonText} />*/}
 
       <SpeakersList speakers={speakers} locale={locale} />
       <TagsList tags={tags} />

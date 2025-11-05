@@ -84,12 +84,11 @@ const EventHeader = () => {
                 </p>
               </div>
             </div>
-            {/*Post DevFest. Hide the button*/}
-            {/*<PillButton*/}
-            {/*  className="my-6 flex"*/}
-            {/*  href={t('buttonLink')}*/}
-            {/*  label={t('buttonText')}*/}
-            {/*/>*/}
+            <PillButton
+              className="my-6 flex"
+              href={t('buttonLink')}
+              label={t('buttonText')}
+            />
           </div>
 
           {/* Right Image Grid Section */}

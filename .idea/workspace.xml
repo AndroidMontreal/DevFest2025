@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c94189e5-5657-4e02-be2d-51c766fcc41f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/RegularSessionCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/RegularSessionCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/elements/SessionInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/elements/SessionInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/EventHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/EventHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/sections/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sections/Sponsors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sections/Sponsors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en/eventPhoto.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/eventPhoto.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en/event.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/event.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/en/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en/navigation.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/fr/eventPhoto.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/eventPhoto.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/fr/event.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/event.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/locales/fr/navigation.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/fr/navigation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +227,7 @@
       <workItem from="1761589564510" duration="1491000" />
       <workItem from="1761790486066" duration="5343000" />
       <workItem from="1761848514337" duration="5811000" />
-      <workItem from="1762360397149" duration="1897000" />
+      <workItem from="1762360397149" duration="4405000" />
     </task>
     <servers />
   </component>
