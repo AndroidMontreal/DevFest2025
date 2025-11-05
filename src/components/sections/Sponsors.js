@@ -41,22 +41,26 @@ const Sponsors = ({ sponsorsData }) => {
           sponsors={sponsorsWithUUIDs}
         />
       ))}
-
-      <PillButton href={t('buttonLink')} label={t('buttonText')} />
+      {/*Post DevFest. Hide the button*/}
+      {/*<PillButton href={t('buttonLink')} label={t('buttonText')} />*/}
     </div>
   );
 };
 
 const SponsorLevel = ({ title, level, sponsors }) => {
   const levelSponsors = sponsors.filter(checkSponsorshipLevel(level));
-  
+
   if (levelSponsors.length === 0) {
     return null;
   }
-  
+
   return (
     <>
-      <SponsorLevelTitle title={title} level={level} titleClassName="max-w-4xl" />
+      <SponsorLevelTitle
+        title={title}
+        level={level}
+        titleClassName="max-w-4xl"
+      />
       <SponsorCard sponsors={levelSponsors} />
     </>
   );

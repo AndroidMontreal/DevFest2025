@@ -30,6 +30,7 @@ import { GiPumpkinLantern } from 'react-icons/gi';
 import { FaRegIdBadge } from 'react-icons/fa6';
 import { CgNotes } from 'react-icons/cg';
 import { MdOutlineFastfood } from 'react-icons/md';
+import { AiOutlineHome } from 'react-icons/ai';
 
 /**
  * Icon registry for the application
@@ -42,6 +43,7 @@ import { MdOutlineFastfood } from 'react-icons/md';
  */
 export const ICON_REGISTRY = {
   // Event & Schedule icons
+  home: AiOutlineHome,
   target: LuTarget,
   clock: LuClock,
   calendar: LuCalendar,

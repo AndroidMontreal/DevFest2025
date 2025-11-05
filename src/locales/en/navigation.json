@@ -6,6 +6,11 @@
     "ticketButtonLink": "https://devfestmontreal2025.eventbrite.ca/",
     "headerNavigation": [
       {
+        "href": "/",
+        "label": "Home",
+        "icon": "home"
+      },
+      {
         "href": "/team",
         "label": "Team",
         "icon": "team"

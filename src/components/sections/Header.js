@@ -42,15 +42,16 @@ const Header = () => {
             <Navbar isMobile={false} />
             <LanguageSwitcher />
 
-            <PillButton
-              className="hidden lg:flex bg-blue-600 text-blue-100 hover:bg-blue-500 duration-200 transition-all ease-in flex gap-1 items-center"
-              href={t('ticketButtonLink')}
-              label={t('ticketButtonText')}
-            >
-              {IconComponent && (
-                <IconComponent size={22} strokeWidth={2} className="font" />
-              )}
-            </PillButton>
+            {/*Post DevFest. Hide the button*/}
+            {/*<PillButton*/}
+            {/*  className="hidden lg:flex bg-blue-600 text-blue-100 hover:bg-blue-500 duration-200 transition-all ease-in flex gap-1 items-center"*/}
+            {/*  href={t('ticketButtonLink')}*/}
+            {/*  label={t('ticketButtonText')}*/}
+            {/*>*/}
+            {/*  {IconComponent && (*/}
+            {/*    <IconComponent size={22} strokeWidth={2} className="font" />*/}
+            {/*  )}*/}
+            {/*</PillButton>*/}
           </div>
           {/* Hamburger Menu (Mobile) */}
           <button
