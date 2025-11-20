@@ -23,6 +23,7 @@ import {
   LuUserRoundCheck,
   LuUsers,
   LuUtensils,
+  LuVideo,
   LuWifi,
   LuZap,
 } from 'react-icons/lu';
@@ -55,6 +56,7 @@ export const ICON_REGISTRY = {
   speakers: LuUserRoundCheck,
   ticket: LuTicketCheck,
   photos: PiGooglePhotosLogo,
+  videos: LuVideo,
   // People & Networking
   language: LuGlobe,
   registration: FaRegIdBadge,

@@ -20,7 +20,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = useTranslations('navigation.header');
   const { lang } = useParams();
-  const IconComponent = ICON_REGISTRY.photos;
+  const IconComponent = ICON_REGISTRY.videos;
   return (
     <header className="sticky top-0 z-50 mt-0 px-3">
       <div className="bg-white container mx-auto flex items-center justify-between rounded-b-2xl pt-3 ">
