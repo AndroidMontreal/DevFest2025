@@ -8,6 +8,8 @@
   "location": "Ax.c Hub, 800 Square-Victoria in Montréal",
   "locationLink": "https://espaceaxc.com/en/",
   "imageUrl": "/images/logo/hero.png",
-  "buttonText": "Videos",
-  "buttonLink": "https://www.youtube.com/playlist?list=PLUWS5xxsjcINr3JIt-jcVRfr2dg6XK26h"
+  "primaryButtonText": "Videos",
+  "primaryButtonLink": "https://www.youtube.com/playlist?list=PLUWS5xxsjcINr3JIt-jcVRfr2dg6XK26h",
+  "secondaryButtonText": "Videos",
+  "secondaryButtonLink": "https://www.youtube.com/playlist?list=PLUWS5xxsjcINr3JIt-jcVRfr2dg6XK26h"
 }

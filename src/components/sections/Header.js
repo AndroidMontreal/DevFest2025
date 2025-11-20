@@ -20,7 +20,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const t = useTranslations('navigation.header');
   const { lang } = useParams();
-  const IconComponent = ICON_REGISTRY.videos;
+  const PhotosIconComponent = ICON_REGISTRY.photos;
+  const VideosIconComponent = ICON_REGISTRY.videos;
   return (
     <header className="sticky top-0 z-50 mt-0 px-3">
       <div className="bg-white container mx-auto flex items-center justify-between rounded-b-2xl pt-3 ">
@@ -41,14 +42,30 @@ const Header = () => {
             {/* Navigation (Desktop) on the right */}
             <Navbar isMobile={false} />
             <LanguageSwitcher />
-
             <PillButton
-              className="hidden lg:flex bg-blue-600 text-blue-100 hover:bg-blue-500 duration-200 transition-all ease-in flex gap-1 items-center"
+              className="hidden lg:flex bg-blue-600 text-blue-100 hover:bg-blue-500 duration-200 transition-all ease-in  gap-1 items-center"
+              href={t('buttonLink')}
+              label={t('buttonText')}
+            >
+              {IconComponent && (
+                <PhotosIconComponent
+                  size={22}
+                  strokeWidth={2}
+                  className="font"
+                />
+              )}
+            </PillButton>
+            <PillButton
+              className="hidden lg:flex bg-blue-600 text-blue-100 hover:bg-blue-500 duration-200 transition-all ease-in gap-1 items-center"
               href={t('ticketButtonLink')}
               label={t('ticketButtonText')}
             >
               {IconComponent && (
-                <IconComponent size={22} strokeWidth={2} className="font" />
+                <VideosIconComponent
+                  size={22}
+                  strokeWidth={2}
+                  className="font"
+                />
               )}
             </PillButton>
           </div>
